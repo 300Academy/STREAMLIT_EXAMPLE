@@ -10,16 +10,58 @@
   <body>
     <streamlit-app>
 import streamlit as st
+import pandas as pd
+import numpy as np
 
-st.title("My Browser App")
+st.set_page_config(page_title="stlite Demo", layout="wide")
 
-name = st.text_input("Name")
-uploaded_file = st.file_uploader("Upload CSV")
+st.title("Interactive stlite / Streamlit Demo")
 
-st.write("Hello", name)
+st.write("Upload a CSV or use random demo data.")
 
-if uploaded_file:
-    st.write("File uploaded:", uploaded_file.name)
+uploaded_file = st.file_uploader("Upload CSV file", type=["csv"])
+
+number_of_rows = st.slider("Number of random rows", 10, 500, 100)
+multiplier = st.number_input("Multiplier variable", min_value=1, max_value=20, value=5)
+
+if uploaded_file is not None:
+    df = pd.read_csv(uploaded_file)
+    st.success("Using uploaded CSV file")
+else:
+    np.random.seed(42)
+
+    df = pd.DataFrame({
+        "Month": pd.date_range("2026-01-01", periods=number_of_rows, freq="D"),
+        "Sales": np.random.randint(100, 1000, number_of_rows),
+        "Costs": np.random.randint(50, 700, number_of_rows),
+        "RiskScore": np.random.rand(number_of_rows) * multiplier,
+        "Category": np.random.choice(["Low", "Medium", "High"], number_of_rows)
+    })
+
+    st.info("Using random demo data")
+
+st.subheader("Data Preview")
+st.dataframe(df, use_container_width=True)
+
+numeric_columns = df.select_dtypes(include="number").columns.tolist()
+
+if len(numeric_columns) >= 1:
+    selected_column = st.selectbox("Select numeric column for chart", numeric_columns)
+
+    col1, col2 = st.columns(2)
+
+    with col1:
+        st.subheader("Line Chart")
+        st.line_chart(df[selected_column])
+
+    with col2:
+        st.subheader("Bar Chart")
+        st.bar_chart(df[selected_column])
+
+    st.subheader("Area Chart")
+    st.area_chart(df[selected_column])
+else:
+    st.warning("Your uploaded file needs at least one numeric column for charts.")
     </streamlit-app>
   </body>
 </html>
