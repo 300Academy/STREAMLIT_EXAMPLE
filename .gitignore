@@ -1,0 +1,12 @@
+*.pptx
+*.pdf
+*.log
+.env
+__pycache__/
+venv/
+*.pyc
+.vscode/
+.idea/
+dist/
+build/
+*.sav
