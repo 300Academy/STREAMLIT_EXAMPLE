@@ -17,13 +17,14 @@ st.set_page_config(page_title="stlite Demo", layout="wide")
 
 st.title("Interactive stlite / Streamlit Demo")
 
-st.write("Upload a CSV or use random demo data.")
-
 uploaded_file = st.file_uploader("Upload CSV file", type=["csv"])
 
 number_of_rows = st.slider("Number of random rows", 10, 500, 100)
 multiplier = st.number_input("Multiplier variable", min_value=1, max_value=20, value=5)
 
+# ------------------------
+# DATA SOURCE
+# ------------------------
 if uploaded_file is not None:
     df = pd.read_csv(uploaded_file)
     st.success("Using uploaded CSV file")
@@ -43,25 +44,66 @@ else:
 st.subheader("Data Preview")
 st.dataframe(df, use_container_width=True)
 
+# ------------------------
+# COLUMN SELECTION
+# ------------------------
 numeric_columns = df.select_dtypes(include="number").columns.tolist()
+category_columns = df.select_dtypes(include=["object", "category"]).columns.tolist()
 
-if len(numeric_columns) >= 1:
-    selected_column = st.selectbox("Select numeric column for chart", numeric_columns)
+# Add datetime as category option (optional but useful)
+datetime_columns = df.select_dtypes(include=["datetime"]).columns.tolist()
+category_columns = category_columns + datetime_columns
 
-    col1, col2 = st.columns(2)
+if len(numeric_columns) > 0:
 
-    with col1:
-        st.subheader("Line Chart")
-        st.line_chart(df[selected_column])
+    selected_numeric = st.selectbox("Select numeric column", numeric_columns)
 
-    with col2:
-        st.subheader("Bar Chart")
-        st.bar_chart(df[selected_column])
+    selected_category = st.selectbox(
+        "Select category column (optional)",
+        ["None"] + category_columns
+    )
 
-    st.subheader("Area Chart")
-    st.area_chart(df[selected_column])
+    # ------------------------
+    # SIMPLE CHART (NO CATEGORY)
+    # ------------------------
+    if selected_category == "None":
+        st.subheader("Simple Charts")
+
+        col1, col2 = st.columns(2)
+
+        with col1:
+            st.line_chart(df[selected_numeric])
+
+        with col2:
+            st.bar_chart(df[selected_numeric])
+
+        st.area_chart(df[selected_numeric])
+
+    # ------------------------
+    # GROUPED CHART (WITH CATEGORY)
+    # ------------------------
+    else:
+        st.subheader("Grouped Chart")
+
+        grouped_df = (
+            df.groupby(selected_category)[selected_numeric]
+            .sum()
+            .reset_index()
+        )
+
+        st.write("Aggregated data")
+        st.dataframe(grouped_df)
+
+        st.bar_chart(
+            grouped_df.set_index(selected_category)
+        )
+
+        st.line_chart(
+            grouped_df.set_index(selected_category)
+        )
+
 else:
-    st.warning("Your uploaded file needs at least one numeric column for charts.")
+    st.warning("No numeric columns found in dataset.")
     </streamlit-app>
   </body>
 </html>

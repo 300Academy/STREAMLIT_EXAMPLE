@@ -1,0 +1,2428 @@
+﻿SN,LIFNR,NAME1,STRAS
+0,EXTERN_GE,External vendor Germany,
+1,IIL-CR-03,CN Truck Carrier,
+2,IIL-CR-04,CN Forwarding Agent,
+3,OTA,OTA,
+4,RACLETTE,Raclette AG,
+5,SA211,Supplier 211 APJ,
+6,SA212,Supplier 212 APJ,
+7,SA30,APJ Vendor 1,
+8,SA33,APJ Vendor 3,
+9,SA34,APJ Vendor 4,
+10,SE01,Supplier SE01,
+11,SE02,Supplier SE02,
+12,SE03,Supplier SE03,
+13,SE212,Supplier 212 EMEA,
+14,SL33,LA Vendor 3,
+15,SL34,LA Vendor 4,
+16,SUPPL04,Supplier 04,
+17,SUPPL05,Supplier 05,
+18,SUPPL06,Supplier 06,
+19,T-1031,Chips und Fritz AG,
+20,T-K500E00,Elektroblitz GmbH Gr.00,
+21,TPL100,3PL100,
+22,TP_EU_A_01,TSP Air Transportation Europe 01,
+23,TP_EU_L_01,TSP Land Transportation Europe 01,
+24,TP_EU_L_02,TSP Land Transportation Europe 02,
+25,TP_EU_L_03,TSP Land Transportation Europe 03,
+26,Z99001,Gym Supplies,
+27,HOTELS,HOTELS,
+28,FIO-VEND01,Electronics Retail & Co.,
+29,FIO-VEND03,Sunny Electronics GmbH,
+30,FIO-VEND04,Electronics Store,
+31,FIO-VEND02,Electronics & Co.,
+32,DUPONT,DUPONT,
+33,VEND_QM_03,VEND_QM_03,
+34,DE2502,Rubicon Steel & Components,
+35,PLANT_0002,Plant 2 Vendor Name,
+36,CM_CABLE2A,CM Cable (BaseValue+Metal),
+37,604,Intercompany Resources to Belgium,
+38,605,Intercompany Resources Canada,
+39,1950,CPD L-Z,
+40,1960,CPD A-K,
+41,100070,Johann Smith,
+42,100303,EPSC,
+43,100403,Creative Signs,
+44,100413,Lenovo Parts,
+45,200055,Template for employee,
+46,200060,June Brown,
+47,ADAMS,Adams Inc.,
+48,B2BVENDOR1,B2B Vendor 1,
+49,CH1222,ABC Supply Company CN,
+50,CM_VCL01E,CM Coal Seller 01 (Europe),
+51,CM_VCOFIXE,CM Conc Vendor FIX,
+52,CM_VMTGTME,CM Metal Vendor GTM EUR,
+53,CN3000,C.E.B. CN,
+54,D100000,Chemical China - OR,
+55,D300000,Synchem FI,
+56,DE3000,C.E.B. DE,
+57,DUMMY HUM,Vendor Number for Inbound Delivery,
+58,E260003,Mr. Boonchu Chumwit,
+59,DEC-002,Ausland Lieferant CPD,
+60,DEC-001,Inland Lieferant CPD,
+61,EE-FR,EE-FR,
+62,EE-FR_2012,EE-FR,
+63,VEND_QM_01,VEND_QM_01,
+64,YCFP_S_CAB,Cable Enterprises,
+65,YCFP_S_ETI,Electronic Technologies Inc.,
+66,YCFP_S_HIG,High Electronics,
+67,YCFP_S_INO,Inno Electronics,
+68,YCFP_S_UNI,United Electronics,
+69,CAR_M2,Mining Ocean Carrier 2,
+70,80082,Vendor_Altpayee,
+71,EDF,EDF PARIS,
+72,900010,Cumana C.A,
+73,100613,Bean,
+74,100623,La CarabobeÃ±a,
+75,TESLA01,TESLA LTD,
+76,MAHINDRA,MAHINDRA,
+77,T-K520A07,Galactic Holdings,
+78,T-K520B07,Entergel Holdings,
+79,T-K520C07,ExtraC Group,
+80,T-K520D07,MultiC Group,
+81,T-K520E07,MultiE Group,
+82,T-K510A07,NewAge Group,
+83,ABBA,,
+84,T-K50TT01,Vendor 01 TT01,
+85,200097,FOUR99,
+86,100653,TEST TT  0405,
+87,100654,Vendor 05 TT01,
+88,100655,Intom GS TT002,
+89,100656,Intom AP TT003,
+90,200155,Intom VN TT001,
+91,100658,OTV,
+92,100670,PL test import company TT01,
+93,TT1 VENDOR,TEST TT  1205,
+94,200186,TEST TT  SCH agr 1705 01,
+95,200201,TEST TT AUTO PO,
+96,100659,TEST TT  0605 invb,
+97,200223,Test,
+98,200325,Vendor,
+99,KF-VN-01,KF: Vendor 01,
+100,KF-VN-02,KF: Vendor 02,
+101,M001,Ultralight,Rosenstr. 25
+102,SA01,BR01 Vendor 1 APJ,
+103,SA02,BR01 Vendor 2 APJ,
+104,SA03,BR01 Vendor 3 APJ,
+105,SA31,APJ Vendor 1,
+106,SA32,APJ Vendor 2,
+107,SE211,Supplier 211 EMEA,
+108,SE31,EMEA Vendor 1,
+109,SE32,EMEA Vendor 2,
+110,SE33,EMEA Vendor 3,
+111,SE34,EMEA Vendor 4,
+112,SL01,BR01 Vendor 1 LA,
+113,SL02,BR01 Vendor 2 LA,
+114,SL03,BR01 Vendor 3 LA,
+115,SL211,Supplier 211,
+116,SL212,Supplier 212,
+117,SL30,LA Vendor 1,
+118,SL31,LA Vendor 1,
+119,SL32,LA Vendor 2,
+120,T-Q415-13,Ultralight,Rosenstrasse 11
+121,T-Q415-14,Ultralight,Rosenstrasse 11
+122,T-Q415-15,Ultralight,Rosenstrasse 11
+123,T-Q415-16,Ultralight,Rosenstrasse 11
+124,T-Q415-17,Ultralight,Rosenstrasse 11
+125,T-Q415-18,Ultralight,Rosenstrasse 11
+126,T-Q415-19,Ultralight,Rosenstrasse 11
+127,T-Q415-20,Ultralight,Rosenstrasse 11
+128,T-Q415-21,Ultralight,Rosenstrasse 11
+129,T-Q415-22,Ultralight,Rosenstrasse 11
+130,T-Q415-23,Ultralight,Rosenstrasse 11
+131,T-Q415-24,Ultralight,Rosenstrasse 11
+132,T-Q415-25,Ultralight,Rosenstrasse 11
+133,T-Q415-26,Ultralight,Rosenstrasse 11
+134,T-Q415-27,Ultralight,Rosenstrasse 11
+135,T-Q415-28,Ultralight,Rosenstrasse 11
+136,T-Q415-29,Ultralight,Rosenstrasse 11
+137,TEATIME,Teatime plc,
+138,TP_AIR_HH,Airport HH,
+139,TP_AIR_LON,Airport London,
+140,TP_PORT_HH,Port Hamburg,
+141,1994,IDES Canada,
+142,CM_VMT10E,CM Metal Vendor 10 EUR,
+143,CM_CABLE2B,CM Cable (BaseValue+Metal),
+144,7775,Lufthansa Airplus GmbH,
+145,7776,American Express,
+146,9001,Michaela Meier,
+147,9002,Frank Schmidtrohr,
+148,9003,Chris Miller,
+149,9007,Shinozaki Tsutomo,
+150,9008,Sugiyama Ichiro,
+151,MIDCO,MIDCO - IHC,
+152,9923,Alexander Rickes,
+153,20050,Raymond ter Linden,
+154,22200,IDES France - Nantes,
+155,T_VENDOR2,T_VENDOR2,
+156,BRATWURST,Bratwurst AG,
+157,CM_VAG01E,CM Agri Vendor 01 EUR,
+158,CM_VCO01E,CM Concentrate Vendor EUR,
+159,CM_VMI01E,CM Misc Vendor 01 EUR,
+160,CM_VMTFIXE,CM Metal Vendor FIX EUR,
+161,CM_VMT01E,CM Metal Vendor 01 EUR,
+162,CM_VOG01E,CM Oil&Gas Vendor 01 EUR,
+163,CN1222,ABC Supply Company CN,
+164,D200000,Chemica IT,
+165,ESOURCING,eSourcing,
+166,HD9999,HOME DEPOT,
+167,200076,MAHINDRA LTD,
+168,IIL-CR-01,Ocean Carrier,Musterstrasse 5570
+169,IIL-CR-02,DE Rail Carrier,Musterstrasse 1000
+170,PMW00,Dressler,LindenstraÃŸe 1
+171,SAL00,Maul GmbH,Danziger StraÃŸe 5
+172,SAL50,Weber,Mannheimer StraÃŸe 15
+173,SE102,Supplier 102 GmBH,HauptstaÃŸe 1
+174,SE104,Supplier 104 GmBH,BahnhofstraÃŸe 10
+175,T-Q415-00,Ultralight,Rosenstrasse 11
+176,T-Q415-01,Ultralight,Rosenstrasse 11
+177,T-Q415-02,Ultralight,Rosenstrasse 11
+178,T-Q415-03,Ultralight,Rosenstrasse 11
+179,T-Q415-04,Ultralight,Rosenstrasse 11
+180,T-Q415-05,Ultralight,Rosenstrasse 11
+181,T-Q415-06,Ultralight,Rosenstrasse 11
+182,T-Q415-07,Ultralight,Rosenstrasse 11
+183,T-Q415-08,Ultralight,Rosenstrasse 11
+184,T-Q415-09,Ultralight,Rosenstrasse 11
+185,T-Q415-10,Ultralight,Rosenstrasse 11
+186,T-Q415-11,Ultralight,Rosenstrasse 11
+187,T-Q415-12,Ultralight,Rosenstrasse 11
+188,T-Q415-30,Ultralight,Rosenstrasse 11
+189,VENDOR02,Vendor 02 AG,Dresdner Platz 3
+190,VENDOR03,Vendor 03 AG,Wissler 1 29160
+191,WEEE,WEEE,Electronic Street 432
+192,10990,ABC Ltd,Lyoner Stern 23
+193,10991,XYZ Ltd.,Lyoner Stern 23
+194,10992,BBC Ltd,Lyoner Stern 23
+195,1012,Reihl & MÃ¼ller,Wisperallee 59
+196,1015,Wollner AG,Am Tiergarten 189
+197,1025,SEC System SA,10
+198,1035,Sommer GmbH,BÃ¤ckerstr. 198
+199,1040,Hamberger u. CO.,Dachstr. 345
+200,1045,Kreutzschmid KgaA,Calderonweg 250
+201,1050,Humpert u. TÃ¶chter GmbH,Mosbachstr. 190
+202,1058,Nordspeed GmbH,Von-Arleger-Weg 23
+203,1060,Chemische Werke Halle,Bitterfelder Str. 123
+204,1065,Papierwerke Bayland AG,Kehlheimer Str. 77
+205,1075,Tiefland Glass AG,Basedowstr. 123
+206,2000,Metall-Recycling GmbH,Dr. Bauer-Ring 33
+207,2010,SAPSOTA,Industriepark
+208,3450,Finanzamt Frankfurt,Frankfurter Ring
+209,3452,Stromlieferant,Zentralplatz 1
+210,3454,Finanzamt Berlin,Hauptstr. 45
+211,3455,Wasserwerke Berlin,PoststraÃŸe 66
+212,3456,Waermelieferant Berlin,Rathausstr. 85
+213,3457,Clean & Cleaner,Poststr. 12
+214,5200,Intershop,Adenauerallee 99
+215,5210,Abele Intershop,Kaiserstr. 122
+216,5500,Online Store,Industriestr.
+217,52000,Metall Ag,iweg
+218,BALTUS00,Baltus AG Gr.00,Bauweg 3
+219,BALTUS01,Baltus AG Gr.01,Bauweg 3
+220,BALTUS02,Baltus AG Gr.02,Bauweg 3
+221,BALTUS03,Baltus AG Gr.03,Bauweg 3
+222,BALTUS04,Baltus AG Gr.04,Bauweg 3
+223,BALTUS05,Baltus AG Gr.05,Bauweg 3
+224,BALTUS06,Baltus AG Gr.06,Bauweg 3
+225,BALTUS07,Baltus AG Gr.07,Bauweg 3
+226,BALTUS08,Baltus AG Gr.08,Bauweg 3
+227,BALTUS09,Baltus AG Gr.09,Bauweg 3
+228,BALTUS10,Baltus AG Gr.10,Bauweg 3
+229,BALTUS11,Baltus AG Gr.11,Bauweg 3
+230,BALTUS12,Baltus AG Gr.12,Bauweg 3
+231,BALTUS13,Baltus AG Gr.13,Bauweg 3
+232,BALTUS14,Baltus AG Gr.14,Bauweg 3
+233,BALTUS15,Baltus AG Gr.15,Bauweg 3
+234,BALTUS16,Baltus AG Gr.16,Bauweg 3
+235,BALTUS17,Baltus AG Gr.17,Bauweg 3
+236,BALTUS18,Baltus AG Gr.18,Bauweg 3
+237,BALTUS19,Baltus AG Gr.19,Bauweg 3
+238,BALTUS20,Baltus AG Gr.20,Bauweg 3
+239,BALTUS21,Baltus AG Gr.20,Bauweg 3
+240,BALTUS22,Baltus AG Gr.22,Bauweg 3
+241,BALTUS23,Baltus AG Gr.23,Bauweg 3
+242,BALTUS24,Baltus AG Gr.24,Bauweg 3
+243,BALTUS25,Baltus AG Gr.25,Bauweg 3
+244,BALTUS26,Baltus AG Gr.26,Bauweg 3
+245,BALTUS27,Baltus AG Gr.27,Bauweg 3
+246,BALTUS28,Baltus AG Gr.28,Bauweg 3
+247,BALTUS29,Baltus AG Gr.29,Bauweg 3
+248,BALTUS30,Baltus AG Gr.30,Bauweg 3
+249,CMA101,Contract Manufacturer 101 LLC,Mainstreet 1
+250,CME101,Contract Manufacturer 101 GmBH,BahnhofstraÃŸe 1
+251,ACCENTURE,ACCENTURE,ACC
+252,GOLDSGYM,GOLDS GYM,GOLDS
+253,L&T9999,L&T,L&T
+254,BESTEVER99,BESTEVER99,BEST
+255,DHL99,DHL,DHL HOUSE
+256,ZARA,HOME DEPOT,ZARA HOUSE
+257,ACKO99,ACKO AUTO SUPPLIERS,A
+258,CEAT TYERS,CEAT LA,CEAT HOUSE
+259,SAFETY99,SAFETY LLP,SAFE
+260,TESLA99,TESLA,TESLA HOUSE
+261,TOKNO99,TOKNO SUPPLIERS,TOKNO HOUSE
+262,JACKSON99,JACKSON JACKETS,JACKSON
+263,SF0_URBAN,SFO URBAN,SFO HOUSE
+264,99989,OTV-OPEX,OTV
+265,SFK77,HOUSTON SUPPLIERS,SFK HOUSE
+266,SFK66,SFK,SFK
+267,WENGERAUTO,WENGER,WENGER
+268,K0101,Schall & Rauch AG,Hohle Gasse 7
+269,K0102,Meryam,feurbachstraÃŸe 12
+270,K0103,Sonia,motorstr 1
+271,K0104,Besma,hallerstr 31
+272,VMIETER01,AHMED,
+273,CPDLIEF01,Einmallieferanten01,TALSTR 1
+274,SFK99,SFK SUPPLIERS,SFK HOUSE
+275,100664,TEST TT  0905 01,nowa 1
+276,100674,TEST TT 1506 TT iNVOICE PARTY,INVOICE VENDOR ADRES
+277,100675,TEST TT 1506 TT GOODS SUPOL,GOODS SUPLIER VENDOR ADRES
+278,100678,Test partner 1606 OA,Order adres 111
+279,100677,Test partner 1606 IN,Invoice adress test
+280,100676,Test partner 1606 GS,Goods supplly addres test
+281,200217,Test partner 1606 VN,Vendor adress test
+282,3453,Waermelieferant Frankfurt,RathausstraÃŸe 5
+283,YOKOHAMA,LA,YOKOHAMA HOUSE
+284,EXTERN_JP,External vendor Japan,Ginza1
+285,GTS_0001,GTS GmbH & Co.KG,Hasso-Plattner-Ring 7
+286,IIL-VN-01,IIL Vendor 1,4711 Main Street
+287,IIL-VN-02,IIL Vendor 2,7589 Main Street
+288,IS_CARR5,Global West Ocean Transport,Wilhelminakade 500
+289,IS_VEND6,Port of Rotterdam Authority,Wilhelminakade 909
+290,MOBILE01,Scilly Tools PLC,10 Mainstreet
+291,MOBILE02,Hongkong Trading Ltd,12 Fullham Street
+292,MOBILE03,HappyHammering PLC,10 Harveyroad
+293,MOBILE04,PERRY'S TOOLBOX PLC,10 Friendroad
+294,NL5400,KDS International bv,Martkplaats 10
+295,NL5401,Watson bv,De Dieze 2
+296,SA102,Supplier 102 LLC,1 Mainstreet
+297,SA104,Supplier 104 LLC,1 Mainstreet
+298,SAL10,klÃ¶,zahlwe 123
+299,SL102,Supplier 102 LLC,Mainstreet 1
+300,SL104,Supplier 104 LLC,Mainstreet 1
+301,SLOPAK,SLOPAK d.o.o.,100 Vodovodna
+302,T-F00A00,AC205 Vendor,Astor Str. 5
+303,TM_CAR004,Europa Express,Oranjelaan 46
+304,TPLM-99,Sapsota Company Limited,Industriepark 48 - 52
+305,TRM-VENDOR,TRM-International,Industriestrasse 12
+306,TURFMOOR,Turfmoor Inc,Turfmoor Street 12
+307,UE-1001,Rieger,SchillerstraÃŸe 18
+308,VENDOR01,Vendor 01 GB,43 Manchester Street
+309,ELYS,ELYS FACTOR,45 rue des Acacias
+310,PHAR,PHAR,56 rue de BellÃªme
+311,MAZ,MAZ,46 rue des pivoines
+312,4010,Electric Engines,10 Power Avenue
+313,FORN00-35,Sony Corporation Japan,17
+314,GTS_0002,FRITZ GELOWICZ,Nowherelane 9
+315,8,Jose Fernandez,Via Rioja 1
+316,10,Dupont de la RiviÃ¨re,rue des fleuves
+317,25,Metropol,Kronprinsensgade 11
+318,1095,Lopez S.A.,Avenida del Sol
+319,1550,Stadtwerke Frankfurt,Industrie Gebiet Nord
+320,1935,SLL Cargo Services,Am Flughafen 13
+321,1992,IDES UK,East Street 73
+322,1999,Test,Teststr.
+323,2005,Wilms and Brothers Ltd.,Kandal Street 12
+324,2007,Morel,12 Rue Morel
+325,2008,Antoni,Via Batistini 345
+326,3010,One Time Vendors Q - Z,Baker Street
+327,3101,Finanzamt Berlin,Starnberger Allee 4
+328,3333,Bill Biller,Billing Street 12
+329,3950,One Time Vendors L - P,Baker Street
+330,3960,One Time Vendors A - K,Baker Street
+331,4257,Polis Immobilien Fuehrer,Neue Mainzer Str. 567
+332,4258,Hoffmann Immobilien AG,Offenbacher Strasse 45
+333,10089,Auto Color Bulgaria,Blvd. Totleben 53-55
+334,20002,Metall Factory Inc.,Seaview Street 73
+335,37001,Active Ingredients France,101 Rue de la Gare
+336,37002,Pharma and Co,12 Rue du Pont
+337,88888,Korean Supplier,Main Street123
+338,88889,Korean Automotive Supplier,Gasan-Dong543
+339,90210,Thomas,Stilllevej 12
+340,100001,Charlotte Fritsch,An der oberen Lache 45
+341,100318,TMS Consulting,Budergasse 24
+342,100321,Evolo Robots,Klingelgasse 12
+343,100308,Apple Germany,Ulmenweg 33
+344,100359,Third-Party Agent #2,1 Jidka Sodonka
+345,A006049503,Mustermann Bikes,Blumenstrasse 56
+346,5000002,European Patent Office,Erhardtstrasse 27
+347,300000,Edwin Dealer,Neurottstrasse 15a
+348,ALSI,ALSI,37 calle mayor
+349,BARNBECKJ,Joachim Barnbeck,Neurottstr. 16
+350,CML101,Contract Manufacturer 101 LLC,Mainstreet 1
+351,CN2502,Rubicon Steel & Components CN,100 CN
+352,CONAI,Conai Italy,Via Donizetti 6
+353,CPB1000,Softdrink,Bottel str. 20
+354,DE-001,Inland Lieferant,Waldweg 1
+355,DE-002,Ausland Lieferant,BergstraÃŸe 1
+356,DE1222,ABC Supply Company DE,100 Fraustrasse
+357,MMAN2191,MMANI COMPANY,FLOWER ST
+358,MR BEAN,Bean,liebigstrasse 5
+359,100618,Rebobinca,Calle monagas
+360,FIAT,FIAT LA,FIAT HOUSE
+361,ACK099,ACKO99,SAMEER HOUSE
+362,ACKO099,ACKO SUPPLIERS,ACKO
+363,WIPRO,WIPRO LTD,WIPRO HOUSE
+364,SFK12,ABC,ABC
+365,SFK13,TEST 1,TEST
+366,SFK21,SFK SUPPLIERS LLC,SFK HOUSE
+367,SFK22,SFK SUPPLIERS LLC,SFK HOUSE
+368,SFK23,SFK SUPPLIERS LLC( IP),AEDEF
+369,SFK24,ARSHIYA INTERNATIONAL,ARSHIYA
+370,SFK25,FEDEX INTERNATIONAL,FEDEX HOUSE
+371,NEW_NUM,Hannah Company,School Street
+372,TST1,Hannah's Test Vendor,1 Beacon Street
+373,100635,Hawks,Main St.
+374,200072,YAKO,s
+375,200073,HOME DEPOT,STREET
+376,100000,Telekom,Dammallee 24
+377,SA105,Supplier 105 LLC,
+378,SA301,Xi'an Industries,1000 East Avenue
+379,SA302,Henan Ltd.,900 Nanyang Road
+380,SA303,Yangtze Ind,405 North Zhong Shan Road
+381,SA304,GTZ Ltd,1000 East Shennan Road
+382,SA306,Mega Company,200 Chengdong Road
+383,SA307,Shijiazhuang Group,208 Weiming Street
+384,SE105,Supplier 105 GmBH,
+385,SL105,Supplier 105 LLC,
+386,SL302,CompaÃ±ia Villa,LeÃ³n Guillet 700
+387,SL303,CompaÃ±ia Cuyo,Ruta Nacional 100
+388,SL304,CompaÃ±ia Punilla,Catamarca 300
+389,SL305,CompaÃ±ia ABC,Ruta 11 KM 1000
+390,SL306,CompaÃ±ia San Luis,Boulevard Las Canadas 100
+391,SL307,CompaÃ±ia Andean,Primitivo De La Reta 900
+392,SA305,Hunan Inc,800 Wuyi Avenue
+393,HYUNDAI,HYUNDAI PVT LDT,HYUNDAI HOUSE 01
+394,80002,General Suppliers Inc,2191 Yonge St
+395,200151,SRK TRADER,
+396,200150,L& T,DALAL STREET /401
+397,200178,GOLD'S GYM,12345 POWAI
+398,200181,IKON 02,123 RED HOUSE
+399,200203,ACER LAPTOP 99,WE WORK
+400,200204,ACER LAPTOP 88,WE WORK
+401,200205,IEX,WE WORK
+402,200202,HOME DEPOT,99 LEONARDO VINCI
+403,200311,Breaktime,Breaktime StraÃŸe 25
+404,JP-TOKYOSP,Tokyo Harbor,
+405,MLM,Main Land Mechatronics,
+406,MN01,Manufacturer 01 for MPN,Wiener StraÃŸe 10
+407,MSE,Mainland Steel exporters,
+408,SA101,Supplier 101 LLC,10 Dongtai Rd
+409,SA103,Supplier 103 LLC,
+410,200000,Prudential,1 13 de Septiembre
+411,SA308,Votex Ltd.,180 Banpo-dong Seocho-gu180
+412,SA309,Nakdong Company,Woo 1-Dong Haeundae-Gu700
+413,SE101,Supplier 101 GmBH,MÃ¼nchner StraÃŸe 5
+414,SE103,Supplier 103 GmbH,
+415,SE301,August Campmann / MÃ¼nchen,Frankfurter Ring 195
+416,SE302,Frei und SÃ¶hne / NÃ¼rnberg,WaldaustraÃŸe 13
+417,SE303,Vereinigte Industrie / Bamberg,BrennerstraÃŸe 14
+418,SE304,Verkauf GmbH / Dortmund,NortkirchenstraÃŸe 100
+419,SE305,Lieferungen GmbH / Essen,Rellinghauser StraÃŸe 1
+420,SE306,Frank & Co / Dortmund,WestfaliastraÃŸe 13
+421,SE307,Deutsche Versand / Kassel,August-Bode-StraÃŸe 1
+422,SE308,Wei Guo International Inbd Vendor 1,1 Xiao Sha Mao Hu Tong
+423,SE309,Li Shin International Inbd Vendor 2,11 Fuhong Road
+424,SL101,Supplier 101 LLC,Av Pdte PerÃ³n Oeste 1
+425,SL103,Supplier 103 LLC,
+426,SL301,Industria Extra,Avenida Sarmiento 352
+427,SU308,Wei Guo International Inbd Vendor 1,1 Xiao Sha Mao Hu Tong
+428,SU309,Li Shin International Inbd Vendor 2,1 Fuhong Road
+429,TOKYO,Tokyo,
+430,TP_AIR_MX,Airport Mexico DF,
+431,TP_PORT_DO,Port Harwich,
+432,TP_PORT_MX,Port Veracruz-Mexico,
+433,TP_TRN_MX,Train Station Mexico,
+434,EMEA-1000,Hudson Technologies,St George St 140
+435,EMEA-1001,William & Sons Gmbh,Long Drive Blvd 345
+436,EMEA-1002,IMG Gmbh,Hasso-Plattner-Ring 100
+437,A006003948,Catering Services,FriedenstraÃŸe 9
+438,A006015073,Consulting Services,MaxburgstraÃŸe 3
+439,A006029461,IT Services,MittelstraÃŸe 6
+440,A006034403,C&I Services,BurchardstraÃŸe 13
+441,200020,Universidad del Zulia,67 B av Con Calle
+442,A006052007,Printing Services,1 Xiao Sha Mao Hu Tong
+443,A006061954,Media Publishing Services,2200 HongQiao Road
+444,A006079154,Public Relation Services,11 Fuhong Road
+445,MILLER,MILLERS,Whitefield Rd
+446,SWARAJ,SWARAJ,
+447,AN-56569,Lalji Traders,Chicpet
+448,AN-56567,KANNA TRADERS,Industrial town 45/49
+449,AN-56570,India Marrt,Chowrengi
+450,WGW-008,Wei Gou International,1 Xiao Sha Mao Hu Tong
+451,1061,Neotech GmbH,
+452,1106,SPEDITRANS Transport GmbH,Siebeldinger Str. 4-20
+453,1120,Rohrbau-Dienstleistungs GmbH,Planken 12-15
+454,TWA-CR-03,Uchida Trucking,Tome Nagi 
+455,10084,Carl Stahl Werkzeugbau GmbH,WiesenbachstraÃŸe 18-20
+456,10097,TIRES WORLDWIDE,123 Kingston Road
+457,10098,GUM Company,256 Broad Street
+458,10100,AUTOBODY INTERNATIONAL,Test Drive
+459,10199,UNITED COLORS,1024 Brush Avenue
+460,20000,IDES UK LTD,10 Downing Street
+461,21000,IDES PORTUGAL,Da Santos Torre 20
+462,40000,IDES Canada,100 Mapleleaf Drive
+463,ARA,Altstoff Recycling Austria,Mariahilfer StraÃŸe 123
+464,ARA_1,Altstoff Recycling Austria,Mariahilfer StraÃŸe 123
+465,CE308,Wei Guo International Inbd Vendor 1,1 Xiao Sha Mao Hu Tong
+466,DIT-CR-10,TM-DIT: Carrier 1,Landsberger Str. 250
+467,DIT-VN-10,TM-DIT: Vendor 1 / Munich,Frankfurter Ring 195
+468,DIT-VN-20,TM-DIT: Vendor 2 / Nuremberg,Nopitschstr. 67
+469,DIT-VN-21,TM-DIT: Vendor 2 / Bamberg,Hafenstr. 18
+470,DIT-VN-30,TM-DIT: Vendor 3 / Dortmund,Arminiusstr. 59
+471,DIT-VN-31,TM-DIT: Vendor 3 / Essen,Hammacher Str. 100
+472,DIT-VN-40,TM-DIT: Vendor 4 / Dortmund,Hauert 11
+473,DIT-VN-50,TM-DIT: Vendor 5 / Kassel,Henschelplatz 1
+474,DIT-CR-20,TM-DIT: Carrier 2,Eifelstr. 30
+475,OAF-CR-01,EASC - East Asia Shipping Corp,Nippon Costal Highway 101
+476,OAF-CR-03,Uchida Trucking,Tome Nagi 7-53-12
+477,OAF-CR-04,Ich-Ni Express,Hadaka-Jime 15
+478,CAR-01,ALR Express LTd,1010 W Madison St
+479,CAR-02,National Trucking,101 Durand Ave
+480,TWA-CR-04,Ich-Ni Express,Hadaka-Jime 15
+481,TWA-CR-JL,Rising Sun Airlines Ltd,Higashi-shinagawa 2-chome
+482,TWA-CR-QF,Oceanic Airways Limited,Building A
+483,TWA-JL-NRT,Rising Sun Airlines Ltd,Higashi-shinagawa 2-chome
+484,TWA-QF-NRT,Oceanic Airways (Japan) KK Ltd,Toranomon 37th Mori Bldg 9F
+485,TWA-QF-SYD,Oceanic Airways (Australia) Ltd.,23 Airport Drive
+486,AF-CR-JL,Rising Sun Airlines Ltd.,Higashi-shinagawa 2-chome
+487,AF-CR-QF,Oceanic Airways Limited,815-C Building A
+488,AF-JL-NRT,Rising Sun Airlines Ltd.,Higashi-shinagawa 2-chome 4-11
+489,AF-QF-NRT,Oceanic Airways (Japan) KK Ltd,Toranomon 37th Mori Bldg 9F 3-5-1
+490,AF-QF-SYD,Oceanic Airways (Australia) Ltd.,23 Airport Drive
+491,A006049527,Translation Services,800 Wuyi Avenue
+492,NV69,Nvidia Cards and electronics,Tel aviv 20202
+493,SAKO,SAKO INDUSTRIES,4555 Prestwick Pl
+494,VSAMI2191,sami associates,4536 holmes st
+495,VSAAMI2191,viva2191,2346 hyde rd
+496,VMANI2191,VM ENTERPRISES,2344 SOLAR ST
+497,VVMAN2191,vani enterfrises,7654 holmes st
+498,VYAMI2191,vyami enterprises,4444 sola st
+499,VMIL2191,vmil company,3333 jackson st
+500,VMIIL2191,vmiil2191,4444 watson st
+501,VSIL2191,vsil company,77777 hyde st
+502,VDIN2191,vdin co,45321
+503,VGIN2191,vgin2191,4539 holmes st
+504,100609,Vola C.A,calle san juan de la peÃ±a
+505,100610,Salgado C.A,
+506,LANDLORD,Real Estate Agency,Main Street 179
+507,900009,Carupano 1,calle monagas
+508,A30501,Alvaro 305 SSL,
+509,T-K500Y07,Highspeed Gr.77,Lincolnstrabe 99
+510,200071,MAKO,24
+511,200074,DUNKIRK ASSOCIATE,456
+512,200075,CEAT TYRES,12
+513,200077,TOYOTA SPOILERS,216 GANDHI NAGAR
+514,200079,CEAT TYRES 112,APPOLO ROAD
+515,200080,GOODYAR TYRES,786
+516,EXTERN,Extern,KurfÃ¼rstendamm 50
+517,FR-001,FOURNISSEUR1,1 Rue de la rÃ©publique
+518,FR-002,LSP TRANSPORTS FRANCE,
+519,HT-V2011-1,Seagate Technology,10200 S. De Anza Blvd
+520,IOT-CR-03,Europa Express,Oranjelaan 46
+521,IS_CARR4,Europe Trucking Company,Helenenstrasse 14 200
+522,IS_VEND2,Cologne Equipment AG,Asternweg 200
+523,MM_CARR_D,MM_CARR_D,Rafles Ave
+524,MONSANTOBR,MONSANTO DO BRAZIL LTDA,AV DAS NACOES UNIDAS
+525,SERU305,SERU305,Dolshaya pokrovskaya 8
+526,SL-LIMA-SP,Lima Harbor,
+527,SMI-SUP-B,SMI Supplier B,Am Kibbelsteg
+528,SMTPVS3855,Serv Mgmt TPVS TSP 1,
+529,SP33001,Italian Freight Company,
+530,SU01,Supplier SU01,
+531,SU02,Supplier SU02,
+532,SU03,Supplier SU03,
+533,T-K510Z01,Sundry GmbH,Drosselgasse 15
+534,TE-AC00,American Sports Distributor Gr. 76,25 West Wilson Street
+535,TE-AC01,American Sports Distributor Gr. 76,25 West Wilson Street
+536,TE-AC02,American Sports Distributor Gr. 76,25 West Wilson Street
+537,TE-AC03,American Sports Distributor Gr. 76,25 West Wilson Street
+538,TE-AC04,American Sports Distributor Gr. 76,25 West Wilson Street
+539,TE-AC05,American Sports Distributor Gr. 76,25 West Wilson Street
+540,TE-AC06,American Sports Distributor Gr. 76,25 West Wilson Street
+541,TE-AC07,American Sports Distributor Gr. 76,25 West Wilson Street
+542,TE-AC08,American Sports Distributor Gr. 76,25 West Wilson Street
+543,TE-AC09,American Sports Distributor Gr. 76,25 West Wilson Street
+544,TE-AC10,American Sports Distributor Gr. 76,25 West Wilson Street
+545,TE-AC11,American Sports Distributor Gr. 76,25 West Wilson Street
+546,TE-AC12,American Sports Distributor Gr. 76,25 West Wilson Street
+547,TE-AC13,American Sports Distributor Gr. 76,25 West Wilson Street
+548,TE-AC14,American Sports Distributor Gr. 76,25 West Wilson Street
+549,TE-AC15,American Sports Distributor Gr. 76,25 West Wilson Street
+550,TE-AC16,American Sports Distributor Gr. 76,25 West Wilson Street
+551,TE-AC17,American Sports Distributor Gr. 76,25 West Wilson Street
+552,TM_CAR005,Ruhr Logistik,Lindenstr 111
+553,TM_US_R_01,Carrier Rail US,60 Massachusetts Ave NE
+554,TPE100,3PE100,
+555,UE-1000,MÃ¼ller,Zehntgrafenstr. 17
+556,CM00001,C.M.L . Cash and Liquidity,KÃ¶lpiner Str 20
+557,FORN00-02,Fornecedor Pessoa Fisica,Tv das Nacoes 11
+558,CM_CABLE1,CM Cable (Hollow Price + Metal),
+559,15,Tiedemeier Entsorgung GmbH,WestendstraÃŸe
+560,5307,Japan Computer Parts Corp.,1234 Emperor Street
+561,CUSTOM,Indian Customs,134 Mg Rd
+562,EWT-VEN,XYZ Pvt Ltd.,Bellandur Rd
+563,10001,Detroit Supplier Inc.,12 12 Quality-Street
+564,22222,GenÃ©rale de Fonderie,1
+565,200025,Internal revenue service,Roxas Blvd
+566,100023,John Smith,1000 J Bocobo Street
+567,100084,Mr Michael Hire,35 Main Street
+568,100087,Ann Takahashi,3538 Armada Street
+569,100088,Timmy Tabasco,1515 First Way
+570,100095,Mark Gregson,1212 Winona Blvd
+571,100108,Jo Procter,1235 Main Street
+572,100110,Steve Waters,810 Mockingbird
+573,100118,John McCormick,630 Presswick Lane
+574,100119,Maggie Hurley,1615 Schultz Way
+575,100120,Marvin Smith,100 Mockingbird
+576,100121,Bill Grace,7647 Newton Place
+577,100122,Mike Sanders,7862 East King Street
+578,100123,Darryl Gibbons,123 Beltway
+579,100124,John Throw,4357 Hanover Park Place
+580,100125,Rick McDowell,4427 Rolling Dr
+581,100163,Pedro Lopez,Picasso 4
+582,100193,Frank Bake,1090  Pond View Drive
+583,100194,Chris Winter,1934 Dorchester Place
+584,100195,Daniel Voss,903 Pine Street
+585,100196,Susan Parker,1090 Delancy Place
+586,100197,David Lee,1040 Grant Lane
+587,100198,Joe Flathers,1920 Fifth Street
+588,SU777,AC Company / Ohio NEW,610 New North Main St
+589,300002,Juan Gonzalez,Picasso 4
+590,VENDOR1,Vendor1,1222
+591,VENDOR2,Vendor2,122 110
+592,ABC-600,Pump Repair Company,555 Main Street
+593,CIN-VEN,Mr. ABC Pvt. Ltd.,71-A
+594,COMPANY02,Company02,Mainzer Landstr. 115
+595,CSL_8911,Transcanadian Rail,1-1015 30 Street SW
+596,CSL_9901,HenshuÂ Truck Co. Ltd.,De Ashi Barai
+597,DOC-KRED89,DOC-KRED89,Haupstr. 78
+598,SA115,Supplier 115 LLC,
+599,RF-CR-CN,Continental Rail,935 de la GauchetiÃ¨re St W
+600,CEP-CR-01,FedEx,1010 Main street
+601,3955,Super Packageing C2F,Nanjing West Road
+602,SHIPPER_M1,Shipper 01,St Kilda Rd
+603,E28100,BERE GRATIS,STRADA BERARILOR
+604,SFK87,sfk bombay,house no 12
+605,100638,MÃ¼ller,MÃ¼llerstraÃŸe
+606,600007,Edikom distribution,880 Jean-Neveu
+607,YAMOCI,Yamo commerce international Inc,615
+608,100668,US Metal INC,3 Main road
+609,200342,Munich Vendor,1 Marienplatz
+610,9022,MM Electrical,22Main
+611,9021,Office Depot,21St
+612,9019,SHI,19Main
+613,9018,Fastenal,18Main
+614,TE-AC18,American Sports Distributor Gr. 76,25 West Wilson Street
+615,TE-AC19,American Sports Distributor Gr. 76,25 West Wilson Street
+616,TE-AC20,American Sports Distributor Gr. 76,25 West Wilson Street
+617,TE-AC21,American Sports Distributor Gr. 76,25 West Wilson Street
+618,TE-AC22,American Sports Distributor Gr. 76,25 West Wilson Street
+619,TE-AC23,American Sports Distributor Gr. 76,25 West Wilson Street
+620,TE-AC24,American Sports Distributor Gr. 76,25 West Wilson Street
+621,TE-AC25,American Sports Distributor Gr. 76,25 West Wilson Street
+622,TE-AC26,American Sports Distributor Gr. 76,25 West Wilson Street
+623,TE-AC27,American Sports Distributor Gr. 76,25 West Wilson Street
+624,TE-AC28,American Sports Distributor Gr. 76,25 West Wilson Street
+625,TE-AC29,American Sports Distributor Gr. 76,25 West Wilson Street
+626,TE-AC30,American Sports Distributor Gr. 76,25 West Wilson Street
+627,TM_US_L_01,Carrier Land US 01,200 Madison Avenue
+628,TM_US_L_02,Carrier Land US 02,152 Bay State Road
+629,TM_US_L_03,Carrier Land US 03,735 Harrison Avenue
+630,TP_AIR_WI,Airport Wichita,
+631,TP_PORT_NY,Port New York,
+632,TP_TRN_WI,Train Station Wichita,
+633,TP_US_L_01,TSP Land Transportation US 01,
+634,TP_US_L_02,TSP Land Transportation US 02,
+635,TP_US_L_03,TSP Land Transportation US 03,
+636,TP_US_SUP1,,
+637,TP_US_SUP2,,
+638,TP_US_S_01,TSP Sea Transportation US 01,
+639,TP_US_T_01,TSP Train Transportation US 01,
+640,TRAINING,Leslie Barry Training,466 South Colorado Boulevard
+641,TS_CHICAGO,Train Station Chicago,255 South Canal Street
+642,TS_LA,Train Station Los Angeles,800 N. Alameda Street
+643,9017,Chemicals Direct,17Main
+644,9016,Mantell Office,16St
+645,9014,OneSteel Limited,14St
+646,9013,Caterpillar Inc,13St
+647,9012,CDW,12St
+648,9011,CMX,11St
+649,9010,Digi storage,Main
+650,EARIBA,EARIBA,412 E 101st St
+651,9065,BMX Ltd.,11st
+652,200001,Blue Cross Blue Shield,499 Madison Ave
+653,200002,Kaiser,200 First Avenue
+654,200003,Canada Life,3500 Avenue of the Saints
+655,200004,Harvard Communitz Health,300 Queen Ave
+656,200005,CIGNA,654 Bush Road
+657,200006,CIGNA PPO,3455 S. Western Ave
+658,200007,Fidelity 401k Services,300 First Ave.
+659,200008,Vision Service Plan,234 Ninth Ave.
+660,200009,Hewitt Associates,300 Boardwalk
+661,200010,Great Lakes HMO,299 Michigan Ave.
+662,200011,Hyatt Legal Services,300 Chicago Street
+663,200012,Merrill Lynch,300 Building A
+664,200013,CIGNA,300 Madison Ave.
+665,200014,Inversiones Mexicanas,300 El Paso Road
+666,200015,Centauro,300 Mexico Road
+667,CM_VAG01,CM Agriculture Vendor 01,
+668,CM_VAG02,CM Agriculture Vendor 02,
+669,CM_VAG03,CM Agriculture Vendor 03,
+670,CM_VCO01,CM Concentrate Vendor 01,
+671,CM_VCO02,CM Concentrate Vendor 02,
+672,CM_VCO03,CM Concentrate Vendor 03,
+673,CM_VCOFIX,CM Conc Vendor FIX EUR,
+674,CM_VMEAT_1,CM Vendor Meat,
+675,CM_VMI01,CM Miscellaneous Vendor01,
+676,CM_VMI03,CM Miscellaneous Vendor03,
+677,CM_VMT01,CM Metal Vendor 01,
+678,CM_VMT03,CM Metal Vendor 03,
+679,CM_VMTFIX,CM Metal Vendor FIX,
+680,CM_VMT02,CM Metal Vendor 02,
+681,CM_VMI02,CM Miscellaneous Vendor02,
+682,CM_VMTGTM,CM Metal Vendor GTM,
+683,CM_VMT09,CM Alu Can Supplier,
+684,CRM-52,Leslie Bancroft,8558 W 14th Ave
+685,CM_VOG01,CM Oil and Gas Vendor 01,
+686,CM_VOG02,CM Oil and Gas Vendor 02,
+687,CRM-56,Leslie Caldwell,453 South Colorado Boulevard
+688,CM_VOG03,CM Oil and Gas Vendor 03,
+689,CRM-60,Leslie Earley,703 Holcomb Bridge
+690,CRM-62,Leslie Faber,505 E. Butler Parkway
+691,CRMTRAINER,Leslie Barry,466 South Colorado Boulevard
+692,CRM-01,Leslie Allison,221 West 48 th Avenue
+693,CRM-10,Leslie Mendoza,500 E. Butler Parkway
+694,CRM-19,Leslie Shields,101 S Bannock St
+695,CRM-24,Leslie Roth,2079 Parker Rd
+696,CRM-25,Leslie McCullough,256 West 48 th Avenue
+697,CRM-35,Leslie Kingston,201 S Broadway
+698,CRM-49,Leslie Brown,101 S Bannock St
+699,CRM-40,Leslie Crumpton,6578 Westmoreland Plaza
+700,CRM-53,Leslie Barnett,6996  6895 Leetsdale Dr
+701,CRM-39,Leslie Arnall,7068 Jimmy Carter Boulevard
+702,CRM-29,Leslie Simpson,7012 Jimmy Carter Boulevard
+703,9026,Grainger,
+704,9025,JC Inc,Main
+705,9041,SCF Supplier2,100 St
+706,9042,SCF Supplier 3,100 St
+707,200030,Metropolitan Life Insurance,1015 Catamaran Drive
+708,EWM_3001,Flowrate Corp,61 Avenue U
+709,EWM_3003,World's Best Suppliers,5 Westbrook Road
+710,EXTERN_US,External vendor USA,1 Rodeo Drive
+711,FCC,Freight Cost Carrier,110 Monroe Avenue
+712,FOCUS,Focus Inc,43322
+713,HOTDOGS,Hot Dogs Inc.,
+714,HT-V2011-2,Western Digital,3355 Michelson Drive
+715,INTEEK,INTEEK International,
+716,IOT-CR-01,P&G Truck Lines,4075 Windgap Ave
+717,IOT-CR-02,Global Cargo Systems,303 Port Jersey Blvd
+718,IS_CARR1,Global East Ocean Transport,1234 Ocean Blvd
+719,IS_CARR2,USA Rail Road Company,6000 Rail Terminal Road
+720,IS_CARR3,US West Trucking Company,3500 Main Street
+721,IS_CARR6,US East Trucking Company,1548 Main Street
+722,JRT-00,JR Trucking,700 Freight Avenue
+723,LANCO,ANCO Technology,
+724,LSANG,Los Angeles,
+725,MD-VEND1,Medical Device Vendor,123 Wacker
+726,METMININC,Metal Mining Inc,200 Brownstone St
+727,MM_CARR_A,MM_CARR_A,Rafles Ave
+728,MM_CARR_B,MM_CARR_B,Windbreak street
+729,MM_CARR_C,MM_CARR_C,North River Drive
+730,MN02,Manufacturer 02 for MPN,Park Ave
+731,NTE,National Transportation Exchange,1400 Opus Place
+732,OT-CR-01,PGI Truck Lines,Windgap Ave
+733,OT-CR-02,National Trucking,Durand Avenue
+734,OT-CR-03,Fast Trucking and Logistics,Spring Street
+735,OT-CR-04,Green Transport,Port Jersey Blvd
+736,PRCL,Purva Revira Commertial Ltd,
+737,RSV10,RSV10,
+738,RSV20,RSV20,
+739,RSV30,RSV30,
+740,SA108,Supplier 108 LLC,
+741,SANSAR,SANSAR COM.LTD,
+742,SBC_ISTC,ISTC,
+743,SBC_S_01,Business Partner Chemical Carrier,Madison Avenue
+744,SE08,Supplier 108 GmBH,
+745,SIMBA,SIMBA TRADING,
+746,SL-CLEASE,Container Leasing Center,LOS ANGELES
+747,SL-SDIEGO,San Diego Harbor,
+748,SL108,Supplier 108 LLC,
+749,SL1234,Pacific Trucking Inc.,7000 Terminal Way
+750,SL1235,West Coast Trucking Inc.,7000 Terminal Way
+751,SL2234,Pacific Trucking Inc.,7000 Terminal Way
+752,SL2468,Rail Trans Inc.,2000 W Van Buren St.
+753,SL3456,Truck Trans,
+754,SL3457,Truck Cargo,
+755,SL4567,Air Trans,
+756,SL4568,Air Cargo,
+757,SL5678,Atlantic Trucking Inc.,9000 McLester Street
+758,SLOC3,Trucker,
+759,SLOC4,Express Trucking,
+760,SM-VEND1,Parts vendor 1,
+761,SM-VEND2,Parts vendor 1,
+762,SM-VEND4,Parts Vendor 4,
+763,SMI-SUP,SMI Supplier,100 McDavitt
+764,SMI-SUP1,SMI Supplier,3806 Northwest Loop
+765,SMI-SUP2,SMI Supplier 2,500 McDavitt
+766,SMIV200448,IC Electronics,3804 Northwest Loop
+767,SMIV200801,IC Electronics,3804 Northwest Loop
+768,SMTPVS3856,Serv Mgmt TPVS TSP 2,
+769,SS_FLEET1,SS Private Fleet 1,360 9th Ave SW
+770,SS_FLEET2,SS Private Fleet 2,500 Main Avenue
+771,SS_FLEET3,SS Private Fleet 3,500 East River Rd
+772,SU103,Supplier 103 Inc.,
+773,SU108,Supplier 108 Inc.,
+774,SU211,Supplier 01,
+775,SU212,Supplier 211,
+776,SU31,US Vendor 31,
+777,SU32,US Vendor 32,
+778,SU33,US Vendor 33,
+779,SU34,US Vendor 34,
+780,SUPPL01,Supplier 01,5 Westbrook Road
+781,SUPPL02,Supplier 02,
+782,SUPPL03,Supplier 03,
+783,TI-VEN1,Best Packaging Company,123 Baggage Lane
+784,TI-VEN2,PackM Inc.,222 22nd St.
+785,TI_VEN1,Best Packaging Company,123 Baggage Lane
+786,TM_CAR001,P&G Truck Lines,4075 Windgap Ave
+787,TM_CAR002,National Trucking,131 Durand Ave
+788,TM_CAR003,Fast Trucking & Logistics,402 Spring Sreet
+789,TM_CSL001,Global Cargo Systems,303 Port Jersey Blvd
+790,TP-CAR-LTL,LTL Carrier,10990 Roe Avenue
+791,TP-CAR-PAR,Parcel Carrier,55 Glenlake Parkway
+792,TP-CARA,TPVS Carrier A,100 Corporate Drive
+793,TP-CARB,TPVS Carrier B,100 Carrier B Drive
+794,TP-CARC,TPVS Carrier C,200 Ashland Drive
+795,TP-CARD,TPVS Carrier D,
+796,TP-MMCARB,Worldwide Transportation Services,500 Broadaxe Drive
+797,TP-MMCARD,Intermodal Services,1 West Wacker Drive
+798,TP-VEND3,TP_VEND3,
+799,TPU100,3PU100,
+800,US-LA-SP,LA Harbor,
+801,US-VEN1,Universal Chemical Stabilizer Co.,1234 Westchester Pike
+802,US-VEN2,World Colors Incorporated,
+803,US-VEN3,Global Additives Ltd.,
+804,US-VEN4,N. A. Sealing Company,
+805,US-VEN5,Interstate Transport Comp.,
+806,US-VEN6,Total Chemical Company,
+807,US-VEND3,Supplier - Three,301 Airport Blvd.
+808,US-VEND4,Supplier - Four,1 Whipple Way
+809,US1444,US1444,
+810,US2345,US2345,
+811,US30192,US30192,
+812,US3720,US3720,
+813,US5580,US5580,
+814,V3000,vendor for Plant 3000,
+815,VENDOR04,VENDOR04,Park Avenue West
+816,YELLOW_FRT,Yellow Freight Systems,
+817,YHTS_NIC,NIC Components Corp,
+818,NALA-3000,Office Deliveries,254 E Randolph St
+819,NALA-3001,Televista Inc.,3059 Briarpark Dr
+820,A006088451,Security Services,1100 Drexler Boulevard
+821,A006097529,Maintenance Services,535 N Michigan Ave.
+822,A006105812,Gardener Services,1501 Arch Street
+823,WRS-VENDA,Wayne best vendor,1500 Main Ln
+824,WRS-VENDB,Wayne Best Vendor B,100 Maple St
+825,ECOM-CAR,ECOM Carrier,
+826,2,Electronic Components Distributor,Tower Lane 1082
+827,1030,Jotachi Deutschland AG,5600 Lee Blvd.
+828,1472,MG Trucking,1472 Trucking Lane
+829,1993,Snyder Inc.,5 AVE.
+830,3100,Phoenix Supplies,1278 West Market Street
+831,3111,CMDS Supplier,Main Street
+832,3150,Get Mobile Inc.,2020 Tortilla Drive
+833,3151,Superior Tech. Inc.,245 245 Potters Drive
+834,3152,LUXITEC Inc.,900 900 Desert Way
+835,3300,Material Supplier,123 Main Street
+836,3301,Office Supply Company,456 North Street
+837,3302,Utilities Company,566 South Avenue
+838,3535,Scheduling Agreement Vendor,
+839,3801,Acme Industrial Supplies,5400 Tioga Ave.
+840,3802,American Business Services,1150  Michigan Ave
+841,3803,Multi-State Brokers,
+842,3816,NJ Electronics,100 N. Main Street
+843,3817,MicroElectronics,100 E. Cleveland Ave
+844,3818,Atlanta Electronics Supply,6558 Roswell Road
+845,3819,Tucker Industries,4375 Lawrenceville Hwy
+846,3900,Gateway Supply,2770 Carson Street - Suite 2000
+847,3901,Gertronics,5600 Lee Blvd.
+848,3903,Elway Industries,300 Waneka Parkway
+849,3904,JSS of America,7910 Richmond Hwy
+850,3905,Greenville Manufacturers,7600 Grennville Hwy.
+851,3906,Dynasty,1915 South Range Ave.
+852,3931,International Transport Comp.,Michigan Ave
+853,3941,Transport Express,123 1st Street
+854,3970,VISA,7800 Broad Street
+855,3980,Main Line Cleaning Services,1200 Lancester Avenue
+856,3990,Plastic Bottle Inc,6723 Henry Court
+857,4041,Express Transport,300 East Industrial Way
+858,4042,Reliable Trucking,707 N 2nd St.
+859,4043,Parcel Service Express,7000 Peachtree Pkwy
+860,4212,ALT's Autom. Release Vendor,32817 Harmon
+861,6100,NETProducts Inc.,10-15 O'Hara
+862,7777,American Express Corporate Services,
+863,8040,Venky Subcontractors,1100 Drexler Boulevard
+864,8050,Excellent Materials,500 Main Street
+865,8765,DuFresne's Supply,123 Lucky Lane
+866,9006,Sally Thompson,Baker Street
+867,FEDEX,FEDEX,
+868,100160,Larry Landlord,12 5th Avenue
+869,YHTS_VIS,Vishay Corp,
+870,YHTS_KEM,Kemet Corp,
+871,11111,MASTERCARD,
+872,24000,Speedy Couriers,
+873,24001,County Courthouse,800 Justice Way
+874,24002,Magnum P.I.,24981 Aloha Way
+875,30001,Ides Vendor for excise duty,Beer Street
+876,30100,Brooke Supply Company,7900 Broadway
+877,30190,ABB Transport Company,200 Main Street
+878,30192,Universal Supply Company,100 Broad Street
+879,33333,Treasury Vendor,3 Treasury Street
+880,60001,Armstrong & Partners,1897 Warminster Street
+881,60002,Johnson & Miller Inc.,1914 Grant Avenue
+882,60003,Parker & Sons,1902 Eddystone Blvd.
+883,60004,Golden Vegetables,181 Wilson Circle
+884,60005,Plastic Bottle Company,6723 Henry Court
+885,60006,Paper Products Company,5489  Schyler Way
+886,60007,Cow Chemicals,667 Christopher Heights
+887,100018,Tom Peterson,Baker Street
+888,100028,Deborah Schmidt,34555
+889,100058,Jennifer Green,5223 Lighthouse Lane
+890,100059,Tom Howard,7 Canal Street
+891,100060,Sunni Patel,250 Deerfield Drive
+892,100061,Dave Rodriguez,3215 Green St.
+893,100062,Lorna Flannigan,2231 Palomino Road
+894,100065,Christina Daniels,389 Jefferson St.
+895,100066,Scott Gibson,562 Ferndale Road
+896,100067,Zoe Sutherland,18586 Gelding Lane
+897,100068,George Peters,5687 Dekalb Pike
+898,100069,John Smith,528 S. 4th Street
+899,100096,HaroldXCarson,617 Mile High Way
+900,100109,Marcus Weiss,2413 Southbridge Lane
+901,100111,Katherine Durand,1445 Canal Street
+902,100112,Susan Menson,515 Willow Tree Lane
+903,100113,James Abbott,6301 Marsh Road
+904,100114,Jake West,1313 Peachtree Boulevard
+905,100115,Michael Waldmann,34889 Fifth Avenue
+906,100116,Mark Williams,84738 Flatbush Ave
+907,100117,Carol Higgins,815 Osceola Road
+908,100126,Barb Brunner,713 North Ave
+909,100133,Mark Freeman,66 Douglas Street
+910,100134,Peter Johnson,2342 Fremont Drive
+911,100135,Linda Addison,56 Richmond Avenue
+912,100136,Susan Affleck,125 Fifth Avenue
+913,100137,Ben Devine,5 Old West Road
+914,100138,Judy Diaz,10 Millers Close
+915,100143,Adam Richardson,1151 West Walnut Hill
+916,100148,Perry Johnson,11 Southstreet
+917,100149,Jordan Miller,424 Colorado Street
+918,100155,Packaging International,711 S. Madison St.
+919,100158,Larry Landlord,12 5th Avenue
+920,100173,Washington Realty Corporation,4500 Roger Drive
+921,100218,Amanda Winters,
+922,100223,TechTronix Inc.,45 Baker Street
+923,100224,Pear Consulting Services Inc,1925 Century Park East
+924,100248,IDES Tool and Die,1 Main St
+925,100279,Kelly Jameson,1 Mission St.
+926,100358,Third-Party Agent #1,100 Louisiana
+927,100398,RSV10,
+928,200016,State of California,300 First Avenue
+929,200017,State of Illinois,900 Wacker Drive
+930,200018,State of New Jersey,300 Madison Avenue
+931,200019,State of Massachuesetts,500 Delaney Street
+932,200027,State of Georgia,1000 Olympia Drive
+933,200029,BA Union,1015 Catamaran Drive
+934,5000000,Google Inc.,1600 Amphitheatre Parkway
+935,5000001,Licensing Corp,375 Brannan Street
+936,300011,Harry Crump,5 Old West Road
+937,300020,Mobile Mania East Side Store,66 Douglas Street
+938,300030,Fernando Rodriguez,770 West Highland Ave.
+939,BLEVINS,Blevins Consulting,22322 Wayy Dr
+940,CAU301,PGI Truck Lines,Windgap Ave
+941,CAU302,National Trucking,Durand Ave
+942,CAU303,Fast Trucking & Logistics,Spring Street
+943,CAU304,Green Transport,Port Jersey Blvd
+944,CIRCUITS,Circuits Consulting,3223 Williams Way
+945,CSL_0001,Transpacific Shipping Lines,2931 Firestone Boulevard
+946,CSL_8901,Acme Trucking Inc.,1334 West Cornelia Ave.
+947,CSL_8921,Western United Ltd.,173 Brinkerhoff Road
+948,CS_CARR_A,CS_CARR_A,Raffles Ave
+949,CS_CARR_B,CS_CARR_B,Windbreak St
+950,CS_CARR_C,CS_CARR_C,North River Drive
+951,CS_CARR_D,CS_CARR_D,South Park Street
+952,CS_CARR_E,CS_CARR_E,552
+953,CS_CARR_F,CS_CARR_F,331
+954,DOT-CR-01,PGI Truck Lines,Windgap Ave
+955,DOT-CR-02,National Trucking,Durand Avenue
+956,DOT-CR-03,Fast Trucking and Logistics,Spring Street
+957,DOT-CR-04,Green Transport,Port Jersey Blvd
+958,DOT-CR-20,Rail Express â€“ Chicago to LA,
+959,DOWNEY INC,Downey Consulting,23223 Hampro way
+960,EWM_3000,C.E.B. New York,74  Broad Street
+961,A006116835,Chauffeur Services,300 Madison Ave.
+962,RF-CR-02,Dallas Rail Company,2215 S Good Latimer Expy
+963,RF-CR-01,Joe's Trucking Inc.,79 Revere Blvd
+964,RF-CR-BURL,Burlington Rail Inc,2210 S Damen Ave
+965,CEP-CR-02,UPS,1 Durand Ave
+966,OAF-CR-02,SOCAL Shipping Corporation,25 Main Street
+967,OAF-CR-05,ACME Lines,10 Beach Street
+968,OAF-CR-06,Desert Express Lines,355 frst
+969,FM-CR-01,FM-CR-01,Durand Ave
+970,FM-CR-02,FM-CR-02,Spring Street
+971,FM-CR-03,FM-CR-03,Port Jersey Blvd
+972,SU213,SU213 - EWM supplier,
+973,TWA_CR_05,ACME Lines,Beach Street 10
+974,TWA-CR-05,ACME Lines,Beach Street 10
+975,TWA-CR-06,Desert Express Lines,First 355
+976,AF-QF-LAX,Oceanic Airways (US) KK Ltd.,555 North Nash Street
+977,TWA-JL-LAX,Rising Sun Airlines (US) Ltd,6041 W. Imperial Hwy # D
+978,TWA-QF-LAX,Oceanic Airways (USA) KK Ltd,6041 W. Imperial Hwy # D
+979,AF-JL-LAX,Rising Sun Airlines (US) Ltd.,#D 6041 W. Imperial Hwy
+980,WB_CAR01,WB_CAR01,Street: W 9th St; House No: 5000
+981,WB_CAR02,wb_car02,Street: W 4th St; House No: 300
+982,GCL_CAR_01,GCL Carrier,
+983,200021,State of Ohio,300 Buckeye Lane
+984,200026,State of New York,5th Avenue
+985,200028,Albatros Aircrafts,1015 Catamaran Drive
+986,200065,Sus Picious,6 Baker
+987,2316,BRIDGESTONE,3838 Barnes Blvd.
+988,2317,YOKOHAMA,28282 Crenshaw
+989,SU109,SU109,
+990,SU302,Libert Industries / Pennsylvania,1228 Brighton Road
+991,SU303,Vend Inc. / Pennsylvania,2395 Lincoln Highway East
+992,SU304,Supplier Limited / Wisconsin,596 Cameron Street
+993,SU305,Franklin Inc / Wisconsin,625 3rd Street South
+994,SU306,Rossi Industries / Wisconsin,1002 Ann Street
+995,SU307,US Supply / Wisconsin,1021 6th Street
+996,V-01,BSI2011-Vendor-01,25 Main Road
+997,V-02,BSI2011-Vendor-02,2800 South  25th Ave
+998,V-03,BSI2011-Vendor-03,
+999,V-04,BSI2011-Vendor-04,1100 Drexler Boulevard
+1000,V-05,BSI2011-Vendor-05,Freight Avenue
+1001,YHTS_ANA,Analog Devices,
+1002,YHTS_FAI,Fairchild Semiconductor,
+1003,YHTS_MOL,Molex Inc.,
+1004,YHTS_NAT,National Semiconductor,
+1005,YHTS_ONS,ON Semiconductor,
+1006,SU301,AC Company / Ohio,610 North Main Street
+1007,9075,Zillion Technologies,13th main
+1008,9085,LOUIS Corporation,11
+1009,9095,Bettle Inc,171 12th Ave
+1010,9060,ASP CORPORATION,401 123
+1011,9070,Bridge Manufacturing,437 6th Ave
+1012,WGW-001,AC Company/ohio,610 North Main Street
+1013,WGW-002,Liberty Industries / Pennsylvania,1228 Brighton Road
+1014,WGW-003,American Industries / Pennsylvania,2395 Lincoln Highway East
+1015,WGW-004,Eau Clarie Limited / Wisconsin,596 Cameron Street
+1016,WGW-005,Frankline Inc / Wisconsin,625 3rd Street South
+1017,WGW-006,Rossi Industries / Wisconsin,1002 Ann Street
+1018,WGW-007,US Supply / Wisconsin,1021 6th Street
+1019,3030,Air Parts,Washington Street 254
+1020,3031,Air Service,1
+1021,3121,Marx Broths Piping Copmany,301 Hilton Street
+1022,3141,Marx Broths Piping Copmany,301 Hilton Street
+1023,3430,Universal Chemical Stabilizer Co.,1234 Westchester Pike
+1024,5100,Harbinger Online Shops,123 123 122th Street
+1025,5300,Grainger Online Shop,95 South Figueroa Street
+1026,5571,Amazon,85 West Side Ave
+1027,5582,IDES Automotive,1-3 Mainstreet
+1028,5595,IDES SUS Vendor,18-22 Main Street
+1029,5599,VEST Supplier,Crossroad 10-12
+1030,5601,HTO Services and Solutions,125-150 Kennedy Road
+1031,5602,Datalab Computer Applications,100 Priscilla St
+1032,5603,CAFS IT SERVICES,20-55 East Industrial Drive
+1033,5604,KensleyTechnologies,100 Wellington Pike
+1034,6602,Datatrans IT Services,100 Gregory St
+1035,10020,Doug Olson,9999 Hillsdale Ave
+1036,10501,Deborah Davis,18017 South Sayre
+1037,A80082,Vendor_Altpayee,
+1038,INDSUP,Industrial Suppliers,
+1039,A80083,Vendor_Altpayee2,
+1040,ENGSUP,Engineering Suppliers,
+1041,MECHEQSUP,Mechanical Equipment Suppliers,
+1042,A80084,Vendor_Altpayee4,
+1043,A80085,Vendor_Altpayee5,
+1044,VENDOR_A,Pacheco AG,3999 West Chester Pike
+1045,JML-2122,Staples,1729 Judith
+1046,JML-2123,Fry's,8773 Diable
+1047,RLVEND,Rudy's Favorite Vendor,Dallas
+1048,RPPC_1,RPPC_1,
+1049,SAS8383,Steve's Favorite Vendor,100 Main Street
+1050,SE108,Supplier 108 GmBH,
+1051,SL-LA-SP,LA Harbor,
+1052,SL-TOKYOSP,Tokyo Harbor,
+1053,SLOC1,DSL container shipping,
+1054,SLOC2,Trans Speed,6 Dummy Street
+1055,SP-CARA,SP Postal Carrier A,Bolzano street 63
+1056,SP-CARB,SP Postal Carrier B,Piazza Duca D\'Aosta 12
+1057,SU101,Supplier 101 Inc.,2 5th Street
+1058,SU102,Supplier 102 Inc.,1 Mainstree
+1059,SU104,Supplier 104 Inc.,1 Mainstreet
+1060,SU105,Supplier 105 Inc.,
+1061,SU106,SU106,
+1062,SU110,SU110,
+1063,SU111,SU111,
+1064,SU321,C. M Vendor 1,W Quincy Ave
+1065,SU322,C. M Vendor 2,Hampden Ave
+1066,TEST124,test124,402 main street
+1067,TP-MMCARA,Global Transportation,100 Headquarter Drive
+1068,TP-MMCARC,Speedy Transportation Services,Westchester Pike
+1069,TP-VEND1,US Detergent Co.,1000 Cleaner Way
+1070,TP-VEND2,US Chemical - Dallas,200 Industrial Way
+1071,TPA100,3PA100,
+1072,TP_DE_N_01,,
+1073,TP_DE_N_02,,
+1074,TP_DE_S_01,TP EU Supplier 01,
+1075,TP_DE_S_02,TP EU Supplier 02,
+1076,TP_EU_SUP1,TP EU Supplier 1,
+1077,TP_EU_SUP2,TP EU Supplier 02,
+1078,TP_EU_S_01,TSP EU Sea Transportation 01,
+1079,TP_EU_S_02,TP EU Supplier 02,
+1080,US-VEND1,Supplier - One,1000 Industrial Hwy
+1081,US-VEND2,Supplier - Two,1 US Plaza
+1082,VEN-00,Contra Pak,500 Washington Ave
+1083,VENDORA,Life Sciences Supplier,3999 West Chester Pike
+1084,VEN_001,SUPPLIER A,
+1085,YHTS_OSR,Osram,
+1086,100479,2222,35 rue des Oeillets
+1087,PJGSUB1,PJG - Supplier - 1,1800 Madison St
+1088,7011,1. Atlaas Industries,1 Ppg Pl
+1089,7021,Ellweed Crankshaft Group,2 Ppg Pl
+1090,G888,Hon Hai Industries,1725 Technology Dr
+1091,G889,Flextronix Industries,2100 Denise Dr
+1092,10648,MJB Supply Corporation,19000 N. Telegraph Rd
+1093,FARR,RevRec,1300 Pennsylvania Ave
+1094,OSS,Office Supplies Supplier,1902 Westwood Dr
+1095,AGRADSUP,A Grade Supplier,1902 Westwood Dr
+1096,2345,MJB Enterprises,2270 White Oak Circle
+1097,2500,Ancol Corp.,2524 Competition Lane
+1098,3451,Wasserwerke Frankfurt,HauptstraÃŸe 68
+1099,3741,Schwartz Brothers,301 Pine Street
+1100,4250,Washington Realty Corporation,4500 Roger Drive
+1101,IN-IMPORT,Import Vendor,
+1102,5557,VK  Enterprisises,2270 White Oak Circ
+1103,5596,Singapore_IDES_MM_VENDOR,
+1104,5597,IDES_SINGAPORE_XCBL_VENDOR,
+1105,5900,Enigma,12 12 Quality-Street
+1106,8080,E&P Supplier,2345 Concord Pike
+1107,8081,Exploration Vendor,1111 Concord Pike
+1108,DDVENE,Dion Vendor 2,7878 Binley Drive
+1109,CMU102,Contract Manufactureer,Mainstreet
+1110,ACM_TESTV1,ACM Test Vendor,
+1111,100153,Plastic Cap Inc,1110 Western Ave
+1112,100154,Caps Inc,501 S. Washington Ave
+1113,100203,Alan Aguilar,35 Main Street
+1114,100204,Bob Abe,0 - 9999 Plainfield St
+1115,100205,Shirley Anderson,223 Main Street
+1116,100243,Real Estate Trust,0 - 9999 W George St
+1117,CED,CED,
+1118,CKE-28208,Kern's #1 Vendor,1100 Metropolitan Ave
+1119,CMU101,Contract Manufacturer 101 GmBH,1 Mainstreet
+1120,DDVEND,Dion Vendor,1916 Bordeaux Ct
+1121,CEP-CR-03,Panalpina,150 Dave Avenue
+1122,US_VN,US Trading,
+1123,9200,UberTronics,
+1124,GBGU14600,EasyTrans,Business Aviation Centre
+1125,GBGU34200,Music Factory,Omega Park
+1126,GBGU51400,Groovy Supplies,Victoria Road
+1127,GBGU31400,Stylistics,The Causeway
+1128,GBGU35900,HiFi Turnaround,Woolmer Way
+1129,FORN-7000,Centro SÃ£o Paulo,Rua Guararapes 2064
+1130,FORN00-24,Forn Nacional / IRRF pessoa JurÃ­d.,Rua 10
+1131,FORN00-25,Fornecedor EDI BancÃ¡rio 00,Av. Brasil 1000
+1132,FORNBR,Fornecedor Brasil,Rua A 123
+1133,FR-2210,DIVISION 2210,
+1134,JML-1099,1099 Vendor,1099 Elm Street
+1135,NL5410,Leverancier vestiging 5410,
+1136,SCEM_01,DSC  Roberts,Sandstreet 10
+1137,SMIORGAVEN,SMIORGAVEN,100 Ohio Street
+1138,SP-3014,Joe Smith,432 Oak
+1139,SP00-FOR,SAP Brasil - Filial SÃ£o Paulo,Av. Nacoes Unidas 11541
+1140,T-K521B00,Nordspeed GmbH,Von-Arleger-Weg 23
+1141,T-K521B16,Nordspeed GmbH,Von-Arleger-Weg 23
+1142,T-K521B17,Nordspeed GmbH,Von-Arleger-Weg 23
+1143,T-K521B18,Nordspeed GmbH,Von-Arleger-Weg 23
+1144,T-K521B19,Nordspeed GmbH,Von-Arleger-Weg 23
+1145,T-K521B20,Nordspeed GmbH,Von-Arleger-Weg 23
+1146,T-K521B21,Nordspeed GmbH,Von-Arleger-Weg 23
+1147,T-K521B22,Nordspeed GmbH,Von-Arleger-Weg 23
+1148,T-K521B23,Nordspeed GmbH,Von-Arleger-Weg 23
+1149,T-K521B24,Nordspeed GmbH,Von-Arleger-Weg 23
+1150,T-K521B25,Nordspeed GmbH,Von-Arleger-Weg 23
+1151,T-K521B26,Nordspeed GmbH,Von-Arleger-Weg 23
+1152,T-K521B27,Nordspeed GmbH,Von-Arleger-Weg 23
+1153,T-K521B28,Nordspeed GmbH,Von-Arleger-Weg 23
+1154,T-K521B29,Nordspeed GmbH,Von-Arleger-Weg 23
+1155,T-K521B30,Nordspeed GmbH,Von-Arleger-Weg 23
+1156,TRANS00-01,Transportadora Caxias,Rua Guararapes 11
+1157,VEND2820,China Company code 2820,
+1158,VS330,S330,Cristina di Belgioso 165
+1159,VS331,S331,Via De Blasioelgioso 165
+1160,VS332,Postal DC 1 Milano,Cristina di Belgioso 165
+1161,VS333,Postal DC 2 Torino,via Reiss Romoli 44/11
+1162,VS334,Postal DC 3 Arezzo 1,via Michelangelo 4
+1163,VS335,Postal DC 4 Napoli,via Galileo Ferraris 66/M
+1164,ALTEL,ALTEL,33 rue des BÃ©gonias
+1165,DHL,DHL,Zone industrielle paris nord
+1166,FORN00-01,Fornecedor Referencia POA,R Caxias do Sul 10
+1167,FORN00-03,Fornecedor nÃ£o industrial,R Caxias do Sul 1000
+1168,FORN00-04,Paulista Group,Av Brigadeiro Faria Lima 5000
+1169,FORN00-05,Fornecedor Impostos Retidos 00,Av Paulista 3000
+1170,FORN00-06,Fornecedor Impostos retidos II,R do Arouche 56
+1171,FORN00-07,Fornecedor Impostos Retidos III,R da Gloria 133
+1172,FORN00-08,Caxiense Transportes Urbanos LTDA,R Venancio Aires 100
+1173,SP03-FOR,Centro 7040,Av do Contorno 4900
+1174,SP02-FOR,Centro 7030,R Morais E Silva 321
+1175,SP01-FOR,Centro 7020,R BarÃ£o de LadÃ¡rio 4333
+1176,FORN00-30,Fornecedor SÃ£o Paulo,Av do Estado 700
+1177,FORN00-31,Cia Paranaense LTDA,Al Doutor Carlos de Carvalho 1367
+1178,FORN00-32,Fornecedor ExceÃ§Ã£o Ltda,Al Gabriel Monteiro da Silva 800
+1179,FORN00-33,Fornecedor ExceÃ§Ã£o II,R GetÃºlio Vargas 1300
+1180,FORN00-34,Mineirinho Ltda,Av do Contorno 2100
+1181,FORN00-26,Fornecedor WT - Acumulado,Av. Pacaembu 1200
+1182,PLANT4300,Plant 4300,
+1183,1007,Bike Retail & Co.,Hauptstrasse 5
+1184,1010,Sunny Electronics GmbH,Rosenstr. 77
+1185,1940,Brain Associates,243 Querin Blvd
+1186,1991,Schneider AG Deutschland,Mainzerlandstr. 1899
+1187,3200,Stables Office Supply,600 E. Las Colinas Blvd
+1188,3500,Electronic Funds Transfer,1098 Maple Avenue
+1189,3510,1099 Vendor,1099 Elm Street
+1190,4711,Cinsa GmbH & Co. KG,Tettnager Strasse 34
+1191,9004,Carole B,Lancaster 75
+1192,9005,Douglas Olson,George Washington Street 78
+1193,10000,IDES AG,Lyoner Stern 23
+1194,14600,KB Industries,75 Ashby Road West
+1195,49998,Plant EWM US Multi tenant 1,
+1196,100213,ABC real estate inc,
+1197,CPB1000100,Miller Fred,46 Greenwich Ave
+1198,CPB1000130,Jenny Light,366 Third Ave
+1199,CPB1000200,DC Megadrink,9 Great Jones Street
+1200,CPF1,Plant Oxnard,1000 American Way
+1201,CPF2,Plant Park City,1200 Telegraph Road
+1202,CPF3,DC Henderson,1712 South Avenue
+1203,CPF4,DC Elizabethtown,569 Georgia Road
+1204,100478,Real Estate Trust,80 rue des Damiers
+1205,AMEND01,Hinz und Kunz,haupstrasse 111
+1206,BEL-HEL,BELL HELMETS,45 BELL HELMETS HOUSE
+1207,TIRE-BRI,BRIDGESTONE,1 BRIDGESTONE HOUSE NO1
+1208,ENGINE-MER,MERCEDES-AMG ENGINE,23 AMG HEADQUARTERS CALIFORNIA
+1209,MARUTI,MARUTI LTD,MARUTI HOUSE CHANDIGARH
+1210,DENALI,DENALI,DENALI HOUSE
+1211,KIA MOTORS,KIA MOTOS,KIA MOTORS HOUSE
+1212,SFK11,SFK SUPPLIERS LLC,SFK HOUSE
+1213,100628,Stefan Meyer,UniversitÃ¤tsstraÃŸe 9
+1214,200070,TAKO,234
+1215,200187,TESLA SOLAR POWER,TESLA HOUSE LA 245
+1216,1033,Walldorf Grosshandel,Abrechnungsstr. 11
+1217,T-K521A00,Humpert u. TÃ¶chter GmbH,Mosbachstr. 190
+1218,T-K521A01,Humpert u. TÃ¶chter GmbH,Mosbachstr. 190
+1219,T-K521A02,Humpert u. TÃ¶chter GmbH,Mosbachstr. 190
+1220,T-K521A03,Humpert u. TÃ¶chter GmbH,Mosbachstr. 190
+1221,T-K521A04,Humpert u. TÃ¶chter GmbH,Mosbachstr. 190
+1222,T-K521A05,Humpert u. TÃ¶chter GmbH,Mosbachstr. 190
+1223,T-K521A06,Humpert u. TÃ¶chter GmbH,Mosbachstr. 190
+1224,T-K521A07,Humpert u. TÃ¶chter GmbH,Mosbachstr. 190
+1225,T-K521A08,Humpert u. TÃ¶chter GmbH,Mosbachstr. 190
+1226,T-K521A09,Humpert u. TÃ¶chter GmbH,Mosbachstr. 190
+1227,T-K521A10,Humpert u. TÃ¶chter GmbH,Mosbachstr. 190
+1228,T-K521A11,Humpert u. TÃ¶chter GmbH,Mosbachstr. 190
+1229,T-K521A12,Humpert u. TÃ¶chter GmbH,Mosbachstr. 190
+1230,T-K521A13,Humpert u. TÃ¶chter GmbH,Mosbachstr. 190
+1231,T-K521A14,Humpert u. TÃ¶chter GmbH,Mosbachstr. 190
+1232,T-K521A15,Humpert u. TÃ¶chter GmbH,Mosbachstr. 190
+1233,T-K521A16,Humpert u. TÃ¶chter GmbH,Mosbachstr. 190
+1234,T-K521A17,Humpert u. TÃ¶chter GmbH,Mosbachstr. 190
+1235,T-K521A18,Humpert u. TÃ¶chter GmbH,Mosbachstr. 190
+1236,T-K521A19,Humpert u. TÃ¶chter GmbH,Mosbachstr. 190
+1237,T-K521A20,Humpert u. TÃ¶chter GmbH,Mosbachstr. 190
+1238,T-K521A21,Humpert u. TÃ¶chter GmbH,Mosbachstr. 190
+1239,T-K521A22,Humpert u. TÃ¶chter GmbH,Mosbachstr. 190
+1240,T-K521A23,Humpert u. TÃ¶chter GmbH,Mosbachstr. 190
+1241,T-K521A24,Humpert u. TÃ¶chter GmbH,Mosbachstr. 190
+1242,T-K521A25,Humpert u. TÃ¶chter GmbH,Mosbachstr. 190
+1243,T-K521A26,Humpert u. TÃ¶chter GmbH,Mosbachstr. 190
+1244,T-K521A27,Humpert u. TÃ¶chter GmbH,Mosbachstr. 190
+1245,T-K521A28,Humpert u. TÃ¶chter GmbH,Mosbachstr. 190
+1246,T-K521A29,Humpert u. TÃ¶chter GmbH,Mosbachstr. 190
+1247,T-K521A30,Humpert u. TÃ¶chter GmbH,Mosbachstr. 190
+1248,T-K521B01,Nordspeed GmbH,Von-Arleger-Weg 23
+1249,T-K521B02,Nordspeed GmbH,Von-Arleger-Weg 23
+1250,T-K521B03,Nordspeed GmbH,Von-Arleger-Weg 23
+1251,T-K521B04,Nordspeed GmbH,Von-Arleger-Weg 23
+1252,T-K521B05,Nordspeed GmbH,Von-Arleger-Weg 23
+1253,T-K521B06,Nordspeed GmbH,Von-Arleger-Weg 23
+1254,T-K521B07,Nordspeed GmbH,Von-Arleger-Weg 23
+1255,T-K521B08,Nordspeed GmbH,Von-Arleger-Weg 23
+1256,T-K521B09,Nordspeed GmbH,Von-Arleger-Weg 23
+1257,T-K521B10,Nordspeed GmbH,Von-Arleger-Weg 23
+1258,T-K521B11,Nordspeed GmbH,Von-Arleger-Weg 23
+1259,T-K521B12,Nordspeed GmbH,Von-Arleger-Weg 23
+1260,T-K521B13,Nordspeed GmbH,Von-Arleger-Weg 23
+1261,T-K521B14,Nordspeed GmbH,Von-Arleger-Weg 23
+1262,T-K521B15,Nordspeed GmbH,Von-Arleger-Weg 23
+1263,T-K521C12,Jotachi Deutschland AG,Am Triangel 10
+1264,T-K521C13,Jotachi Deutschland AG,Am Triangel 10
+1265,T-K521C14,Jotachi Deutschland AG,Am Triangel 10
+1266,T-K521C15,Jotachi Deutschland AG,Am Triangel 10
+1267,T-K521C16,Jotachi Deutschland AG,Am Triangel 10
+1268,T-K521C17,Jotachi Deutschland AG,Am Triangel 10
+1269,T-K521C18,Jotachi Deutschland AG,Am Triangel 10
+1270,T-K521D00,Kreutzschmi,Calderonweg 250
+1271,T-K521D01,Kreutzschmi,Calderonweg 250
+1272,T-K521D02,Kreutzschmi,Calderonweg 250
+1273,T-K521D03,Kreutzschmi,Calderonweg 250
+1274,T-K521D04,Kreutzschmi,Calderonweg 250
+1275,T-K521D05,Kreutzschmi,Calderonweg 250
+1276,T-K521D06,Kreutzschmi,Calderonweg 250
+1277,T-K521D07,Kreutzschmi,Calderonweg 250
+1278,T-K521D08,Kreutzschmi,Calderonweg 250
+1279,T-K521D09,Kreutzschmi,Calderonweg 250
+1280,T-K521D10,Kreutzschmi,Calderonweg 250
+1281,T-K521D11,Kreutzschmi,Calderonweg 250
+1282,T-K521D12,Kreutzschmi,Calderonweg 250
+1283,T-K521D13,Kreutzschmi,Calderonweg 250
+1284,T-K521D14,Kreutzschmi,Calderonweg 250
+1285,T-K521D15,Kreutzschmi,Calderonweg 250
+1286,T-K521D16,Kreutzschmi,Calderonweg 250
+1287,T-K521D17,Kreutzschmi,Calderonweg 250
+1288,T-K521D18,Kreutzschmi,Calderonweg 250
+1289,T-K521D19,Kreutzschmi,Calderonweg 250
+1290,T-K521D20,Kreutzschmi,Calderonweg 250
+1291,T-K521D21,Kreutzschmi,Calderonweg 250
+1292,T-K521D22,Kreutzschmi,Calderonweg 250
+1293,T-K521D23,Kreutzschmi,Calderonweg 250
+1294,T-K521D24,Kreutzschmi,Calderonweg 250
+1295,T-K521D25,Kreutzschmi,Calderonweg 250
+1296,T-K521D26,Kreutzschmi,Calderonweg 250
+1297,T-K521D27,Kreutzschmi,Calderonweg 250
+1298,T-K521D28,Kreutzschmi,Calderonweg 250
+1299,T-K521D29,Kreutzschmi,Calderonweg 250
+1300,T-K521D30,Kreutzschmi,Calderonweg 250
+1301,T-K521E00,Grosshandel-Baden,Calderonweg 250
+1302,T-K521E01,Grosshandel-Baden,Calderonweg 250
+1303,T-K521E02,Grosshandel-Baden,Calderonweg 250
+1304,T-K521E03,Grosshandel-Baden,Calderonweg 250
+1305,T-K521E04,Grosshandel-Baden,Calderonweg 250
+1306,T-K521E05,Grosshandel-Baden,Calderonweg 250
+1307,T-K521E06,Grosshandel-Baden,Calderonweg 250
+1308,T-K521E07,Grosshandel-Baden,Calderonweg 250
+1309,T-K521E08,Grosshandel-Baden,Calderonweg 250
+1310,T-K521E09,Grosshandel-Baden,Calderonweg 250
+1311,T-K521E10,Grosshandel-Baden,Calderonweg 250
+1312,T-K521E11,Grosshandel-Baden,Calderonweg 250
+1313,T-K521E12,Grosshandel-Baden,Calderonweg 250
+1314,T-K521E13,Grosshandel-Baden,Calderonweg 250
+1315,T-K521E14,Grosshandel-Baden,Calderonweg 250
+1316,T-K521E15,Grosshandel-Baden,Calderonweg 250
+1317,T-K521E16,Grosshandel-Baden,Calderonweg 250
+1318,T-K521E17,Grosshandel-Baden,Calderonweg 250
+1319,T-K521E18,Grosshandel-Baden,Calderonweg 250
+1320,T-K521E19,Grosshandel-Baden,Calderonweg 250
+1321,T-K521E20,Grosshandel-Baden,Calderonweg 250
+1322,T-K521E21,Grosshandel-Baden,Calderonweg 250
+1323,T-K521E22,Grosshandel-Baden,Calderonweg 250
+1324,T-K521E23,Grosshandel-Baden,Calderonweg 250
+1325,T-K521E24,Grosshandel-Baden,Calderonweg 250
+1326,T-K521E25,Grosshandel-Baden,Calderonweg 250
+1327,T-K521E26,Grosshandel-Baden,Calderonweg 250
+1328,T-K521E27,Grosshandel-Baden,Calderonweg 250
+1329,T-K521E28,Grosshandel-Baden,Calderonweg 250
+1330,T-K521E29,Grosshandel-Baden,Calderonweg 250
+1331,T-K521E30,Grosshandel-Baden,Calderonweg 250
+1332,FORN00-20,Fornecedor Nacional / Bradesco,Rua 1 1
+1333,FORN00-21,Fornecedor Nacional / Banco Itau,Rua 2 2
+1334,FORN00-22,Fornecedor Nacional / Banco Itau,Rua 3 3
+1335,GPCO,GpCo,
+1336,IS_VEND7,Port Authority of NY & NJ,07 Tyler Street
+1337,SENA01,Caja Colombiana de Subsidio Familia,Av. 68 No. 64-98
+1338,SL308,Proveedor Internacional Inbound 1,1 13 de Septiembre
+1339,SL309,Proveedor Int Inbound 2,1 El Moralito
+1340,T-K521C00,Jotachi Deutschland AG,Am Triangel 10
+1341,T-K521C01,Jotachi Deutschland AG,Am Triangel 10
+1342,T-K521C02,Jotachi Deutschland AG,Am Triangel 10
+1343,T-K521C03,Jotachi Deutschland AG,Am Triangel 10
+1344,T-K521C04,Jotachi Deutschland AG,Am Triangel 10
+1345,T-K521C05,Jotachi Deutschland AG,Am Triangel 10
+1346,T-K521C06,Jotachi Deutschland AG,Am Triangel 10
+1347,T-K521C07,Jotachi Deutschland AG,Am Triangel 10
+1348,T-K521C08,Jotachi Deutschland AG,Am Triangel 10
+1349,T-K521C09,Jotachi Deutschland AG,Am Triangel 10
+1350,T-K521C10,Jotachi Deutschland AG,Am Triangel 10
+1351,T-K521C11,Jotachi Deutschland AG,Am Triangel 10
+1352,T-K521C19,Jotachi Deutschland AG,Am Triangel 10
+1353,T-K521C20,Jotachi Deutschland AG,Am Triangel 10
+1354,T-K521C21,Jotachi Deutschland AG,Am Triangel 10
+1355,T-K521C22,Jotachi Deutschland AG,Am Triangel 10
+1356,T-K521C23,Jotachi Deutschland AG,Am Triangel 10
+1357,T-K521C24,Jotachi Deutschland AG,Am Triangel 10
+1358,T-K521C25,Jotachi Deutschland AG,Am Triangel 10
+1359,T-K521C26,Jotachi Deutschland AG,Am Triangel 10
+1360,T-K521C27,Jotachi Deutschland AG,Am Triangel 10
+1361,T-K521C28,Jotachi Deutschland AG,Am Triangel 10
+1362,T-K521C29,Jotachi Deutschland AG,Am Triangel 10
+1363,T-K521C30,Jotachi Deutschland AG,Am Triangel 10
+1364,TPLM410-11,Computer Box,Am Weiher 17
+1365,TPLM410-12,Computer Box,Am Weiher 17
+1366,TPLM410-13,Computer Box,Am Weiher 17
+1367,VEN-99,Contra Pak,500 Washington Ave
+1368,MMMFR01,Mike,
+1369,1013,Real Estate Agency Hamburg,Zickzackweg 2
+1370,1059,Express Ship Carrier,456 Street
+1371,3511,PA Electronics,Winston Pike 300
+1372,5000,Aspect Online,123 123 Fleetstreet
+1373,5575,M&E Inc.,38 Machinery Drive
+1374,5800,IBM,5 Fifth Ave
+1375,10083,Karl Fischer Motorenwerke,Austrasse
+1376,10090,Pneumatici Italia,Viale F. Testi 250
+1377,50010,ICYOU Portugal S.A.,Da Santos Torre 20
+1378,50020,ICYOU LTD.,Eastbridge Park 234
+1379,60008,Food Transport Inc.,1454 Main Street
+1380,60009,Smith & Partners,1520 Washington Avenue
+1381,60010,Road Trans Inc.,453 South Boulevard
+1382,100128,Global Business Properties,Potsdamer Platz 11
+1383,300040,Forrest,66 Douglas Street
+1384,300050,Rosa,66 Douglas Street
+1385,200035,UAW,1300 State Street
+1386,AGENCY00,Real Estate Agency Hamburg,Main Street 179
+1387,AGENCY01,Real Estate Agency Hamburg,Main Street 179
+1388,AGENCY02,Real Estate Agency Hamburg,Main Street 179
+1389,AGENCY03,Real Estate Agency Hamburg,Main Street 179
+1390,AGENCY04,Real Estate Agency Hamburg,Main Street 179
+1391,AGENCY05,Real Estate Agency Hamburg,Main Street 179
+1392,AGENCY06,Real Estate Agency Hamburg,Main Street 179
+1393,AGENCY07,Real Estate Agency Hamburg,Main Street 179
+1394,AGENCY08,Real Estate Agency Hamburg,Main Street 179
+1395,AGENCY09,Real Estate Agency Hamburg,Main Street 179
+1396,AGENCY11,Real Estate Agency Hamburg,Main Street 179
+1397,AGENCY12,Real Estate Agency Hamburg,Main Street 179
+1398,AGENCY13,Real Estate Agency Hamburg,Main Street 179
+1399,AGENCY14,Real Estate Agency Hamburg,Main Street 179
+1400,AGENCY15,Real Estate Agency Hamburg,Main Street 179
+1401,AGENCY16,Real Estate Agency Hamburg,Main Street 179
+1402,AGENCY17,Real Estate Agency Hamburg,Main Street 179
+1403,AGENCY18,Real Estate Agency Hamburg,Main Street 179
+1404,AGENCY19,Real Estate Agency Hamburg,Main Street 179
+1405,AGENCY20,Real Estate Agency Hamburg,Main Street 179
+1406,AGENCY21,Real Estate Agency Hamburg,Main Street 179
+1407,AGENCY22,Real Estate Agency Hamburg,Main Street 179
+1408,AGENCY23,Real Estate Agency Hamburg,Main Street 179
+1409,AGENCY24,Real Estate Agency Hamburg,Main Street 179
+1410,AGENCY25,Real Estate Agency Hamburg,Main Street 179
+1411,AGENCY26,Real Estate Agency Hamburg,Main Street 179
+1412,AGENCY27,Real Estate Agency Hamburg,Main Street 179
+1413,AGENCY28,Real Estate Agency Hamburg,Main Street 179
+1414,AGENCY29,Real Estate Agency Hamburg,Main Street 179
+1415,AGENCY30,Real Estate Agency Hamburg,Main Street 179
+1416,AGENCY31,Real Estate Agency Hamburg,Main Street 179
+1417,ALEGHENY,Manufacturer Alegheny Ludlum Steel,PPG Plaza
+1418,DELTAFI00,DeltaFI & Co,Am Fluss-Delta 25
+1419,ESP_VEN_01,ESP TSP,
+1420,ESP_VEN_02,ESP TSP,
+1421,ESP_VEN_03,ESP TSP,
+1422,ESP_VEN_04,ESP TSP,
+1423,ESP_VEN_05,ESP TSP,
+1424,ESP_VEN_06,ESP TSP,
+1425,ESP_VEN_07,ESP TSP,
+1426,AGENCY10,Real Estate Agency Hamburg,Main Street 179
+1427,DRDO,DRDO Military Supplies,16 DRDO House
+1428,HYUNDAI88,Hyundai Motors USA,Hyundai House
+1429,APOLLO,APOLLO TYRES LA,APOLLO HOUSE
+1430,MRF TYRES,MRF TYRES LA,MRF HOUSE
+1431,SB91,SAINTGOBAIN,HOUSE NO24
+1432,BRISTOL,BRISTOL LTD,BRISTOL HOUSE
+1433,DHL INDIA,DHL LOGISTICS,1012 KURLA APT
+1434,200335,Daff,77
+1435,T-K515B01,Abbot Supplies Inc.,Mainstr. 69
+1436,T-K515B02,Abbot Supplies Inc.,Mainstr. 69
+1437,T-K515B03,Abbot Supplies Inc.,Mainstr. 69
+1438,T-K515B04,Abbot Supplies Inc.,Mainstr. 69
+1439,T-K515B05,Abbot Supplies Inc.,Mainstr. 69
+1440,T-K515B06,Abbot Supplies Inc.,Mainstr. 69
+1441,T-K515B07,Abbot Supplies Inc.,Mainstr. 69
+1442,T-K515B08,Abbot Supplies Inc.,Mainstr. 69
+1443,T-K515B09,Abbot Supplies Inc.,Mainstr. 69
+1444,T-K515B10,Abbot Supplies Inc.,Mainstr. 69
+1445,T-K515B11,Abbot Supplies Inc.,Mainstr. 69
+1446,T-K515B12,Abbot Supplies Inc.,Mainstr. 69
+1447,T-K515B13,Abbot Supplies Inc.,Mainstr. 69
+1448,T-K515B14,Abbot Supplies Inc.,Mainstr. 69
+1449,T-K515B15,Abbot Supplies Inc.,Mainstr. 69
+1450,T-K515B16,Abbot Supplies Inc.,Mainstr. 69
+1451,T-K515B17,Abbot Supplies Inc.,Mainstr. 69
+1452,T-K515B18,Abbot Supplies Inc.,Mainstr. 69
+1453,T-K515B19,Abbot Supplies Inc.,Mainstr. 69
+1454,T-K515B20,Abbot Supplies Inc.,Mainstr. 69
+1455,T-K515B21,Abbot Supplies Inc.,Mainstr. 69
+1456,T-K515B22,Abbot Supplies Inc.,Mainstr. 69
+1457,T-K515B23,Abbot Supplies Inc.,Mainstr. 69
+1458,T-K515B24,Abbot Supplies Inc.,Mainstr. 69
+1459,T-K515B25,Abbot Supplies Inc.,Mainstr. 69
+1460,T-K515B26,Abbot Supplies Inc.,Mainstr. 69
+1461,T-K515B27,Abbot Supplies Inc.,Mainstr. 69
+1462,T-K515B28,Abbot Supplies Inc.,Mainstr. 69
+1463,T-K515B29,Abbot Supplies Inc.,Mainstr. 69
+1464,T-K515B30,Abbot Supplies Inc.,Mainstr. 69
+1465,T-K515D01,Electronic Components Distributor,1082 Tower Lane
+1466,T-K515D02,Electronic Components Distributor,1082 Tower Lane
+1467,T-K515D03,Electronic Components Distributor,1082 Tower Lane
+1468,T-K515D04,Electronic Components Distributor,1082 Tower Lane
+1469,T-K515D05,Electronic Components Distributor,1082 Tower Lane
+1470,T-K515D06,Electronic Components Distributor,1082 Tower Lane
+1471,T-K515D11,Electronic Components Distributor,1082 Tower Lane
+1472,T-K515D12,Electronic Components Distributor,1082 Tower Lane
+1473,T-K515D13,Electronic Components Distributor,1082 Tower Lane
+1474,T-K515D14,Electronic Components Distributor,1082 Tower Lane
+1475,T-K515D15,Electronic Components Distributor,1082 Tower Lane
+1476,T-K515D16,Electronic Components Distributor,1082 Tower Lane
+1477,T-K515D17,Electronic Components Distributor,1082 Tower Lane
+1478,T-K515D18,Electronic Components Distributor,1082 Tower Lane
+1479,T-K515D19,Electronic Components Distributor,1082 Tower Lane
+1480,T-K515D20,Electronic Components Distributor,1082 Tower Lane
+1481,T-K515D21,Electronic Components Distributor,1082 Tower Lane
+1482,T-K515D22,Electronic Components Distributor,1082 Tower Lane
+1483,T-K515D23,Electronic Components Distributor,1082 Tower Lane
+1484,T-K515D24,Electronic Components Distributor,1082 Tower Lane
+1485,T-K515D25,Electronic Components Distributor,1082 Tower Lane
+1486,T-K515D26,Electronic Components Distributor,1082 Tower Lane
+1487,T-K515D27,Electronic Components Distributor,1082 Tower Lane
+1488,T-K515D28,Electronic Components Distributor,1082 Tower Lane
+1489,TPLM410-00,Computer Box,Am Weiher 17
+1490,TPLM410-01,Computer Box,Am Weiher 17
+1491,TPLM410-02,Computer Box,Am Weiher 17
+1492,TPLM410-03,Computer Box,Am Weiher 17
+1493,TPLM410-04,Computer Box,Am Weiher 17
+1494,TPLM410-05,Computer Box,Am Weiher 17
+1495,TPLM410-06,Computer Box,Am Weiher 17
+1496,TPLM410-07,Computer Box,Am Weiher 17
+1497,TPLM410-08,Computer Box,Am Weiher 17
+1498,TPLM410-09,Computer Box,Am Weiher 17
+1499,TPLM410-10,Computer Box,Am Weiher 17
+1500,TPLM410-14,Computer Box,Am Weiher 17
+1501,TPLM410-15,Computer Box,Am Weiher 17
+1502,TPLM410-16,Computer Box,Am Weiher 17
+1503,TPLM410-17,Computer Box,Am Weiher 17
+1504,TPLM410-18,Computer Box,Am Weiher 17
+1505,TPLM410-19,Computer Box,Am Weiher 17
+1506,TPLM410-20,Computer Box,Am Weiher 17
+1507,TPLM410-21,Computer Box,Am Weiher 17
+1508,TPLM410-22,Computer Box,Am Weiher 17
+1509,TPLM410-23,Computer Box,Am Weiher 17
+1510,TPLM410-24,Computer Box,Am Weiher 17
+1511,TPLM410-25,Computer Box,Am Weiher 17
+1512,TPLM410-26,Computer Box,Am Weiher 17
+1513,TPLM410-27,Computer Box,Am Weiher 17
+1514,TPLM410-28,Computer Box,Am Weiher 17
+1515,TPLM410-29,Computer Box,Am Weiher 17
+1516,TPLM410-30,Computer Box,Am Weiher 17
+1517,TPLM415-00,Electronic Company,Am See 17
+1518,TPLM415-01,Electronic Company,Am See 17
+1519,TPLM415-02,Electronic Company,Am See 17
+1520,TPLM415-03,Electronic Company,Am See 17
+1521,TPLM415-04,Electronic Company,Am See 17
+1522,TPLM415-05,Electronic Company,Am See 17
+1523,TPLM415-06,Electronic Company,Am See 17
+1524,TPLM415-07,Electronic Company,Am See 17
+1525,TPLM415-08,Electronic Company,Am See 17
+1526,TPLM415-09,Electronic Company,Am See 17
+1527,TPLM415-10,Electronic Company,Am See 17
+1528,TPLM415-11,Electronic Company,Am See 17
+1529,TPLM415-12,Electronic Company,Am See 17
+1530,TPLM415-13,Electronic Company,Am See 17
+1531,TPLM415-14,Electronic Company,Am See 17
+1532,TPLM415-15,Electronic Company,Am See 17
+1533,TPLM415-16,Electronic Company,Am See 17
+1534,TPLM415-17,Electronic Company,Am See 17
+1535,TPLM415-18,Electronic Company,Am See 17
+1536,TPLM415-19,Electronic Company,Am See 17
+1537,TPLM415-20,Electronic Company,Am See 17
+1538,TPLM415-21,Electronic Company,Am See 17
+1539,TPLM415-22,Electronic Company,Am See 17
+1540,TPLM415-23,Electronic Company,Am See 17
+1541,TPLM415-24,Electronic Company,Am See 17
+1542,TPLM415-25,Electronic Company,Am See 17
+1543,TPLM415-26,Electronic Company,Am See 17
+1544,TPLM415-27,Electronic Company,Am See 17
+1545,TPLM415-28,Electronic Company,Am See 17
+1546,TPLM415-29,Electronic Company,Am See 17
+1547,TPLM415-30,Electronic Company,Am See 17
+1548,SRV-3,ISG Innovative Services GmbH,IndustriestraÃŸe 16
+1549,T-K500D10,BÃ¼rohandel Leifritz GmbH Gr.10,MittermaierstraÃŸe 112
+1550,T-K500D11,BÃ¼rohandel Leifritz GmbH Gr.11,MittermaierstraÃŸe 112
+1551,T-K500D12,BÃ¼rohandel Leifritz GmbH Gr.12,MittermaierstraÃŸe 112
+1552,T-K500D13,BÃ¼rohandel Leifritz GmbH Gr.13,MittermaierstraÃŸe 112
+1553,T-K500D14,BÃ¼rohandel Leifritz GmbH Gr.14,MittermaierstraÃŸe 112
+1554,T-K515A01,Sapsota Company Limited,Industriepark 48
+1555,T-K515A02,Sapsota Company Limited,Industriepark 48
+1556,T-K515A03,Sapsota Company Limited,Industriepark 48
+1557,T-K515A04,Sapsota Company Limited,Industriepark 48
+1558,T-K515A05,Sapsota Company Limited,Industriepark 48
+1559,T-K515A06,Sapsota Company Limited,Industriepark 48
+1560,T-K515A07,Sapsota Company Limited,Industriepark 48
+1561,T-K515A08,Sapsota Company Limited,Industriepark 48
+1562,T-K515A09,Sapsota Company Limited,Industriepark 48
+1563,T-K515A10,Sapsota Company Limited,Industriepark 48
+1564,T-K515A11,Sapsota Company Limited,Industriepark 48
+1565,T-K515A12,Sapsota Company Limited,Industriepark 48
+1566,T-K515A13,Sapsota Company Limited,Industriepark 48
+1567,T-K515A14,Sapsota Company Limited,Industriepark 48
+1568,T-K515A15,Sapsota Company Limited,Industriepark 48
+1569,T-K515A16,Sapsota Company Limited,Industriepark 48
+1570,T-K515A17,Sapsota Company Limited,Industriepark 48
+1571,T-K515A18,Sapsota Company Limited,Industriepark 48
+1572,T-K515A19,Sapsota Company Limited,Industriepark 48
+1573,T-K515A20,Sapsota Company Limited,Industriepark 48
+1574,T-K515A21,Sapsota Company Limited,Industriepark 48
+1575,T-K515A22,Sapsota Company Limited,Industriepark 48
+1576,T-K515A23,Sapsota Company Limited,Industriepark 48
+1577,T-K515A24,Sapsota Company Limited,Industriepark 48
+1578,T-K515A25,Sapsota Company Limited,Industriepark 48
+1579,T-K515A26,Sapsota Company Limited,Industriepark 48
+1580,T-K515A27,Sapsota Company Limited,Industriepark 48
+1581,T-K515A28,Sapsota Company Limited,Industriepark 48
+1582,T-K515A29,Sapsota Company Limited,Industriepark 48
+1583,T-K515A30,Sapsota Company Limited,Industriepark 48
+1584,T-K515C01,Spedition Gruber,Industriestr. 34
+1585,T-K515C02,Spedition Gruber,Industriestr. 34
+1586,T-K515C03,Spedition Gruber,Industriestr. 34
+1587,T-K515C04,Spedition Gruber,Industriestr. 34
+1588,T-K515C05,Spedition Gruber,Industriestr. 34
+1589,T-K515C06,Spedition Gruber,Industriestr. 34
+1590,T-K515C07,Spedition Gruber,Industriestr. 34
+1591,T-K515C08,Spedition Gruber,Industriestr. 34
+1592,T-K515C09,Spedition Gruber,Industriestr. 34
+1593,T-K515C10,Spedition Gruber,Industriestr. 34
+1594,T-K515C11,Spedition Gruber,Industriestr. 34
+1595,T-K515C12,Spedition Gruber,Industriestr. 34
+1596,T-K515C13,Spedition Gruber,Industriestr. 34
+1597,T-K515C14,Spedition Gruber,Industriestr. 34
+1598,T-K515C15,Spedition Gruber,Industriestr. 34
+1599,T-K515C16,Spedition Gruber,Industriestr. 34
+1600,T-K515C17,Spedition Gruber,Industriestr. 34
+1601,T-K515C19,Spedition Gruber,Industriestr. 34
+1602,T-K515C20,Spedition Gruber,Industriestr. 34
+1603,T-K515C21,Spedition Gruber,Industriestr. 34
+1604,T-K515C22,Spedition Gruber,Industriestr. 34
+1605,T-K515C23,Spedition Gruber,Industriestr. 34
+1606,T-K515C24,Spedition Gruber,Industriestr. 34
+1607,T-K515C25,Spedition Gruber,Industriestr. 34
+1608,T-K515C26,Spedition Gruber,Industriestr. 34
+1609,T-K515C27,Spedition Gruber,Industriestr. 34
+1610,T-K515C28,Spedition Gruber,Industriestr. 34
+1611,T-K515C29,Spedition Gruber,Industriestr. 34
+1612,T-K515C30,Spedition Gruber,Industriestr. 34
+1613,T-K515D07,Electronic Components Distributor,1082 Tower Lane
+1614,T-K515D08,Electronic Components Distributor,1082 Tower Lane
+1615,T-K515D09,Electronic Components Distributor,1082 Tower Lane
+1616,T-K515D10,Electronic Components Distributor,1082 Tower Lane
+1617,T-K515D29,Electronic Components Distributor,1082 Tower Lane
+1618,T-K515D30,Electronic Components Distributor,1082 Tower Lane
+1619,T-K540A01,Allround Services G,Am Rotenberg 9
+1620,T-K540A02,Allround Services G,Am Rotenberg 9
+1621,T-K540A03,Allround Services G,Am Rotenberg 9
+1622,T-K540A04,Allround Services G,Am Rotenberg 9
+1623,T-K540A05,Allround Services G,Am Rotenberg 9
+1624,T-K540A06,Allround Services G,Am Rotenberg 9
+1625,T-K540A07,Allround Services G,Am Rotenberg 9
+1626,T-K540A08,Allround Services G,Am Rotenberg 9
+1627,T-K540A09,Allround Services G,Am Rotenberg 9
+1628,T-K540A10,Allround Services G,Am Rotenberg 9
+1629,T-K540A11,Allround Services G,Am Rotenberg 9
+1630,T-K540A12,Allround Services G,Am Rotenberg 9
+1631,T-K540A13,Allround Services G,Am Rotenberg 9
+1632,T-K540A14,Allround Services G,Am Rotenberg 9
+1633,T-K540A15,Allround Services G,Am Rotenberg 9
+1634,T-K540A16,Allround Services G,Am Rotenberg 9
+1635,T-K540A17,Allround Services G,Am Rotenberg 9
+1636,T-K540A18,Allround Services G,Am Rotenberg 9
+1637,T-K540A19,Allround Services G,Am Rotenberg 9
+1638,T-K540A20,Allround Services G,Am Rotenberg 9
+1639,T-K540B00,ISG Innovative Services GmbH,Industriestrasse 16
+1640,T-K540B01,ISG Innovative Services GmbH,Industriestr. 16
+1641,T-K540B02,ISG Innovative Services GmbH,Industriestr. 16
+1642,T-K540B03,ISG Innovative Services GmbH,Industriestr. 16
+1643,T-K540B04,ISG Innovative Services GmbH,Industriestr. 16
+1644,T-K540B05,ISG Innovative Services GmbH,Industriestr. 16
+1645,T-K540B06,ISG Innovative Services GmbH,Industriestr. 16
+1646,T-K540B07,ISG Innovative Services GmbH,Industriestr. 16
+1647,T-K540B08,ISG Innovative Services GmbH,Industriestr. 16
+1648,T-K540B09,ISG Innovative Services GmbH,Industriestr. 16
+1649,T-K540B10,ISG Innovative Services GmbH,Industriestr. 16
+1650,T-K540B11,ISG Innovative Services GmbH,Industriestr. 16
+1651,T-K540B12,ISG Innovative Services GmbH,Industriestr. 16
+1652,T-K540B13,ISG Innovative Services GmbH,Industriestr. 16
+1653,T-K540B14,ISG Innovative Services GmbH,Industriestr. 16
+1654,T-K540B15,ISG Innovative Services GmbH,Industriestr. 16
+1655,T-K540B16,ISG Innovative Services GmbH,Industriestr. 16
+1656,T-K540B17,ISG Innovative Services GmbH,Industriestr. 16
+1657,T-K540B18,ISG Innovative Services GmbH,Industriestr. 16
+1658,T-K540B20,ISG Innovative Services GmbH,Industriestr. 16
+1659,1103,ISG Innovative Services GmbH,Rosenheimer StraÃŸe 1132
+1660,T-K540B19,ISG Innovative Services GmbH,Industriestr. 16
+1661,T-K500A01,Motolux GmbH Gr.01,Sonnenweg 3
+1662,T-K500A02,Motolux GmbH Gr.02,Sonnenweg 3
+1663,T-K500A03,Motolux GmbH Gr.03,Sonnenweg 3
+1664,T-K500A04,Motolux GmbH Gr.04,Sonnenweg 3
+1665,T-K500A05,Motolux GmbH Gr.05,Sonnenweg 3
+1666,T-K500A06,Motolux GmbH Gr.06,Sonnenweg 3
+1667,T-K500A07,Motolux GmbH Gr.07,Sonnenweg 3
+1668,T-K500A08,Motolux GmbH Gr.08,Sonnenweg 3
+1669,T-K500A09,Motolux GmbH Gr.09,Sonnenweg 3
+1670,T-K500A10,Motolux GmbH Gr.10,Sonnenweg 3
+1671,T-K500A11,Motolux GmbH Gr.11,Sonnenweg 3
+1672,T-K500A12,Motolux GmbH Gr.12,Sonnenweg 3
+1673,T-K500A13,Motolux GmbH Gr.13,Sonnenweg 3
+1674,T-K500A14,Motolux GmbH Gr.14,Sonnenweg 3
+1675,T-K500A16,Motolux GmbH Gr.16,Sonnenweg 3
+1676,T-K500A17,Motolux GmbH Gr.17,Sonnenweg 3
+1677,T-K500A18,Motolux GmbH Gr.18,Sonnenweg 3
+1678,T-K500A19,Motolux GmbH Gr.19,Sonnenweg 3
+1679,T-K500A20,Motolux GmbH Gr.20,Sonnenweg 3
+1680,T-K500A21,Motolux GmbH Gr.21,Sonnenweg 3
+1681,T-K500A22,Motolux GmbH Gr.22,Sonnenweg 3
+1682,T-K500A23,Motolux GmbH Gr.23,Sonnenweg 3
+1683,T-K500A24,Motolux GmbH Gr.24,Sonnenweg 3
+1684,T-K500A25,Motolux GmbH Gr.25,Sonnenweg 3
+1685,T-K500A26,Motolux GmbH Gr.26,Sonnenweg 3
+1686,T-K500A27,Motolux GmbH Gr.27,Sonnenweg 3
+1687,T-K500A28,Motolux GmbH Gr.28,Sonnenweg 3
+1688,T-K500A29,Motolux GmbH Gr.29,Sonnenweg 3
+1689,T-K500A30,Motolux GmbH Gr.30,Sonnenweg 3
+1690,T-K500C01,H.A.G. Potsdam Gr.01,SchopenhauerstraÃŸe 38
+1691,T-K500C02,H.A.G. Potsdam Gr.02,SchopenhauerstraÃŸe 38
+1692,T-K500C03,H.A.G. Potsdam Gr.03,SchopenhauerstraÃŸe 38
+1693,T-K500C04,H.A.G. Potsdam Gr.04,SchopenhauerstraÃŸe 38
+1694,T-K500C05,H.A.G. Potsdam Gr.05,SchopenhauerstraÃŸe 38
+1695,T-K500C06,H.A.G. Potsdam Gr.06,SchopenhauerstraÃŸe 38
+1696,T-K500C07,H.A.G. Potsdam Gr.07,SchopenhauerstraÃŸe 38
+1697,T-K500C08,H.A.G. Potsdam Gr.08,SchopenhauerstraÃŸe 38
+1698,T-K500C09,H.A.G. Potsdam Gr.09,SchopenhauerstraÃŸe 38
+1699,T-K500C10,H.A.G. Potsdam Gr.10,SchopenhauerstraÃŸe 38
+1700,T-K500C11,H.A.G. Potsdam Gr.11,SchopenhauerstraÃŸe 38
+1701,T-K500C12,H.A.G. Potsdam Gr.12,SchopenhauerstraÃŸe 38
+1702,T-K500C13,H.A.G. Potsdam Gr.13,SchopenhauerstraÃŸe 38
+1703,T-K500C14,H.A.G. Potsdam Gr.14,SchopenhauerstraÃŸe 38
+1704,T-K500C16,H.A.G. Potsdam Gr.16,SchopenhauerstraÃŸe 38
+1705,T-K500C17,H.A.G. Potsdam Gr.17,SchopenhauerstraÃŸe 38
+1706,T-K500C18,H.A.G. Potsdam Gr.18,SchopenhauerstraÃŸe 38
+1707,T-K500C19,H.A.G. Potsdam Gr.19,SchopenhauerstraÃŸe 38
+1708,T-K500C20,H.A.G. Potsdam Gr.20,SchopenhauerstraÃŸe 38
+1709,T-K500C21,H.A.G. Potsdam Gr.21,SchopenhauerstraÃŸe 38
+1710,T-K500C22,H.A.G. Potsdam Gr.22,SchopenhauerstraÃŸe 38
+1711,T-K500C23,H.A.G. Potsdam Gr.23,SchopenhauerstraÃŸe 38
+1712,T-K500C24,H.A.G. Potsdam Gr.24,SchopenhauerstraÃŸe 38
+1713,T-K500C25,H.A.G. Potsdam Gr.25,SchopenhauerstraÃŸe 38
+1714,T-K500C26,H.A.G. Potsdam Gr.26,SchopenhauerstraÃŸe 38
+1715,T-K500C27,H.A.G. Potsdam Gr.27,SchopenhauerstraÃŸe 38
+1716,T-K500C28,H.A.G. Potsdam Gr.28,SchopenhauerstraÃŸe 38
+1717,T-K500C29,H.A.G. Potsdam Gr.29,SchopenhauerstraÃŸe 38
+1718,T-K500C30,H.A.G. Potsdam Gr.30,SchopenhauerstraÃŸe 38
+1719,T-K500D00,BÃ¼rohandel Leifritz GmbH Gr.00,MittermaierstraÃŸe 112
+1720,T-K500D01,BÃ¼rohandel Leifritz GmbH Gr.01,MittermaierstraÃŸe 112
+1721,T-K500D02,BÃ¼rohandel Leifritz GmbH Gr.02,MittermaierstraÃŸe 112
+1722,T-K500D03,BÃ¼rohandel Leifritz GmbH Gr.03,MittermaierstraÃŸe 112
+1723,T-K500D04,BÃ¼rohandel Leifritz GmbH Gr.04,MittermaierstraÃŸe 112
+1724,T-K500D05,BÃ¼rohandel Leifritz GmbH Gr.05,MittermaierstraÃŸe 112
+1725,T-K500D06,BÃ¼rohandel Leifritz GmbH Gr.06,MittermaierstraÃŸe 112
+1726,T-K500D07,BÃ¼rohandel Leifritz GmbH Gr.07,MittermaierstraÃŸe 112
+1727,T-K500D08,BÃ¼rohandel Leifritz GmbH Gr.08,MittermaierstraÃŸe 112
+1728,T-K500D09,BÃ¼rohandel Leifritz GmbH Gr.09,MittermaierstraÃŸe 112
+1729,T-K500D15,BÃ¼rohandel Leifritz GmbH Gr.15,MittermaierstraÃŸe 112
+1730,T-K500D16,BÃ¼rohandel Leifritz GmbH Gr.16,MittermaierstraÃŸe 112
+1731,T-K500D17,BÃ¼rohandel Leifritz GmbH Gr.17,MittermaierstraÃŸe 112
+1732,T-K500D18,BÃ¼rohandel Leifritz GmbH Gr.18,MittermaierstraÃŸe 112
+1733,T-K500D19,BÃ¼rohandel Leifritz GmbH Gr.19,MittermaierstraÃŸe 112
+1734,T-K500D20,BÃ¼rohandel Leifritz GmbH Gr.20,MittermaierstraÃŸe 112
+1735,T-K500D21,BÃ¼rohandel Leifritz GmbH Gr.21,MittermaierstraÃŸe 112
+1736,T-K500D22,BÃ¼rohandel Leifritz GmbH Gr.22,MittermaierstraÃŸe 112
+1737,T-K500D23,BÃ¼rohandel Leifritz GmbH Gr.23,MittermaierstraÃŸe 112
+1738,T-K500D24,BÃ¼rohandel Leifritz GmbH Gr.24,MittermaierstraÃŸe 112
+1739,T-K500D25,BÃ¼rohandel Leifritz GmbH Gr.25,MittermaierstraÃŸe 112
+1740,T-K500D26,BÃ¼rohandel Leifritz GmbH Gr.26,MittermaierstraÃŸe 112
+1741,T-K500D27,BÃ¼rohandel Leifritz GmbH Gr.27,MittermaierstraÃŸe 112
+1742,T-K500D28,BÃ¼rohandel Leifritz GmbH Gr.28,MittermaierstraÃŸe 112
+1743,T-K500D29,BÃ¼rohandel Leifritz GmbH Gr.29,MittermaierstraÃŸe 112
+1744,T-K500D30,BÃ¼rohandel Leifritz GmbH Gr.30,MittermaierstraÃŸe 112
+1745,T-K500E01,Elektroblitz GmbH Gr.01,MozartstraÃŸe 12
+1746,T-K500E02,Elektroblitz GmbH Gr.02,MozartstraÃŸe 12
+1747,T-K500E03,Elektroblitz GmbH Gr.03,MozartstraÃŸe 12
+1748,T-K500E04,Elektroblitz GmbH Gr.04,MozartstraÃŸe 12
+1749,T-K500E05,Elektroblitz GmbH Gr.05,MozartstraÃŸe 12
+1750,T-K500E06,Elektroblitz GmbH Gr.06,MozartstraÃŸe 12
+1751,T-K500E07,Elektroblitz GmbH Gr.07,MozartstraÃŸe 12
+1752,T-K500E08,Elektroblitz GmbH Gr.08,MozartstraÃŸe 12
+1753,T-K500E09,Elektroblitz GmbH Gr.09,MozartstraÃŸe 12
+1754,T-K500E10,Elektroblitz GmbH Gr.10,MozartstraÃŸe 12
+1755,T-K500E11,Elektroblitz GmbH Gr.11,MozartstraÃŸe 12
+1756,T-K500E12,Elektroblitz GmbH Gr.12,MozartstraÃŸe 12
+1757,T-K500E13,Elektroblitz GmbH Gr.13,MozartstraÃŸe 12
+1758,T-K500E14,Elektroblitz GmbH Gr.14,MozartstraÃŸe 12
+1759,T-K500E16,Elektroblitz GmbH Gr.16,MozartstraÃŸe 12
+1760,T-K500E17,Elektroblitz GmbH Gr.17,MozartstraÃŸe 12
+1761,T-K500E18,Elektroblitz GmbH Gr.18,MozartstraÃŸe 12
+1762,T-K500E19,Elektroblitz GmbH Gr.19,MozartstraÃŸe 12
+1763,T-K500E20,Elektroblitz GmbH Gr.20,MozartstraÃŸe 12
+1764,T-K500E21,Elektroblitz GmbH Gr.21,MozartstraÃŸe 12
+1765,T-K500E22,Elektroblitz GmbH Gr.22,MozartstraÃŸe 12
+1766,T-K500E23,Elektroblitz GmbH Gr.23,MozartstraÃŸe 12
+1767,T-K500E24,Elektroblitz GmbH Gr.24,MozartstraÃŸe 12
+1768,T-K500E25,Elektroblitz GmbH Gr.25,MozartstraÃŸe 12
+1769,T-K500E26,Elektroblitz GmbH Gr.26,MozartstraÃŸe 12
+1770,T-K500E27,Elektroblitz GmbH Gr.27,MozartstraÃŸe 12
+1771,T-K500E28,Elektroblitz GmbH Gr.28,MozartstraÃŸe 12
+1772,T-K500E29,Elektroblitz GmbH Gr.29,MozartstraÃŸe 12
+1773,T-K500E30,Elektroblitz GmbH Gr.30,MozartstraÃŸe 12
+1774,IS_VEND1,Shanghai Supply Company,2300 HongQiao Road
+1775,IS_VEND4,Port of Los Angeles,425 S. Palos Verdes Street
+1776,LUKENS,Manufacturer Lukens Steel Corp.,1000 Main Street
+1777,REYNOLDS,Manufacturer Reynolds Metals,23 Reynolds Plaza
+1778,S62002,Brian Jordan,2630 West Alameda Avenue
+1779,S62003,Mark Wieber,1480 South Colorado Boulevard
+1780,S62010,Carla Paulson,606 Corona Street
+1781,T-K500A15,Motolux GmbH Gr.15,Sonnenweg 3
+1782,T-K500C15,H.A.G. Potsdam Gr.15,SchopenhauerstraÃŸe 38
+1783,T-K500E15,Elektroblitz GmbH Gr.15,MozartstraÃŸe 12
+1784,T-K500R01,AluCast AG&Co.KG Gr.01,Liebigstrasse 34
+1785,T-K500R02,AluCast AG&Co.KG Gr.02,Liebigstrasse 34
+1786,T-K500R03,AluCast AG&Co.KG Gr.03,Liebigstrasse 34
+1787,T-K500R04,AluCast AG&Co.KG Gr.04,Liebigstrasse 34
+1788,T-K500R05,AluCast AG&Co.KG Gr.05,Liebigstrasse 34
+1789,T-K500R06,AluCast AG&Co.KG Gr.06,Liebigstrasse 34
+1790,T-K500R07,AluCast AG&Co.KG Gr.07,Liebigstrasse 34
+1791,T-K500R08,AluCast AG&Co.KG Gr.08,Liebigstrasse 34
+1792,T-K500R09,AluCast AG&Co.KG Gr.09,Liebigstrasse 34
+1793,T-K500R10,AluCast AG&Co.KG Gr.10,Liebigstrasse 34
+1794,T-K500R11,AluCast AG&Co.KG Gr.11,Liebigstrasse 34
+1795,T-K500R12,AluCast AG&Co.KG Gr.12,Liebigstrasse 34
+1796,T-K500R13,AluCast AG&Co.KG Gr.13,Liebigstrasse 34
+1797,T-K500R14,AluCast AG&Co.KG Gr.14,Liebigstrasse 34
+1798,T-K500R15,AluCast AG&Co.KG Gr.15,Liebigstrasse 34
+1799,T-K500R16,AluCast AG&Co.KG Gr.16,Liebigstrasse 34
+1800,T-K500R17,AluCast AG&Co.KG Gr.17,Liebigstrasse 34
+1801,T-K500R18,AluCast AG&Co.KG Gr.18,Liebigstrasse 34
+1802,T-K500R19,AluCast AG&Co.KG Gr.19,Liebigstrasse 34
+1803,T-K500R20,AluCast AG&Co.KG Gr.20,Liebigstrasse 34
+1804,T-K500R21,AluCast AG&Co.KG Gr.21,Liebigstrasse 34
+1805,T-K500R22,AluCast AG&Co.KG Gr.22,Liebigstrasse 34
+1806,T-K500R23,AluCast AG&Co.KG Gr.23,Liebigstrasse 34
+1807,T-K500R24,AluCast AG&Co.KG Gr.24,Liebigstrasse 34
+1808,T-K500R25,AluCast AG&Co.KG Gr.25,Liebigstrasse 34
+1809,T-K500R26,AluCast AG&Co.KG Gr.26,Liebigstrasse 34
+1810,T-K500R27,AluCast AG&Co.KG Gr.27,Liebigstrasse 34
+1811,T-K500R28,AluCast AG&Co.KG Gr.28,Liebigstrasse 34
+1812,T-K500R29,AluCast AG&Co.KG Gr.29,Liebigstrasse 34
+1813,T-K500R30,AluCast AG&Co.KG Gr.30,Liebigstrasse 34
+1814,VALENCIA,Manufacturer Valencia Foundry,2300 McBean Parkway
+1815,5,Safety Clean Inc.,Desoto Road
+1816,50,Central Logistics Inc.,Greenhill Road
+1817,3102,Christian Barth,Truderinger StraÃŸe 328a
+1818,3103,Werner GmbH & Co.,Stahlgruber Ring 7a
+1819,3104,AAB WurmbÃ¶ck GmbH,Maria-Probst-StraÃŸe 28
+1820,3105,KAGO Schornsteinbau,Nymphenburger StraÃŸe 125
+1821,3106,StÃ¤dtische Wasserwerke MÃ¼nchen,InfrantriestraÃŸe 8
+1822,3425,ACME Supply Company,1500 N. Broadway
+1823,3556,IDES Bottles Manufacturing Inc.,10-15 Washington Blvd.
+1824,3557,Ides Can Manufacturing,22-27 Lincoln St
+1825,3815,EGS America,1601 South Columbus Blvd.
+1826,5591,TX Electronics,25 Miller Street
+1827,9901,Keller,
+1828,9902,Jansen,
+1829,9903,Neubauer,
+1830,9904,Maier,
+1831,9905,Schmidtrohr,
+1832,9906,Rickes,
+1833,9907,Mannheim,
+1834,9908,Boss,
+1835,9909,Miller,
+1836,9910,Kuhl-Mayer,
+1837,9911,Tom Bender,Walldorfer Strasse 1
+1838,9912,Ellen Rilke,Schillerstr. 2
+1839,9913,Jan Hoffmann,Rohrbacherstr. 25
+1840,10010,John Smith,5 Westbrook Center
+1841,10018,Linda Smythe,1905 Midwest Club
+1842,10019,Karen Mitchell,2135 Halstead
+1843,10800,Frank Abbott,123 Main Street
+1844,100083,JeremyXWilson,1425 34th Avenue
+1845,100085,Tom Peterson,4727 Market Street
+1846,100086,Michael Ryan,1313 Peachtree Blvd
+1847,100089,Matthew Black,13 Wilde Ave
+1848,100090,George Metzger,2254 Broadway
+1849,100091,Karen Altobelli,828 Magee Avenue
+1850,100092,Jerry Wagner,31541 Eagle St.
+1851,100093,Jennifer Esposito,135 Highview Avenue
+1852,100094,Mark Taylor,18101 Von Karman Ave
+1853,100097,Debbie Davis,18017 S. Sayre
+1854,100098,Jordan Standford,28 Oak Lane
+1855,100099,Linda Stevens,28 Oak Lane
+1856,100100,Bob Wolfe,28 Oak Lane
+1857,100101,Mr David Roberts,13 Wilde Ave
+1858,100102,Ms Kelly King,135 Highview Avenue
+1859,100103,Ms Samantha Tilman,135 Highview Avenue
+1860,100104,Mrs Ethel Palm-Ethel Ballman,3798 Halisport Lane
+1861,100105,Gregory Maddux,100 Strikeout Blvd.
+1862,100365,Med Supply Inc.,109 Oxford Street
+1863,100366,IT Ware Ltd.,26-5 Court Street
+1864,100367,Kramer GmbH,Vaalser Str. 34
+1865,100363,Barlow & Son,2090 Randolph Avenue
+1866,100364,Muster IT GmbH,Lange Strasse 12
+1867,100370,Stoll Laborbedarf,OderstraÃŸe 129
+1868,100371,Femur & Tibia,Via Savona 116
+1869,100368,Westwood,4010 Pacific Coast Highway
+1870,100369,Leblon,12 Rue Dumas
+1871,3902,SCT Inc.,2727 Cornhusker Dr
+1872,AG9999,ASAHI GLASS LLP,91/115
+1873,ARK999,ARKANSAS LLC,Nov-91
+1874,SFK999,SFK SUPPLIERS,Nov-91
+1875,MU9999,MAFOOS ULTRA,91/115
+1876,BPA999,BPA LLC,Nov-91
+1877,FAIR999,FAIRBROTHER LLC,11/91 MIXER ALLEY
+1878,MC9999,MAKER CHECKER,91/115 SOTHY STREET
+1879,LM9999,LOCKHEED MARTIN,91/112
+1880,PR9999,PRISM LLP,Nov-91
+1881,SG9999,SAFETY GEAR,91/115
+1882,TM9999,TECHMONT LLC,Nov-91
+1883,SGB999,SAINT GOBAIN,91/114
+1884,3015,White&Black Inc,3015 Lincoln Blvd
+1885,FOURNI,Fournisseur Type,123 rue principal
+1886,R3000,Allfresh Inc.,235 South Street
+1887,R3002,Meyer Hardware Inc.,136 South Hollow Road
+1888,R3004,Mingh wah,2525 Greenwood Street
+1889,S201,PA Court of Common Pleas,
+1890,S61011,Frederike Sandmann,ZÃ¤hringer Tor 13
+1891,S61022,Anke Jordan,Altengammer Elbdeich 162
+1892,S61025,Petra Heger,DrÃ¶ge Wisch 19
+1893,S61028,Waltraud Horn,Kaiserstuhl 32
+1894,S61035,Lars Jucken,Boberger Str. 121
+1895,S61036,Wilfried Penner,AlsterkrÃ¼ger Kehre 2
+1896,S61039,Anke MittelstÃ¤dt,Neuer Deich 3
+1897,S61040,Heiko Sievers,Am Steinberg 17
+1898,S61041,Bianca Adler,Tempelhofer Damm 156
+1899,S61042,Petra Lummitsch,SchlÃ¼terstr. 3
+1900,S61043,Wolfgang Lummitsch,SchlÃ¼terstr. 3
+1901,S61045,Reinhardt Grieger,MÃ¶llendorfstr. 34
+1902,S61047,Siegfried GrÃ¤fe,Friedenstr. 9
+1903,S61053,Harald Hauschildt,MÃ¼ggelstr. 25 A
+1904,S61055,Anke Grajetzki,Str. am Friedrichshain 3
+1905,S61062,Torsten Rast,Sonnenweg 48
+1906,S61065,Max GÃ¶rtz,Forststr. 51
+1907,S61070,Tanja Gottschleich,Siemensweg 25
+1908,S61073,Saskia StÃ¶cker,Bachstr. 13
+1909,S62026,Philis McLane,277 Dartmouth
+1910,SRV-2,Allround Services GmbH,Am Rotenberg 9
+1911,T-K500A00,Motolux GmbH Gr.00,Sonnenweg 3
+1912,T-K500C00,H.A.G. Potsdam Gr.00,SchopenhauerstraÃŸe 38
+1913,T-K540A00,Allround Services GmbH,Am Rotenberg 9
+1914,UT-SUPPLY,Utilities Supply,1000 South Main Street
+1915,VEND-97,American Sports Distributor,25 West Wilson Street
+1916,VEND-98,Sports Distributors,BahnhofstraÃŸe 99
+1917,VEND-99,Paper Suplies,Jakobalee  45
+1918,VENDOR,Typical Vendor,1 principal
+1919,1011,SKC Americas,100 E. Cleveland Ave
+1920,200,SMP,1730 Industrial Plaza
+1921,222,Express Vendor Inc,2550 North Racine Ave
+1922,300,AluCast,900 Edison Ave. Suite 300
+1923,424,Sedona Suppliers,3456 Red View Way
+1924,1003,Gusswerk US,310 Marine Ave
+1925,1101,ABC Dienstleistungs GmbH,IndustriestraÃŸe 1101
+1926,1105,Harvey Building and Construction,Mainstreet 35-37
+1927,1110,Illinois Utilities,100 N Jackson
+1928,1150,P + S Technik,Industriestrasse 10-12
+1929,1152,Camelot,Ringstrasse 22
+1930,1500,EASTERN SUPPLY CO.,1000 BROAD STREET
+1931,1570,Lenzmann Immobilien Verwaltung GmbH,ParkstraÃŸe 16
+1932,1921,Global Insurances,PfisterstraÃŸe 10
+1933,2100,EASTERN TRUCKING CO.,1200 WALNUT STREET
+1934,2501,P4B Pistons for Brakes Inc.,2411 Thomas Edison Drive
+1935,2502,Rubicon Steel & Components,9301 South M-221
+1936,3555,IDES Packaging Inc.,55 West Industrial Drive
+1937,3560,Metal Containers,222 East Pine Street
+1938,3849,Staples,
+1939,4256,Meyers Real Estate AG,Rankestrasse 56
+1940,4445,Werk Hamburg (1000),Altersdorferstr. 13
+1941,4910,D. & P. Forbes,2303 Jackson Av.
+1942,5560,IDES Furnitures Inc.,Crossroad 10-17
+1943,5579,Jones Inc.,100 George Washington Blvd
+1944,5588,IDES Electronic Parts Inc,10 Summerset
+1945,5589,IDES DIGSIG,330 Winston Pike
+1946,5592,MH Electronics,7900 Broad Street
+1947,5594,IDES SUS_ERS VENDOR,23-28 Crossroad
+1948,6696,Pump Repair Services,
+1949,9000,Anja MÃ¼ller,Gartenstr. 46
+1950,5400,Requisite Online,899 Foerster St
+1951,9999,IDES Lieferant,HauptstraÃŸe 10012
+1952,13373,Simone Roth,Hauptstrasse 150
+1953,20003,High Tech Metall GmbH,Goethestrasse 21
+1954,99999,Ogden Manufacturing,Waters Streets 1001
+1955,100038,Karen Holtzblatt,24 SAP Lane
+1956,100078,Mrs Mary Steward,Main Street 5
+1957,80000,SVR Valiant Diamond,1 Bloor St W
+1958,80001,TLC Spares Suppliers,4120 Yonge St
+1959,CN_VN,Chinese Trading,2200 HongQiao Road
+1960,100608,Contrele C.A,Calle Monagas 106
+1961,91533,John Smith,2150 Main Street
+1962,2315,MICHELIN,1810 Irvine Road
+1963,SDS199,STEEL.CO,33 BULINGTON
+1964,MA0001,Atlantic transformer service,RUE 26 N 1 LOT 2 ZONE INDUSTRIELLE
+1965,MA0002,Electricity supplies Maroc,lot zone industrielle Tanger
+1966,VENDOR555,VENDOR555,HOUSE NO 12
+1967,YAMOTEST01,Yamolife,8550 Jean-Brillon
+1968,PATEKAR,PATEKAR INT,A 101
+1969,200078,SAINT GOBAIN,THANE WE WORK
+1970,100671,Get-Woke International,
+1971,200233,Max Bamboni,340 Mill Road
+1972,200232,Goof Bobskiy,340 Mill Road
+1973,5071,é«˜æ©‹å»ºè¨­,ç¥žè°·ç”º1ä¸ç›® 10-1
+1974,3000,SFK SUPPLIERS,7890 Broad Street
+1975,200351,Antonio de Antoni,Via di tutti gli Antonio 13
+1976,200350,Mario Rossi,Via dei Rossi 177
+1977,200352,Coffee Supplies UC,
+1978,200353,Hans Maximilian MÃ¼ller,17 Loretto Platz
+1979,200354,Filippo de Filippi,11 Via Filippo Filippi
+1980,200355,Petra Pietri,22 Via dei Massi e dei Sassolini
+1981,200356,Vendotutto srl,166 Via della Vendita farlocca
+1982,200357,Pasquale Lo Squalo,99 Via dello squalo bianco
+1983,200359,Alberto Einstein,101 Via dei Cervelloni e dei Geni
+1984,FR-2200,IDES France,1 Defense Plaza
+1985,FR-2201,IDES FRance Subsidiary,140 Boulevard hausmann
+1986,JML-2124,Vendor - Net w/ customer,846 Hope
+1987,4447,Plant Dallas 3500,14021 Noel Road
+1988,R3001,Omnimum Inc.,27425 Torrance Blvd
+1989,R3003,,
+1990,R301,DC R301,1424 16th Avenue SW
+1991,RFDC,Reference DC,6 refstreet
+1992,SP-3011,Worldwide Supply Sensations,123 Elm
+1993,VE1100,Debitor for plant 1100,Rosenthaler Grenzweg 12
+1994,VE1300,Vendor for plant 1300,Theodor-Stern-Kai 2
+1995,VE1400,Vendor for plant 1400,Haeberle Weg 2
+1996,VE2200,Plant Paris,31 Rue des Erables
+1997,VE2220,Plant Distibution Center Nantes,31 Rue des Erables
+1998,VE2230,Plant Distribution Center Tours,31 Avenue Charles de Gaulle
+1999,VE2240,Plant Distribution Center Marseille,31 Rue du Vieux Port
+2000,VE3400,Plant 3400,3101 Broadway
+2001,VE3700,PLant3700,38 International Drive
+2002,VE4513,Vendor for plant 4513,370 Keewatin Street
+2003,VE4520,Vendor for plant 4520,4120 Yonge Street
+2004,VE4530,Vendor for plant 4530,
+2005,ALFA,ALFA,14 rue des Acacias
+2006,R300,DC R300,17632 Desert Road
+2007,1004,Jones Ltd.,Oxford road 7
+2008,1005,PAQ Deutschland GmbH,Haupstrasse 122
+2009,1006,Blacks AG,Mainzer StraÃŸe 97
+2010,1008,Motor constructions Ltd.,Coal road  117
+2011,1009,Parts & Pipes,Schillerstr.5
+2012,1014,Herrmann & Riemer,RunerthalstraÃŸe 1
+2013,1020,Grosshandel-Baden USA,Kafertaler Str. 12
+2014,1021,NoeÂ´Tech Company AG,Tittisee Ring 31
+2015,1022,MaxÂ´Grosshandel,Industriestrasse 29
+2016,1032,Wesson Ltd.,Sweetgumroad
+2017,1070,Poly AG,DÃ¼sseldorfer Str. 99
+2018,1098,Productos Argentinos Imp. S.A,Leandro N. Alem 855 Piso 12
+2019,1121,Wagner Spenglerei & Rohrbau,Ãœberdinger Str. 23
+2020,1200,Finanzamt Frankfurt,Prinzer Str. 150
+2021,1222,ABC Supply Company,100 North Ave
+2022,1235,K.F.W. London,Downing Street 11
+2023,1333,Sub Contract & Supply,10 N Grand
+2024,1444,C & C Supply,1000 Euclid
+2025,1560,Metal Container Inc.,Boardwalk St
+2026,1700,Real Estate Company USA,Mainstreet
+2027,1995,Schneider GmbH,Ludwigsstrasse
+2028,3001,Flowrate Corp,4535-64 avenue
+2029,3003,World's Best Suppliers,5 Westbrook Road
+2030,3018,Fremont Supplies,1310 West Avenue
+2031,3212,Cross Worlds Consulting,750 West Big Beaver
+2032,3272,ADCOM COMPUTER,1625 Perkins Way
+2033,3458,Meyers Real Estate AG,Rankestrasse 56
+2034,3550,International Container Companny,100 Main Street
+2035,PV3000,Plant 3000 Vendor,
+2036,3820,Thomas Bush,2800 South  25th Ave
+2037,4251,Anderson Realty Corporation,456 Rodeo Road
+2038,4252,Hummer & Smith Properties,34 Long Lane
+2039,4254,McDaniels Realty Corporation,45 45 Madison Avenue
+2040,4444,London Supplying Plant,Lancaster drive 234
+2041,5550,IDES Consumer Products,4514 Peoria Street
+2042,7220,Good Vendor,1905 Main
+2043,10088,Pneu-Tec France,Place des Carmes-Dechaux
+2044,10099,Noe Food Company,100 Stevens Drive
+2045,20001,TOP Metallverarbeitung GmbH,Witzigstrasse 101
+2046,44444,Hanley Supply House,5 Westbrook Corporate Center
+2047,50000,ICYOU Ltd.,Mainstreet 1
+2048,51000,SAPSOTA AG,Industriepark
+2049,60000,IDES Mexico,Carnaby Street 1
+2050,91011,Lampen und Deko GmbH,HeinrichstraÃŸe 12
+2051,99900,Schwarz Konstruktionen GmbH,BahnhofsstraÃŸe
+2052,99910,Meyer Elektro-Installation,Waldstr. 23
+2053,100002,Buffetti S.p.A.,Via D'Azeglio
+2054,100003,SAP ITALIA SPA,VIALE COLLEONI 19
+2055,100004,IBM of Portugal,Estrada do Casal Garcia
+2056,100005,Hewlett Packard,Estrada do Picasso
+2057,100006,Lieferanten GmbH,Mandelweg 9
+2058,100007,Kenneth K. Krediman,Hinter den Verbindlichkeiten 1
+2059,100008,John Smith,5 Westbrook Center
+2060,100009,Frank Abbott,123 Main Street
+2061,100011,Karen Mitchell,2135 Halsted
+2062,100012,Douglas Olson,9999 Hillsdale Ave.
+2063,100026,Douglas Olson,9999 Hillsdale Ave.
+2064,100027,Frank Abbott,123 Main Street
+2065,100268,CED,1100 I Street
+2066,100025,Karen Mitchell,Calle Principal
+2067,F2224,StÃ© 2224,5th avenue
+2068,F2223,StÃ© 2223,68 rue des Magnolias
+2069,CJL-6027,Carla's Vendor,1313 Mockingbird Lane
+2070,31000,ICST ( InterComp Stock Transfer ),1000 Main Street
+2071,9020,Papyrus Corp,20Main
+2072,F2222,StÃ© 2222,35 rue des Oeillets
+2073,CAR_M1,MINING OCEAN CARRIER 1,443 St Kilda Rd
+2074,SHUNFENG,é¡ºä¸°é€Ÿè¿,Nan Shan
+2075,PV4514,Plant 4514 Vendor,
+2076,100614,piss,
+2077,111,KBB Schwarze Pumpe,Fasanenstr. 8
+2078,T-K515C18,Spedition Gruber,Industriestr. 34
+2079,3021,MOBILE Inc.,804 Peachstreet
+2080,ABCE,ABCE company,
+2081,ZYK-A10,Delta bikes LTD,
+2082,ZYK-A20,Costa Bikes LTD,15 jordi stree
+2083,GBGU07100,Remix Repair,Bridge Street
+2084,100688,3300,
+2085,200295,adidas-041,MusterstraÃŸe 1
+2086,200297,Adidas -70,MusterstraÃŸe. 12211
+2087,200296,Adidas-073,MusterstraÃŸe 1
+2088,200298,Adidas-069,MusterstraÃŸe 25
+2089,200299,Adidas,Musterweg 2
+2090,200300,DELL,Dell streaÃŸe 1
+2091,200302,HP,HP-StraÃŸe 25
+2092,200301,HP,FantasiestraÃŸe 5
+2093,200303,ASUS,ASUS StraÃŸe 1
+2094,200304,Acer,
+2095,200305,APPLE,Apple str. 1
+2096,200306,Puma-073,
+2097,JOLIE-24,JOLIE-24 INCORPORATED,555 MARKET STREET
+2098,JOLIE-25,JOLIE-25 INCORPORATED,555 MARKET STREET
+2099,JOLIE-26,JOLIE-26 INCORPORATED,555 MARKET STREET
+2100,JOLIE-27,JOLIE-27 INCORPORATED,555 MARKET STREET
+2101,JOLIE-28,JOLIE-28 INCORPORATED,555 MARKET STREET
+2102,JOLIE-29,JOLIE-29 INCORPORATED,555 MARKET STREET
+2103,JOLIE-30,JOLIE-30 INCORPORATED,555 MARKET STREET
+2104,MCCOY-00,McCoy-00,900 Lancaster Ave
+2105,MCCOY-01,McCoy-01,145 Crossroad
+2106,MCCOY-02,McCoy-02,145 Crossroad
+2107,MCCOY-03,McCoy-03,123 Crossroad
+2108,MCCOY-04,McCoy-04,123 Crossroad
+2109,MCCOY-05,McCoy-05,123 Crossroad
+2110,MCCOY-06,McCoy-06,123 Crossroad
+2111,MCCOY-07,McCoy-07,123 Crossroad
+2112,MCCOY-08,McCoy-08,123 Crossroad
+2113,MCCOY-09,McCoy-09,123 Crossroad
+2114,MCCOY-10,McCoy-10,123 Crossroad
+2115,MCCOY-11,McCoy-11,123 Crossroad
+2116,MCCOY-12,McCoy-12,123 Crossroad
+2117,MCCOY-13,McCoy-13,123 Crossroad
+2118,MCCOY-14,McCoy-14,123 Crossroad
+2119,MCCOY-15,McCoy-15,123 Crossroad
+2120,MCCOY-16,McCoy-16,123 Crossroad
+2121,MCCOY-17,McCoy-17,123 Crossroad
+2122,MCCOY-18,McCoy-18,123 Crossroad
+2123,MCCOY-19,McCoy-19,123 Crossroad
+2124,MCCOY-20,McCoy-20,123 Crossroad
+2125,MCCOY-21,McCoy-21,123 Crossroad
+2126,MCCOY-22,McCoy-22,123 Crossroad
+2127,MCCOY-23,McCoy-23,123 Crossroad
+2128,MCCOY-24,McCoy-24,123 Crossroad
+2129,MCCOY-25,McCoy-25,123 Crossroad
+2130,MCCOY-26,McCoy-26,123 Crossroad
+2131,MCCOY-27,McCoy-27,123 Crossroad
+2132,MCCOY-28,McCoy-28,123 Crossroad
+2133,MCCOY-29,McCoy-29,123 Crossroad
+2134,MCCOY-30,McCoy-30,123 Crossroad
+2135,PITT-00,PITT-00 INCORPORATED,1234 BROAD STREET
+2136,5570,IDES High Tech Inc.,Crossroad 18-22
+2137,5580,IDES Tech Inc,Crossroad 18-22
+2138,ARAMI-00,Aramingo-00,3456 West Chester Pike
+2139,ARAMI-01,Aramingo-01,1234 West Chester Pike
+2140,ARAMI-02,Aramingo-02,1234 West Chester Pike
+2141,ARAMI-03,Aramingo-03,1234 West Chester Pike
+2142,ARAMI-04,Aramingo-04,1234 West Chester Pike
+2143,ARAMI-05,Aramingo-05,1234 West Chester Pike
+2144,ARAMI-06,Aramingo-06,1234 West Chester Pike
+2145,ARAMI-07,Aramingo-07,1234 West Chester Pike
+2146,ARAMI-08,Aramingo-08,1234 West Chester Pike
+2147,ARAMI-09,Aramingo-09,1234 West Chester Pike
+2148,ARAMI-10,Aramingo-10,1234 West Chester Pike
+2149,ARAMI-11,Aramingo-11,1234 West Chester Pike
+2150,ARAMI-14,Aramingo-14,1234 West Chester Pike
+2151,ARAMI-12,Aramingo-12,1234 West Chester Pike
+2152,ARAMI-13,Aramingo-13,1234 West Chester Pike
+2153,ARAMI-15,Aramingo-15,1234 West Chester Pike
+2154,ARAMI-16,Aramingo-16,1234 West Chester Pike
+2155,ARAMI-17,Aramingo-17,1234 West Chester Pike
+2156,ARAMI-18,Aramingo-18,1234 West Chester Pike
+2157,ARAMI-19,Aramingo-19,1234 West Chester Pike
+2158,ARAMI-20,Aramingo-20,1234 West Chester Pike
+2159,ARAMI-21,Aramingo-21,1234 West Chester Pike
+2160,ARAMI-22,Aramingo-22,1234 West Chester Pike
+2161,ARAMI-23,Aramingo-23,1234 West Chester Pike
+2162,ARAMI-24,Aramingo-24,1234 West Chester Pike
+2163,ARAMI-25,Aramingo-25,1234 West Chester Pike
+2164,ARAMI-26,Aramingo-26,1234 West Chester Pike
+2165,ARAMI-27,Aramingo-27,1234 West Chester Pike
+2166,ARAMI-28,Aramingo-28,1234 West Chester Pike
+2167,ARAMI-29,Aramingo-29,1234 West Chester Pike
+2168,ARAMI-30,Aramingo-30,1234 West Chester Pike
+2169,EBP-00,EBuyers-00,876 Lancaster Ave
+2170,EBP-01,EBuyers-01,876 Lancaster Ave
+2171,EBP-02,EBuyers-02,876 Lancaster Ave
+2172,EBP-08,EBuyers-08,876 Lancaster Ave
+2173,EBP-03,EBuyers-03,876 Lancaster Ave
+2174,EBP-04,EBuyers-04,876 Lancaster Ave
+2175,EBP-05,EBuyers-05,876 Lancaster Ave
+2176,EBP-06,EBuyers-06,876 Lancaster Ave
+2177,EBP-14,EBuyers-14,876 Lancaster Ave
+2178,EBP-15,EBuyers-15,876 Lancaster Ave
+2179,EBP-16,EBuyers-16,876 Lancaster Ave
+2180,EBP-17,EBuyers-17,876 Lancaster Ave
+2181,EBP-18,EBuyers-18,876 Lancaster Ave
+2182,EBP-19,EBuyers-19,876 Lancaster Ave
+2183,EBP-20,EBuyers-20,876 Lancaster Ave
+2184,EBP-21,EBuyers-21,876 Lancaster Ave
+2185,EBP-22,EBuyers-22,876 Lancaster Ave
+2186,EBP-23,EBuyers-23,876 Lancaster Ave
+2187,EBP-24,EBuyers-24,876 Lancaster Ave
+2188,EBP-25,EBuyers-25,876 Lancaster Ave
+2189,EBP-26,EBuyers-26,876 Lancaster Ave
+2190,EBP-27,EBuyers-27,876 Lancaster Ave
+2191,EBP-28,EBuyers-28,876 Lancaster Ave
+2192,EBP-29,EBuyers-29,876 Lancaster Ave
+2193,EBP-30,EBuyers-30,111 Lancaster Ave
+2194,EBP-11,EBuyers-11,876 Lancaster Ave
+2195,EBP-10,EBuyers-10,876 Lancaster Ave
+2196,EBP-07,EBuyers-07,876 Lancaster Ave
+2197,EBP-09,EBuyers-09,876 Lancaster Ave
+2198,EBP-12,EBuyers-12,876 Lancaster Ave
+2199,EBP-13,EBuyers-13,876 Lancaster Ave
+2200,200245,a,tokyo
+2201,200247,a,
+2202,300005,å±±ç”°å»ºè¨­,ç¾¤é¦¬çœŒ
+2203,5074,éˆ´æœ¨å»ºè¨­,åŸ¼çŽ‰çœŒ
+2204,200259,pinnacle 1,AUSTRALIA
+2205,200260,pga TESTING,
+2206,200261,Testing PGA,
+2207,200262,pg1,
+2208,200263,Pinnacle 2,20 Australia
+2209,200264,Pinnacle SAP,123 Australia
+2210,200266,testing 1,123 Street
+2211,200267,Test XK02,Australia
+2212,200270,Test PGA 0705,Australia
+2213,200271,Test PGA 2,19278
+2214,200272,Test 0806,12
+2215,200275,MG-Lieferant,
+2216,200280,pin,2 street australia
+2217,200281,Pina,
+2218,200283,TestCompany,australia
+2219,200255,pinnacle,22 Street Address
+2220,JOLIE-00,JOLIE-00 INCORPORATED,555 MARKET STREET
+2221,JOLIE-01,JOLIE-01 INCORPORATED,555 MARKET
+2222,JOLIE-02,JOLIE-02 INCORPORATED,555 MARKET STREET
+2223,JOLIE-03,JOLIE-03 INCORPORATED,555 MARKET STREET
+2224,JOLIE-04,JOLIE-04 INCORPORATED,555 MARKET STREET
+2225,JOLIE-05,JOLIE-05 INCORPORATED,555 MARKET STREET
+2226,JOLIE-06,JOLIE-06 INCORPORATED,555 MARKET STREET
+2227,JOLIE-07,JOLIE-07 INCORPORATED,555 MARKET STREET
+2228,JOLIE-08,JOLIE-08 INCORPORATED,555 MARKET STREET
+2229,JOLIE-09,JOLIE-09 INCORPORATED,555 MARKET STREET
+2230,JOLIE-10,JOLIE-10 INCORPORATED,555 MARKET STREET
+2231,JOLIE-11,JOLIE-11 INCORPORATED,555 MARKET STREET
+2232,JOLIE-12,JOLIE-12 INCORPORATED,555 MARKET STREET
+2233,JOLIE-13,JOLIE-13 INCORPORATED,555 MARKET STREET
+2234,JOLIE-14,JOLIE-14 INCORPORATED,555 MARKET STREET
+2235,JOLIE-15,JOLIE-15 INCORPORATED,555 MARKET STREET
+2236,JOLIE-16,JOLIE-16 INCORPORATED,555 MARKET STREET
+2237,JOLIE-17,JOLIE-17 INCORPORATED,555 MARKET STREET
+2238,JOLIE-18,JOLIE-18 INCORPORATED,555 MARKET STREET
+2239,JOLIE-19,JOLIE-19 INCORPORATED,555 MARKET STREET
+2240,JOLIE-20,JOLIE-20 INCORPORATED,555 MARKET STREET
+2241,JOLIE-21,JOLIE-21 INCORPORATED,555 MARKET STREET
+2242,JOLIE-22,JOLIE-22 INCORPORATED,555 MARKET STREET
+2243,JOLIE-23,JOLIE-23 INCORPORATED,555 MARKET STREET
+2244,PITT-01,PITT-01 INCORPORATED,1234 BROAD STREET
+2245,PITT-02,PITT-02 INCORPORATED,1234 BROAD STREET
+2246,PITT-03,PITT-03 INCORPORATED,1234 BROAD STREET
+2247,PITT-04,PITT-04 INCORPORATED,1234 BROAD STREET
+2248,PITT-05,PITT-05 INCORPORATED,1234 BROAD STREET
+2249,PITT-06,PITT-06 INCORPORATED,1234 BROAD STREET
+2250,PITT-07,PITT-07 INCORPORATED,1234 BROAD STREET
+2251,PITT-08,PITT-08 INCORPORATED,1234 BROAD STREET
+2252,PITT-09,PITT-09 INCORPORATED,1234 BROAD STREET
+2253,PITT-10,PITT-10 INCORPORATED,1234 BROAD STREET
+2254,PITT-11,PITT-11 INCORPORATED,1234 BROAD STREET
+2255,PITT-12,PITT-12 INCORPORATED,1234 BROAD STREET
+2256,PITT-13,PITT-13 INCORPORATED,1234 BROAD STREET
+2257,PITT-14,PITT-14 INCORPORATED,1234 BROAD STREET
+2258,PITT-15,PITT-15 INCORPORATED,1234 BROAD STREET
+2259,PITT-16,PITT-16 INCORPORATED,1234 BROAD STREET
+2260,PITT-17,PITT-17 INCORPORATED,1234 BROAD STREET
+2261,PITT-18,PITT-18 INCORPORATED,1234 BROAD STREET
+2262,PITT-19,PITT-19 INCORPORATED,1234 BROAD STREET
+2263,PITT-20,PITT-20 INCORPORATED,1234 BROAD STREET
+2264,PITT-21,PITT-21 INCORPORATED,1234 BROAD STREET
+2265,PITT-22,PITT-22 INCORPORATED,1234 BROAD STREET
+2266,PITT-23,PITT-23 INCORPORATED,1234 BROAD STREET
+2267,PITT-24,PITT-24 INCORPORATED,1234 BROAD STREET
+2268,PITT-25,PITT-25 INCORPORATED,1234 BROAD STREET
+2269,PITT-26,PITT-26 INCORPORATED,1234 BROAD STREET
+2270,PITT-27,PITT-27 INCORPORATED,1234 BROAD STREET
+2271,PITT-28,PITT-28 INCORPORATED,1234 BROAD STREET
+2272,PITT-29,PITT-29 INCORPORATED,1234 BROAD STREET
+2273,PITT-30,PITT-30 INCORPORATED,1234 BROAD STREET
+2274,S101,Software Development  and Consultin,345 Lovett Blvd
+2275,S102,International Software Consulting,300/200 300/200 NW Sammamish Road
+2276,9511,PA Drives,Winston Pike 400
+2277,9411,SKF Amerikas,25 Baker Street
+2278,9611,AES Atlanta Electronic Supply,130 Wellington St SW
+2279,1018,Bechtle direct AG,Route des Avouillons 12
+2280,1081,Harley-Davidson Motorcycles Inc.,Two-Wheel-Drive 10-25
+2281,1082,Louis Bike Parts,Uferstr. 18-20
+2282,1104,Hoch und Tiefbau GmbH Kaiserslauter,Industriestrasse 10-16
+2283,1151,Media AG Trier,Siemensstrasse 17-20
+2284,1930,Schmalenbach,Randstrasse 24
+2285,3022,CAFS Chemicals & Pharmaceuticals,Winston Pike 3800-3900
+2286,3035,CAFS Chemicals & Pharmaceuticals,Winston Pike 3800-3900
+2287,3120,Morris C.A. Pipe-Services,200 Central Boulevard
+2288,3140,Morris C.A. Pipe-Services,200 Central Boulevard
+2289,5205,RS Components,Hessenring 13b
+2290,5581,IDES Office Products,Crossroad 18-22
+2291,5583,Total E&P Services Corp.,20 Main Str.
+2292,5584,IDES Pump Technologies Inc.,10-12 Rockefeller Circle
+2293,5585,IDES Software Application Consultin,Mainroad 40-45
+2294,5586,IDES IT Consulting,Mainroad 45-50
+2295,5587,IDES PCK Inc.,Somerset Street
+2296,5590,IDES Photo Labs Inc,Crossroad 13-25
+2297,6595,ERP Vendor (IDES),30 Spitfire St.
+2298,R1000,Unisono AG,Walter-von-der-Vogelweide-Str 12-15
+2299,R1001,Walter & Schulz GmbH & Co KG,HÃ¶lderlin-Weg 34
+2300,R101,DC R101,MozartstraÃŸe 22
+2301,R1040,Forkmann Werbemittel GmbH,Am Rathaus 5
+2302,RU-01,"OAO ""Sputnik""",Leninskiy prospect 54
+2303,RU-02,"OAO ""Mir""",nab.Obvodnogo kanala 137
+2304,SCM550,Schmidt-MÃ¼ller AG,Johann-Wolfgang-von-Goethe-Stras 44
+2305,SCM550-10,Schmidt-MÃ¼ller Nord GmbH,Halstenbeker Weg 44
+2306,SCM550-11,Schmidt-MÃ¼ller Berlin GmbH,Hamburger Allee 44
+2307,SCM550-12,Schmidt-MÃ¼ller Sachsen GmbH,Pirnaer Landstrasse 44
+2308,SCM550-RS,Schmidt-MÃ¼ller AG,Johann-Wolfgang-von-Goethe-Stras 45
+2309,SCM550-SP,Schmidt-MÃ¼ller Transport GmbH,Johann-Sebastian-Bach-Strasse 55
+2310,SMI-SUP-A,SMI Supplier A,100 Ohio Street
+2311,SMIVENDOR,SMIVENDOR,100 Ohio Street
+2312,SRV-1,ABC Dienstleistungs GmbH,Robert-Bosch-StraÃŸe 114
+2313,VE4510,SAP Plant - Eastern Canada,3900 Rue Ste. Laurent
+2314,R100,DC R100,Meisenweg 15
+2315,1001,SKF Kugelmeier KGaA,Georg. Schiffer-str. 21
+2316,1023,Molkereigenossenschaft Brandenburg,SteinstraÃŸe 102
+2317,1099,Studio Chapultepec,
+2318,1100,Phunix GmbH,Landstrasse 15
+2319,1102,Top Services GmbH,Am Rotenberg 9
+2320,1111,Suppliers Inc.,12 Western Avenue
+2321,1703,Dell Computers,1 Dell Way
+2322,1910,Schumacher AG,MÃ¼nchener Str. 1055
+2323,1920,Versicherungen ABC,Untere Waldstrasse 134
+2324,1925,TransLog GmbH,MarienstraÃŸe 145
+2325,1987,Schmidt-MÃ¼ller AG,Johann-Wolfgang-von-Goethe-Stras 44
+2326,2200,HTG Komponente GmbH,Werner StraÃŸe 12
+2327,2210,HTG Components,4938 Locust Street
+2328,2910,Insurance Perfect Ltd.,Easter Inch
+2329,2920,Tax Office,Status Park 4
+2330,2009,Elco Automotive Ltd.,14
+2331,3005,Abbott Building Supplies,
+2332,3006,Henderson Inc.,1200 Industrial Drive
+2333,3020,World Wide Computer Warehouse,101 North Industrial Drive
+2334,3410,Feralloy,State Rd.
+2335,3411,Delta Steel Inc.,Baker Str.
+2336,3412,AP Steel,London Rd.
+2337,3413,Schmidt & SÃ¶hne,Dortmunder Ring 122
+2338,3414,Ancofer,MÃ¼lheimer Str.12
+2339,3415,Metallexpo,Puskin Ul.
+2340,3701,eSupplier,
+2341,3705,Zebra Supplies,701 Lee Road
+2342,3710,Zebra Supplies,100 Stevens Drive
+2343,3715,Zebra Supplies,Five Westbrook Corporate Center
+2344,3720,Zebra Supplies,6 Concourse Parkway
+2345,3725,Zebra Supplies,950 Tower Lane
+2346,3730,Aztec Supplies,950 Winter Street
+2347,3735,Farm Products Inc.,312 Walnut Street
+2348,3740,Colinas Maintenance Corp.,600 Las Colinas Blvd.
+2349,3745,Destec Office Supplies,2500 City West Blvd.
+2350,3755,Bellevue Plant 4000,800 Bellevue Way
+2351,3760,Flavia,Mozartstrasse 123
+2352,3761,Hi-Way Hi-Fi,Beethovenstrasse 456
+2353,3762,Lyreco,Haydnstrasse 789
+2354,3910,Infix Corporation,365 E. Evelyn Av.
+2355,3920,Pyramid Systems,3912 N. First Av.
+2356,3930,TetPak Inc.,333 West Wacker Drive
+2357,CBMPUMPSER,CBM Pump Services LTd,muchen street 21
+2358,4940,R & P Bros,1652 Maple Street
+2359,5301,Acufit Manufacturing,6530 Kennedy Ave
+2360,5650,eVendor,
+2361,7600,Welltech Processing,2656 N Teutonia Ave
+2362,11100,Udo BÃ¤r,KÃ¶nigsstrasse 23
+2363,14500,Central Bureau of Narcotics,19 The Mall Morar
+2364,22211,PULSA,Sibeliusstrasse 132
+2365,30000,IDES US Inc.,1230 Lincoln Avenue
+2366,33183,Ahrend,Im Westerwald 765
+2367,33300,Kroschke International GmbH,Mozartallee 17
+2368,44400,Farnell,Am grÃ¼nen Hang 46
+2369,50999,Spedition Arnolds,Pirnaische LandstraÐ¿e 135
+2370,55500,Conrad Elektronik,Bergstrasse 16
+2371,100010,Linda Smythe,1905 Midwest Club
+2372,100033,Miller Chris,SteinbeisstraÃŸe 10
+2373,100313,Brose International,Ulmenweg 122
+2374,AVPL,American Vice President Line,1234 Water Street
+2375,CH-1000,Fankhauser AG,Industriestrasse 12b
+2376,CH-2000,BÃ¼rgi AG,Hauptstrasse 45
+2377,CH-3000,Spichiger GmbH,Altwegacker 233a
+2378,CH-4000,Inovation SA,Av. De  Gratta -Paille 2
+2379,CH-5000,Imobio AG,via Lido 1
+2380,3750,New York Plant 3000,1801 Von Karman Ave
+2381,VICVEN,VICVEN,123 Maple St
+2382,1002,MÃ¼ller KG,RosenstraÃŸe 11
+2383,VICVEN22,VIC Ven #22,1st Street
+2384,1234,Bharat Kirana Shop,Karl-Friedrich-Str. 7
+2385,1000,C.E.B. BERLIN,Kolping Str. 15
+2386,100657,Plus Chemcials BaborÃ³w,Chemiczna 1
+2387,100665,TEST TT  0905 02,stara 3
+2388,200160,TEST TT  0605 01,Cynkowa 5
+2389,100666,DSC Japan exp tt,Sanny 3
+2390,100,C.E.B. BERLIN,Kolping Str. 15
+2391,200199,test consigment2 TT 2405,
+2392,T-K55004,TEST TT  300522 4d,
+2393,800001,TEST TT 1506 TT MAIN VEND,MAIN VENDOR ADRES
+2394,T-K55002,TEST TT  300522 IP Z7,TEST TT  300522 IP Z7
+2395,T-K55001,TEST TT  300522 1 OA 80001 Z8,OA 80001 Z8
+2396,T-K55003,TEST TT  300522 Z5 RESP. per.,TEST TT  300522 Z5 RESP. per.
+2397,TK-K55001,Dostawca 04-08-2023,
+2398,200196,test consigment TT 2405a,
+2399,800005,Vendor  TT 01 06092023,Hanover stret 3
+2400,800006,Vendor  TT 01 06092023 Z5,uboit 5
+2401,800007,Vendor  TT 01 06092023 Z7,Vendor  TT 01 06092023 Z7 44
+2402,800008,Vendor  TT 01 06092023 Z8,Vendor  TT 01 06092023 Z8 44
+2403,GTSKR-V01,DaHan Corp.,SeoHyeon Dong987-1
+2404,IS_VEND3,Shanghai International Port Group,1 Tonghui Road
+2405,SA310,é™•è¥¿å…¬å¸,300 ä¸°æƒ å—è·¯
+2406,1055,Inter-Speed BV,Noordsee-Gracht 102
+2407,1080,GÃ©nÃ©rale Electronique SA,Z.I. Les Tuileries
+2408,3940,Mitch & Collins,Divisadero Str. 143
+2409,21900,Lisbon Parts Supply,Rua da Fernandez 1Â°2
+2410,100024,Linda Smythe,Calle Parita
+2411,200290,TEST_20240815,NAA Building 173
+2412,200358,Renzo Tramaglino,11 Comosee Str.
+2413,200364,abc foods uc,2000 michigan ave
+2414,200360,SUNBELT SUPPLY,
+2415,200361,NORTHERN SAFETY,
+2416,200362,VALLEN,
+2417,200363,EASTMAN INTERNAL STORE,
+2418,200365,test uc1,
+2419,100693,one time vendor uc,
+2420,200366,Charles Gill,
+2421,200367,Harry Henderson,
+2422,200368,Chris Collins,
+2423,200369,Mark Shea,
+2424,200370,Greg Grainger,
+2425,200371,Ann Amazon,
+2426,200372,Erin Johnson,
