@@ -19,6 +19,11 @@
         response => response.text()
       );
 
+      const ZV_LI_REQUIREMENTS = ZV_ST_REQUIREMENTS
+        .split("\n")
+        .map(line => line.trim())
+        .filter(line => line && !line.startsWith("#"));
+
       const ZV_ST_UPLOADER_CODE = await fetch("./Z_SHARED_FUNCTIONS/FC_FILE_UPLOADER.py").then(
         response => response.text()
       );
@@ -26,7 +31,7 @@
       mount(
         {
           entrypoint: "FC_FILE_UPLOAD_EXAMPLE.py",
-          requirements: ZV_ST_REQUIREMENTS,
+          requirements: ZV_LI_REQUIREMENTS,
           files: {
             "FC_FILE_UPLOAD_EXAMPLE.py": ZV_ST_APP_CODE,
             "Z_SHARED_FUNCTIONS/FC_FILE_UPLOADER.py": ZV_ST_UPLOADER_CODE
