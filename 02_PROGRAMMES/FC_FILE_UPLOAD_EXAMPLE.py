@@ -105,16 +105,22 @@ if len(ZV_LI_NUMERIC_COLUMNS) > 0:
 
         with ZV_OB_COL1:
             PI_STREAMLIT.line_chart(
-                ZV_DF.select(ZV_ST_SELECTED_NUMERIC_COLUMN)
+                ZV_DF
+                .select(ZV_ST_SELECTED_NUMERIC_COLUMN)
+                .to_dicts()
             )
 
         with ZV_OB_COL2:
             PI_STREAMLIT.bar_chart(
-                ZV_DF.select(ZV_ST_SELECTED_NUMERIC_COLUMN)
+                ZV_DF
+                .select(ZV_ST_SELECTED_NUMERIC_COLUMN)
+                .to_dicts()
             )
 
         PI_STREAMLIT.area_chart(
-            ZV_DF.select(ZV_ST_SELECTED_NUMERIC_COLUMN)
+            ZV_DF
+            .select(ZV_ST_SELECTED_NUMERIC_COLUMN)
+            .to_dicts()
         )
 
 
@@ -142,13 +148,15 @@ if len(ZV_LI_NUMERIC_COLUMNS) > 0:
         )
 
         PI_STREAMLIT.bar_chart(
-            ZV_DF_GROUPED.to_dicts(),
+            ZV_DF_GROUPED
+            .to_dicts(),
             x=ZV_ST_SELECTED_CATEGORY_COLUMN,
             y=ZV_ST_SELECTED_NUMERIC_COLUMN
         )
 
         PI_STREAMLIT.line_chart(
-            ZV_DF_GROUPED.to_dicts(),
+            ZV_DF_GROUPED
+            .to_dicts(),
             x=ZV_ST_SELECTED_CATEGORY_COLUMN,
             y=ZV_ST_SELECTED_NUMERIC_COLUMN
         )
