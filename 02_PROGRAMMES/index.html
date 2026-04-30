@@ -28,6 +28,8 @@
         response => response.text()
       );
 
+      const ZV_ST_APP_CONFIG_CODE = "ZV_BO_USE_WIDTH = False\n";
+
       mount(
         {
           entrypoint: "FC_FILE_UPLOAD_EXAMPLE.py",
@@ -35,9 +37,7 @@
           files: {
             "FC_FILE_UPLOAD_EXAMPLE.py": ZV_ST_APP_CODE,
             "Z_SHARED_FUNCTIONS/FC_FILE_UPLOADER.py": ZV_ST_UPLOADER_CODE,
-            "FC_APP_CONFIG.py": `
-                ZV_BO_USE_WIDTH = False
-            `
+            "FC_APP_CONFIG.py": ZV_ST_APP_CONFIG_CODE
           }
         },
         document.getElementById("root")
