@@ -1,7 +1,7 @@
 import streamlit as PI_STREAMLIT
 import polars as PI_POLARS
 import numpy as PI_NUMPY
-from datetime import date, timedelta
+from datetime import date as PI_DATE, timedelta as PI_TIMEDELTA
 
 from Z_SHARED_FUNCTIONS.FC_FILE_UPLOADER import FC_FILE_UPLOADER
 
@@ -33,10 +33,10 @@ if ZV_OB_UPLOADED_FILE is not None:
 else:
     PI_NUMPY.random.seed(42)
 
-    ZV_DT_START = date(2026, 1, 
+    ZV_DT_START = PI_DATE.today()
     ZV_DF = PI_POLARS.DataFrame({
         'Month': [
-            ZV_DT_START + timedelta(days=i)
+            ZV_DT_START + PI_TIMEDELTA(days=i)
             for i in range(ZV_NU_ROWS)
         ],
         'Sales': PI_NUMPY.random.randint(100, 1000, ZV_NU_ROWS),
