@@ -8,10 +8,13 @@ from Z_SHARED_FUNCTIONS.FC_FILE_UPLOADER import FC_FILE_UPLOADER
 PI_STREAMLIT.set_page_config(page_title='Upload files, tables and graphs demo', layout='wide')
 PI_STREAMLIT.title('Upload files, tables and graphs demo')
 
+try:
+    from FC_APP_CONFIG import ZV_BO_USE_WIDTH
+except ImportError:
+    ZV_BO_USE_WIDTH = True
+
 ZV_NU_ROWS = PI_STREAMLIT.slider('Number of random rows', 10, 500, 100)
 ZV_NU_MULTIPLIER = PI_STREAMLIT.number_input('Multiplier variable', min_value=1, max_value=20, value=5)
-
-
 
 # ------------------------
 # DATA SOURCE
@@ -19,7 +22,8 @@ ZV_NU_MULTIPLIER = PI_STREAMLIT.number_input('Multiplier variable', min_value=1,
 ZV_OB_UPLOADED_FILE = FC_FILE_UPLOADER(
     ZVFCI_LI_ALLOWED_TYPES = ['csv'],
     ZVFCI_BO_ACCEPT_MUL_FILES = False,
-    ZVFCI_ST_KEY = 'UPLOAD_CSV_01'    
+    ZVFCI_ST_KEY = 'UPLOAD_CSV_01',  
+    ZVFCI_BO_USE_WIDTH = ZV_BO_USE_WIDTH
 )
 
 if ZV_OB_UPLOADED_FILE is not None:
@@ -35,7 +39,7 @@ else:
 
     ZV_DT_START = PI_DATE.today()
     ZV_DF = PI_POLARS.DataFrame({
-        'Month': [
+        'Date': [
             ZV_DT_START + PI_TIMEDELTA(days=i)
             for i in range(ZV_NU_ROWS)
         ],

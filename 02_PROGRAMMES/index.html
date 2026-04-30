@@ -34,7 +34,10 @@
           requirements: ZV_LI_REQUIREMENTS,
           files: {
             "FC_FILE_UPLOAD_EXAMPLE.py": ZV_ST_APP_CODE,
-            "Z_SHARED_FUNCTIONS/FC_FILE_UPLOADER.py": ZV_ST_UPLOADER_CODE
+            "Z_SHARED_FUNCTIONS/FC_FILE_UPLOADER.py": ZV_ST_UPLOADER_CODE,
+            "FC_APP_CONFIG.py": `
+                ZV_BO_USE_WIDTH = False
+            `
           }
         },
         document.getElementById("root")
