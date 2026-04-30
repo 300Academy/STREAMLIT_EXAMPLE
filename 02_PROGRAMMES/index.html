@@ -30,6 +30,10 @@
 
       const ZV_ST_APP_CONFIG_CODE = "ZV_BO_USE_WIDTH = False\n";
 
+      const ZV_ST_IMPORT_CODE = await fetch("./Z_SHARED_FUNCTIONS/FC_IMPORT.py").then(
+        response => response.text()
+      );
+
       mount(
         {
           entrypoint: "FC_FILE_UPLOAD_EXAMPLE.py",
@@ -37,7 +41,8 @@
           files: {
             "FC_FILE_UPLOAD_EXAMPLE.py": ZV_ST_APP_CODE,
             "Z_SHARED_FUNCTIONS/FC_FILE_UPLOADER.py": ZV_ST_UPLOADER_CODE,
-            "FC_APP_CONFIG.py": ZV_ST_APP_CONFIG_CODE
+            "FC_APP_CONFIG.py": ZV_ST_APP_CONFIG_CODE,
+            "Z_SHARED_FUNCTIONS/FC_IMPORT.py": ZV_ST_IMPORT_CODE        
           }
         },
         document.getElementById("root")

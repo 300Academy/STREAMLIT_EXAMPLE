@@ -4,6 +4,7 @@ import numpy as PI_NUMPY
 from datetime import date as PI_DATE, timedelta as PI_TIMEDELTA
 
 from Z_SHARED_FUNCTIONS.FC_FILE_UPLOADER import FC_FILE_UPLOADER
+from Z_SHARED_FUNCTIONS.FC_IMPORT import FC_IMPORT_TEXT
 
 PI_STREAMLIT.set_page_config(page_title='Upload files, tables and graphs demo', layout='wide')
 PI_STREAMLIT.title('Upload files, tables and graphs demo')
@@ -27,9 +28,9 @@ ZV_OB_UPLOADED_FILE = FC_FILE_UPLOADER(
 )
 
 if ZV_OB_UPLOADED_FILE is not None:
-    ZV_DF = PI_POLARS.read_csv(
+    ZV_DF = FC_IMPORT_TEXT(
         ZV_OB_UPLOADED_FILE,
-        try_parse_dates=True
+        ZVFCI_ST_DELIMITER = ','
     )
 
     PI_STREAMLIT.success('Using uploaded CSV file')
@@ -63,43 +64,74 @@ PI_STREAMLIT.dataframe(
 # ------------------------
 # COLUMN SELECTION
 # ------------------------
-ZV_LI_NUMERIC_COLUMNS = [
+ZV_LI_COLUMNS = [
     ZV_ST_COLUMN
-    for ZV_ST_COLUMN, ZV_OB_DTYPE in zip(ZV_DF.columns, ZV_DF.dtypes)
-    if ZV_OB_DTYPE.is_numeric()
+    for ZV_ST_COLUMN in ZV_DF.columns
 ]
 
-ZV_LI_CATEGORY_COLUMNS = [
-    ZV_ST_COLUMN
-    for ZV_ST_COLUMN, ZV_OB_DTYPE in zip(ZV_DF.columns, ZV_DF.dtypes)
-    if ZV_OB_DTYPE in [
-        PI_POLARS.String,
-        PI_POLARS.Categorical,
-        PI_POLARS.Date,
-        PI_POLARS.Datetime
-    ]
-]
-
-
-if len(ZV_LI_NUMERIC_COLUMNS) > 0:
+if len(ZV_LI_COLUMNS) > 0:
 
     ZV_ST_SELECTED_NUMERIC_COLUMN = PI_STREAMLIT.selectbox(
         'Select numeric column',
-        ZV_LI_NUMERIC_COLUMNS
+        ZV_LI_COLUMNS
     )
+
+    ZV_LI_CATEGORY_COLUMNS = [
+        ZV_ST_COLUMN
+        for ZV_ST_COLUMN in ZV_LI_COLUMNS
+        if ZV_ST_COLUMN != ZV_ST_SELECTED_NUMERIC_COLUMN
+    ]
 
     ZV_ST_SELECTED_CATEGORY_COLUMN = PI_STREAMLIT.selectbox(
-        'Select category column (optional)',
-        ['None'] + ZV_LI_CATEGORY_COLUMNS
+        'Select category column',
+        ['None']+ZV_LI_CATEGORY_COLUMNS
     )
 
+    ZV_LI_NUMERIC_COLUMNS_2 = [
+        col for col in ZV_LI_COLUMNS
+        if col != ZV_ST_SELECTED_NUMERIC_COLUMN
+    ]    
+
+    ZV_LI_CATEGORY_COLUMNS_2 = [
+        col for col in ZV_LI_COLUMNS
+        if col != ZV_ST_SELECTED_CATEGORY_COLUMN
+    ]        
+
+    ZV_ST_SELECTED_NUMERIC_COLUMN2 = PI_STREAMLIT.selectbox(
+        'Select second numeric column to show scatter chart',
+        ['None']+ZV_LI_NUMERIC_COLUMNS_2
+    )
+
+    ZV_ST_SELECTED_CATEGORY_COLUMN2 = PI_STREAMLIT.selectbox(
+        'Select second category column to show heat map',
+        ['None']+ZV_LI_CATEGORY_COLUMNS_2
+    )         
+
+    ZV_LI_CAST_EXPRESSIONS = [
+        PI_POLARS.col(ZV_ST_SELECTED_NUMERIC_COLUMN)
+        .cast(PI_POLARS.Float64, strict=False)
+        .alias(ZV_ST_SELECTED_NUMERIC_COLUMN)
+    ]
+
+    if ZV_ST_SELECTED_NUMERIC_COLUMN2 != 'None':
+        ZV_LI_CAST_EXPRESSIONS.append(
+            PI_POLARS.col(ZV_ST_SELECTED_NUMERIC_COLUMN2)
+            .cast(PI_POLARS.Float64, strict=False)
+            .alias(ZV_ST_SELECTED_NUMERIC_COLUMN2)
+        )
+
+    ZV_DF = (
+        ZV_DF
+        .with_columns(ZV_LI_CAST_EXPRESSIONS)
+    )
 
     # ------------------------
     # SIMPLE CHART
     # ------------------------
+
     if ZV_ST_SELECTED_CATEGORY_COLUMN == 'None':
 
-        PI_STREAMLIT.subheader('Simple Charts')
+        PI_STREAMLIT.subheader('Simple Charts - choose a category to see charts grouped per category')
 
         ZV_OB_COL1, ZV_OB_COL2 = PI_STREAMLIT.columns(2)
 
@@ -127,10 +159,12 @@ if len(ZV_LI_NUMERIC_COLUMNS) > 0:
     # ------------------------
     # GROUPED CHART
     # ------------------------
-    else:
 
-        PI_STREAMLIT.subheader('Grouped Chart')
+    elif (ZV_ST_SELECTED_CATEGORY_COLUMN != 'None'):
 
+        PI_STREAMLIT.subheader('Charts for numeric and category selection')
+
+        # Grouped data
         ZV_DF_GROUPED = (
             ZV_DF
             .group_by(ZV_ST_SELECTED_CATEGORY_COLUMN)
@@ -147,19 +181,141 @@ if len(ZV_LI_NUMERIC_COLUMNS) > 0:
             use_container_width=True
         )
 
-        PI_STREAMLIT.bar_chart(
-            ZV_DF_GROUPED
-            .to_dicts(),
-            x=ZV_ST_SELECTED_CATEGORY_COLUMN,
-            y=ZV_ST_SELECTED_NUMERIC_COLUMN
+        # Stacked bar chart 
+        PI_STREAMLIT.vega_lite_chart(
+            ZV_DF.to_dicts(),
+            {
+                'title': 'Bar chart',
+                'mark': 'bar',
+                'encoding': {
+                    'x': {'field': ZV_ST_SELECTED_CATEGORY_COLUMN, 'type': 'nominal'},
+                    'y': {'aggregate': 'sum', 'field': ZV_ST_SELECTED_NUMERIC_COLUMN},
+                    'color': {'field': 'Category', 'type': 'nominal'}
+                }
+            },
+            use_container_width=True
         )
 
-        PI_STREAMLIT.line_chart(
-            ZV_DF_GROUPED
-            .to_dicts(),
-            x=ZV_ST_SELECTED_CATEGORY_COLUMN,
-            y=ZV_ST_SELECTED_NUMERIC_COLUMN
+        PI_STREAMLIT.vega_lite_chart(
+            ZV_DF_GROUPED.to_dicts(),
+            {
+                'title': 'Line chart by category',
+                'mark': {'type': 'line', 'point': True, 'tooltip': True},
+                'encoding': {
+                    'x': {'field': ZV_ST_SELECTED_CATEGORY_COLUMN, 'type': 'nominal'},
+                    'y': {'field': ZV_ST_SELECTED_NUMERIC_COLUMN, 'type': 'quantitative'}
+                }
+            },
+            use_container_width=True
         )
+
+        PI_STREAMLIT.vega_lite_chart(
+            ZV_DF_GROUPED.to_dicts(),
+            {
+                'title': 'Area chart by category',
+                'mark': {'type': 'area', 'tooltip': True},
+                'encoding': {
+                    'x': {
+                        'field': ZV_ST_SELECTED_CATEGORY_COLUMN,
+                        'type': 'nominal'
+                    },
+                    'y': {
+                        'field': ZV_ST_SELECTED_NUMERIC_COLUMN,
+                        'type': 'quantitative'
+                    }
+                }
+            },
+            use_container_width=True
+        )        
+
+        # Donut
+        PI_STREAMLIT.vega_lite_chart(
+            ZV_DF_GROUPED.to_dicts(),
+            {
+                'title': 'Donut',
+                'mark': {'type': 'arc', 'innerRadius': 50, 'tooltip': True},
+                'encoding': {
+                    'theta': {'field': ZV_ST_SELECTED_NUMERIC_COLUMN, 'type': 'quantitative'},
+                    'color': {'field': ZV_ST_SELECTED_CATEGORY_COLUMN, 'type': 'nominal'}
+                }
+            },
+            use_container_width=True
+        )
+
+        if (
+            (ZV_ST_SELECTED_CATEGORY_COLUMN != 'None') and
+            (ZV_ST_SELECTED_CATEGORY_COLUMN2 != 'None')
+        ):
+            
+            ZV_DF_HEATMAP = (
+                ZV_DF
+                .with_columns(
+                    PI_POLARS.col(ZV_ST_SELECTED_CATEGORY_COLUMN2)
+                    .cast(PI_POLARS.Utf8)
+                    .alias(ZV_ST_SELECTED_CATEGORY_COLUMN2)
+                )
+            )            
+            
+            # Heat map
+            PI_STREAMLIT.vega_lite_chart(
+                ZV_DF_HEATMAP
+                .to_dicts(),
+                {
+                    'title':'Heat map',
+                    'mark': 'rect',
+                    'encoding': {
+                        'x': {'field': ZV_ST_SELECTED_CATEGORY_COLUMN, 'type': 'nominal'},
+                        'y': {'field': ZV_ST_SELECTED_CATEGORY_COLUMN2, 'type': 'nominal'},
+                        'color': {
+                            'aggregate': 'sum',
+                            'field': ZV_ST_SELECTED_NUMERIC_COLUMN,
+                            'type': 'quantitative'                            
+                        }
+                    }
+                },
+                use_container_width=True
+            )        
+
+        # Box plot
+        PI_STREAMLIT.vega_lite_chart(
+            ZV_DF.to_dicts(),
+            {
+                'title':'Boxplot',
+                'mark': 'boxplot',
+                'encoding': {
+                    'y': {
+                        'field': ZV_ST_SELECTED_NUMERIC_COLUMN,
+                        'type': 'quantitative'
+                    },
+                    'x': {
+                        'field': ZV_ST_SELECTED_CATEGORY_COLUMN,
+                        'type': 'nominal'
+                    } if ZV_ST_SELECTED_CATEGORY_COLUMN != 'None' else {}
+                }
+            },
+            use_container_width=True
+        )        
+
+    if (
+        (ZV_ST_SELECTED_CATEGORY_COLUMN != 'None') and 
+        (ZV_ST_SELECTED_NUMERIC_COLUMN2 != 'None')
+    ):
+
+        # Scatter chart
+        PI_STREAMLIT.vega_lite_chart(
+            ZV_DF.to_dicts(),
+            {
+                'title':'Scatter chart',                
+                'mark': {'type': 'point', 'tooltip': True},
+                'encoding': {
+                    'x': {'field': ZV_ST_SELECTED_NUMERIC_COLUMN, 'type': 'quantitative'},
+                    'y': {'field': ZV_ST_SELECTED_NUMERIC_COLUMN2, 'type': 'quantitative'},
+                    'color': {'field': ZV_ST_SELECTED_CATEGORY_COLUMN, 'type': 'nominal'} if ZV_ST_SELECTED_CATEGORY_COLUMN != 'None' else {}
+                }
+            },
+            use_container_width=True
+        )
+
 
 else:
     PI_STREAMLIT.warning('No numeric columns found in dataset.')

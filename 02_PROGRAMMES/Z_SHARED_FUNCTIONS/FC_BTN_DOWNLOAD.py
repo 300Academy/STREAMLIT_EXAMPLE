@@ -1,5 +1,5 @@
 import streamlit as PI_STREAMLIT
-from datetime import datetime
+from datetime import datetime as PI_DATETIME
 
 def FC_BTN_DOWNLOAD(
     ZVFCI_BY_DATA: bytes,
@@ -7,7 +7,7 @@ def FC_BTN_DOWNLOAD(
     ZVFCI_ST_LABEL: str = 'Download',
     ZVFCI_ST_KEY: str = 'download_button'
 ):
-    ZV_ST_TIMESTAMP = datetime.now().strftime('%Y%m%d_%H%M%S')
+    ZV_ST_TIMESTAMP = PI_DATETIME.now().strftime('%Y%m%d_%H%M%S')
 
     return PI_STREAMLIT.download_button(
         label=ZVFCI_ST_LABEL,
