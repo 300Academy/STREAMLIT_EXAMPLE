@@ -11,11 +11,11 @@
     <script type="module">
       import { mount } from "https://cdn.jsdelivr.net/npm/@stlite/browser@0.85.1/build/stlite.js";
 
-      const ZV_ST_APP_CODE = await fetch("./FC_FILE_UPLOAD_EXAMPLE.py").then(
+      const ZV_ST_APP_CODE = await fetch("./02_PROGRAMMES/FC_FILE_UPLOAD_EXAMPLE.py").then(
         response => response.text()
       );
 
-      const ZV_ST_REQUIREMENTS = await fetch("./requirements_stlite.txt").then(
+      const ZV_ST_REQUIREMENTS = await fetch("./02_PROGRAMMES/requirements_stlite.txt").then(
         response => response.text()
       );
 
@@ -24,13 +24,13 @@
         .map(line => line.trim())
         .filter(line => line && !line.startsWith("#"));
 
-      const ZV_ST_UPLOADER_CODE = await fetch("./Z_SHARED_FUNCTIONS/FC_FILE_UPLOADER.py").then(
+      const ZV_ST_UPLOADER_CODE = await fetch("./02_PROGRAMMES/Z_SHARED_FUNCTIONS/FC_FILE_UPLOADER.py").then(
         response => response.text()
       );
 
       const ZV_ST_APP_CONFIG_CODE = "ZV_BO_USE_WIDTH = False\n";
 
-      const ZV_ST_IMPORT_CODE = await fetch("./Z_SHARED_FUNCTIONS/FC_IMPORT.py").then(
+      const ZV_ST_IMPORT_CODE = await fetch("./02_PROGRAMMES/Z_SHARED_FUNCTIONS/FC_IMPORT.py").then(
         response => response.text()
       );
 
