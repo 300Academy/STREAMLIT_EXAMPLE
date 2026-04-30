@@ -55,7 +55,7 @@ else:
 PI_STREAMLIT.subheader('Data Preview')
 
 PI_STREAMLIT.dataframe(
-    ZV_DF,
+    ZV_DF.to_dicts(),
     use_container_width=True
 )
 
@@ -137,18 +137,18 @@ if len(ZV_LI_NUMERIC_COLUMNS) > 0:
         PI_STREAMLIT.write('Aggregated data')
 
         PI_STREAMLIT.dataframe(
-            ZV_DF_GROUPED,
+            ZV_DF_GROUPED.to_dicts(),
             use_container_width=True
         )
 
         PI_STREAMLIT.bar_chart(
-            ZV_DF_GROUPED,
+            ZV_DF_GROUPED.to_dicts(),
             x=ZV_ST_SELECTED_CATEGORY_COLUMN,
             y=ZV_ST_SELECTED_NUMERIC_COLUMN
         )
 
         PI_STREAMLIT.line_chart(
-            ZV_DF_GROUPED,
+            ZV_DF_GROUPED.to_dicts(),
             x=ZV_ST_SELECTED_CATEGORY_COLUMN,
             y=ZV_ST_SELECTED_NUMERIC_COLUMN
         )
