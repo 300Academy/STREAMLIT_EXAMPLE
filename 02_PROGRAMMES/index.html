@@ -2,108 +2,38 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@stlite/browser@0.85.1/build/stlite.css" />
-    <script type="module" src="https://cdn.jsdelivr.net/npm/@stlite/browser@0.85.1/build/stlite.js"></script>
   </head>
 
   <body>
-    <streamlit-app>
-import streamlit as st
-import pandas as pd
-import numpy as np
+    <div id="root"></div>
 
-st.set_page_config(page_title="stlite Demo", layout="wide")
+    <script type="module">
+      import { mount } from "https://cdn.jsdelivr.net/npm/@stlite/browser@0.85.1/build/stlite.js";
 
-st.title("Interactive stlite / Streamlit Demo")
+      const ZV_ST_APP_CODE = await fetch("./FC_FILE_UPLOAD_EXAMPLE.py").then(
+        response => response.text()
+      );
 
-uploaded_file = st.file_uploader("Upload CSV file", type=["csv"])
+      const ZV_ST_REQUIREMENTS = await fetch("./requirements.txt").then(
+        response => response.text()
+      );
 
-number_of_rows = st.slider("Number of random rows", 10, 500, 100)
-multiplier = st.number_input("Multiplier variable", min_value=1, max_value=20, value=5)
+      const ZV_ST_UPLOADER_CODE = await fetch("./Z_SHARED_FUNCTIONS/FC_FILE_UPLOADER.py").then(
+        response => response.text()
+      );
 
-# ------------------------
-# DATA SOURCE
-# ------------------------
-if uploaded_file is not None:
-    df = pd.read_csv(uploaded_file)
-    st.success("Using uploaded CSV file")
-else:
-    np.random.seed(42)
-
-    df = pd.DataFrame({
-        "Month": pd.date_range("2026-01-01", periods=number_of_rows, freq="D"),
-        "Sales": np.random.randint(100, 1000, number_of_rows),
-        "Costs": np.random.randint(50, 700, number_of_rows),
-        "RiskScore": np.random.rand(number_of_rows) * multiplier,
-        "Category": np.random.choice(["Low", "Medium", "High"], number_of_rows)
-    })
-
-    st.info("Using random demo data")
-
-st.subheader("Data Preview")
-st.dataframe(df, use_container_width=True)
-
-# ------------------------
-# COLUMN SELECTION
-# ------------------------
-numeric_columns = df.select_dtypes(include="number").columns.tolist()
-category_columns = df.select_dtypes(include=["object", "category"]).columns.tolist()
-
-# Add datetime as category option (optional but useful)
-datetime_columns = df.select_dtypes(include=["datetime"]).columns.tolist()
-category_columns = category_columns + datetime_columns
-
-if len(numeric_columns) > 0:
-
-    selected_numeric = st.selectbox("Select numeric column", numeric_columns)
-
-    selected_category = st.selectbox(
-        "Select category column (optional)",
-        ["None"] + category_columns
-    )
-
-    # ------------------------
-    # SIMPLE CHART (NO CATEGORY)
-    # ------------------------
-    if selected_category == "None":
-        st.subheader("Simple Charts")
-
-        col1, col2 = st.columns(2)
-
-        with col1:
-            st.line_chart(df[selected_numeric])
-
-        with col2:
-            st.bar_chart(df[selected_numeric])
-
-        st.area_chart(df[selected_numeric])
-
-    # ------------------------
-    # GROUPED CHART (WITH CATEGORY)
-    # ------------------------
-    else:
-        st.subheader("Grouped Chart")
-
-        grouped_df = (
-            df.groupby(selected_category)[selected_numeric]
-            .sum()
-            .reset_index()
-        )
-
-        st.write("Aggregated data")
-        st.dataframe(grouped_df)
-
-        st.bar_chart(
-            grouped_df.set_index(selected_category)
-        )
-
-        st.line_chart(
-            grouped_df.set_index(selected_category)
-        )
-
-else:
-    st.warning("No numeric columns found in dataset.")
-    </streamlit-app>
+      mount(
+        {
+          entrypoint: "FC_FILE_UPLOAD_EXAMPLE.py",
+          requirements: ZV_ST_REQUIREMENTS,
+          files: {
+            "FC_FILE_UPLOAD_EXAMPLE.py": ZV_ST_APP_CODE,
+            "Z_SHARED_FUNCTIONS/FC_FILE_UPLOADER.py": ZV_ST_UPLOADER_CODE
+          }
+        },
+        document.getElementById("root")
+      );
+    </script>
   </body>
 </html>
