@@ -62,37 +62,36 @@ ZV_ST_FILTER_COLUMN = (
     )
 )    
 
-ZV_LI_FILTER_VALUES = (
-    ZV_DF
-    .select(ZV_ST_FILTER_COLUMN)
-    .unique()
-    .sort(ZV_ST_FILTER_COLUMN)
-    .to_series()
-    .to_list()
-)
-
-ZV_LI_SELECTED_VALUES = (
-        PI_STREAMLIT.multiselect(
-        'Select values',
-        ZV_LI_FILTER_VALUES,
-        default=ZV_LI_FILTER_VALUES,
-        default=[]
-    )
-)
-
-if len(ZV_LI_SELECTED_VALUES)>0:
-    ZV_DF = (
+if ZV_ST_FILTER_COLUMN != None:
+    ZV_LI_FILTER_VALUES = (
         ZV_DF
-        .filter(
-            PI_POLARS.col(ZV_ST_FILTER_COLUMN).is_in(ZV_LI_SELECTED_VALUES)
+        .select(ZV_ST_FILTER_COLUMN)
+        .unique()
+        .sort(ZV_ST_FILTER_COLUMN)
+        .to_series()
+        .to_list()
+    )
+
+    ZV_LI_SELECTED_VALUES = (
+            PI_STREAMLIT.multiselect(
+            'Select values',
+            ZV_LI_FILTER_VALUES,
+            default=ZV_LI_FILTER_VALUES,
+            default=[]
         )
     )
 
+    if len(ZV_LI_SELECTED_VALUES)>0:
+        ZV_DF = (
+            ZV_DF
+            .filter(
+                PI_POLARS.col(ZV_ST_FILTER_COLUMN).is_in(ZV_LI_SELECTED_VALUES)
+            )
+        )
+
 PI_STREAMLIT.dataframe(
     ZV_DF.to_dicts(),
-    use_container_width=True,
-    on_select='rerun',
-    selection_mode='multi-row'    
+    use_container_width=True    
 )
 
 
@@ -216,7 +215,7 @@ if len(ZV_LI_COLUMNS) > 0:
             ZV_DF_GROUPED.to_dicts(),
             use_container_width=True,
             on_select='rerun',
-            selection_mode='multi-row'             
+            selection_mode='multi-row'           
         )
 
         # Stacked bar chart 
