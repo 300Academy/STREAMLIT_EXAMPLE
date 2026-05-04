@@ -75,16 +75,18 @@ ZV_LI_SELECTED_VALUES = (
         PI_STREAMLIT.multiselect(
         'Select values',
         ZV_LI_FILTER_VALUES,
-        default=ZV_LI_FILTER_VALUES
+        default=ZV_LI_FILTER_VALUES,
+        default=[]
     )
 )
 
-ZV_DF = (
-    ZV_DF
-    .filter(
-        PI_POLARS.col(ZV_ST_FILTER_COLUMN).is_in(ZV_LI_SELECTED_VALUES)
+if len(ZV_LI_SELECTED_VALUES)>0:
+    ZV_DF = (
+        ZV_DF
+        .filter(
+            PI_POLARS.col(ZV_ST_FILTER_COLUMN).is_in(ZV_LI_SELECTED_VALUES)
+        )
     )
-)
 
 PI_STREAMLIT.dataframe(
     ZV_DF.to_dicts(),
