@@ -76,7 +76,6 @@ if ZV_ST_FILTER_COLUMN != None:
             PI_STREAMLIT.multiselect(
             'Select values',
             ZV_LI_FILTER_VALUES,
-            default=ZV_LI_FILTER_VALUES,
             default=[]
         )
     )
@@ -214,8 +213,7 @@ if len(ZV_LI_COLUMNS) > 0:
         PI_STREAMLIT.dataframe(
             ZV_DF_GROUPED.to_dicts(),
             use_container_width=True,
-            on_select='rerun',
-            selection_mode='multi-row'           
+            on_select='rerun'           
         )
 
         # Stacked bar chart 
