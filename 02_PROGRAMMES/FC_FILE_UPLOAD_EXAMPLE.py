@@ -212,8 +212,7 @@ if len(ZV_LI_COLUMNS) > 0:
 
         PI_STREAMLIT.dataframe(
             ZV_DF_GROUPED.to_dicts(),
-            use_container_width=True,
-            on_select='rerun'           
+            use_container_width=True    
         )
 
         # Stacked bar chart 
