@@ -55,12 +55,44 @@ else:
 
 PI_STREAMLIT.subheader('Data Preview')
 
+ZV_ST_FILTER_COLUMN = (
+        PI_STREAMLIT.selectbox(
+        'Select column to filter',
+        ZV_DF.columns
+    )
+)    
+
+ZV_LI_FILTER_VALUES = (
+    ZV_DF
+    .select(ZV_ST_FILTER_COLUMN)
+    .unique()
+    .sort(ZV_ST_FILTER_COLUMN)
+    .to_series()
+    .to_list()
+)
+
+ZV_LI_SELECTED_VALUES = (
+        PI_STREAMLIT.multiselect(
+        'Select values',
+        ZV_LI_FILTER_VALUES,
+        default=ZV_LI_FILTER_VALUES
+    )
+)
+
+ZV_DF = (
+    ZV_DF
+    .filter(
+        PI_POLARS.col(ZV_ST_FILTER_COLUMN).is_in(ZV_LI_SELECTED_VALUES)
+    )
+)
+
 PI_STREAMLIT.dataframe(
     ZV_DF.to_dicts(),
     use_container_width=True,
     on_select='rerun',
     selection_mode='multi-row'    
 )
+
 
 
 # ------------------------
